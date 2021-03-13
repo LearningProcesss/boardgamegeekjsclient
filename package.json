@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "tsc:watch": "tsc -w",
+    "semantic-release": "semantic-release"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "boardgamegeekjsclient",
+  "author": "learningprocesss",
+  "module": "dist/boardgamegeekjsclient.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/boardgamegeekjsclient.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/boardgamegeekjsclient.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.2.0",
+    "@semantic-release/npm": "^7.0.10",
+    "@size-limit/preset-small-lib": "^4.10.0",
+    "husky": "^5.1.3",
+    "semantic-release": "^17.4.2",
+    "size-limit": "^4.10.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.18.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "jackson-js": "^1.1.0"
+  }
+}

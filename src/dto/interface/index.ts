@@ -1,0 +1,1 @@
+export { IBggDto } from './IBggDto';

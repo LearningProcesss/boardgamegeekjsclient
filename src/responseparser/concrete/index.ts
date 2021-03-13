@@ -1,0 +1,1 @@
+export { XmlResponseParser } from './XmlResponseParser';

@@ -1,0 +1,1 @@
+export { GenericBuilder } from './GenericQueryBuilder';

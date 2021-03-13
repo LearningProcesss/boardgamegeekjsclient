@@ -1,0 +1,1 @@
+export { TextFetcher } from './TextFetcher';

@@ -1,0 +1,1 @@
+export { IFetcher } from './IFetcher';

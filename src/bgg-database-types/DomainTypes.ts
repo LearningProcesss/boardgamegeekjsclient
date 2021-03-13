@@ -1,0 +1,1 @@
+export type DomainTypes = | 'boardgame' | 'rpg' | 'videogame';
