@@ -18,6 +18,13 @@
     "url": "https://github.com/LearningProcesss/boardgamegeekjsclient",
     "type": "git"
   },
+  "keywords": [
+    "boardgamegeek",
+    "api client",
+    "wrapper",
+    "fully typed",
+    "typescript"
+  ],
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -41,7 +48,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "boardgamegeekjsclient",
+  "name": "boardgamegeekclient",
+  "description": "Javascript client to interact with BoardGameGeek public XML API",
   "author": "learningprocesss",
   "module": "dist/boardgamegeekjsclient.esm.js",
   "size-limit": [
