@@ -10,6 +10,14 @@
   "engines": {
     "node": ">=10"
   },
+  "homepage": "https://github.com/LearningProcesss/boardgamegeekjsclient#readme",
+  "bugs": {
+    "url": "https://github.com/LearningProcesss/boardgamegeekjsclient/issues"
+  },
+  "repository": {
+    "url": "https://github.com/LearningProcesss/boardgamegeekjsclient",
+    "type": "git"
+  },
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
