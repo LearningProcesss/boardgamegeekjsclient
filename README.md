@@ -1,3 +1,5 @@
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/LearningProcesss/boardgamegeekjsclient/CD%20-%20NPM/main?style=for-the-badge)
+
 # boardgamegeekclient
 
 It's a wrapper around the offcial boardgamegeek V2 API, 
