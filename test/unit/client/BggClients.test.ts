@@ -66,13 +66,13 @@ describe('Bgg clients', () => {
     // });
     describe('Forum lists client', () => {
         test('should query Forum lists endpoint - thing filter', async () => {
-            const data = await client.forumlist.query({ id: 245934, type: ["thing"] });
+            const data = await client.forumlist.query({ id: 245934, type: "thing" });
             const { forums } = data[0];
             expect(data.length).toBe(1);
             expect(forums.length).toBeGreaterThan(5);
         });
         test('should query Forum lists endpoint - family filter', async () => {
-            const data = await client.forumlist.query({ id: 245934, type: ["family"] });
+            const data = await client.forumlist.query({ id: 245934, type: "family" });
 
             expect(data.length).toBe(1);
         });

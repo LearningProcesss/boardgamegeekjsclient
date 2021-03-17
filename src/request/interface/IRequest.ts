@@ -17,7 +17,7 @@ export interface IRequestWithType<T> {
      * @memberof IRequestWithType
      * @description Specifies that, regardless of the type of item asked for by id, the results are filtered by the ITEMTYPE(s) specified. Multiple ITEMTYPE(s) can be specified in a comma-delimited list.
      */
-    type?: T[];
+    type?: T | T[];
 }
 
 export interface IThingRequest extends IRequest, IRequestWithType<ThingType> {
@@ -98,7 +98,7 @@ export interface IForumlistRequest extends IRequest, IRequestWithType<ForumlistT
      */
     id: number;
 
-    type: ForumlistType[];
+    type: ForumlistType;
 }
 
 export interface IForumRequest extends IRequest {
