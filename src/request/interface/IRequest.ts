@@ -44,12 +44,6 @@ export interface IThingRequest extends IRequest, IRequestWithType<ThingType> {
     /**
      * @type {ParameterOneOrZero}
      * @memberof IThingRequest
-     * @description Returns historical data over time. See page parameter.
-     */
-    historical?: ParameterOneOrZero;
-    /**
-     * @type {ParameterOneOrZero}
-     * @memberof IThingRequest
      * @description Returns marketplace data.
      */
     marketplace?: ParameterOneOrZero;
