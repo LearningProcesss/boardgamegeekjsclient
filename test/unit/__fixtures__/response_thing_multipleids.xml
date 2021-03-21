@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="35421">
+         <thumbnail>https://cf.geekdo-images.com/yyoy-cEI5tpZkDl4EqgOXg__thumb/img/TFYuFiV7Whv455hc76rs136jfok=/fit-in/200x150/filters:strip_icc()/pic315354.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/yyoy-cEI5tpZkDl4EqgOXg__original/img/gSBUL8nYkJvQll6iscWQblDGdDY=/0x0/filters:format(jpeg)/pic315354.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="Zecken Burger" />
+			
+						                           
+						               													<description>From the publisher:&amp;#10;&amp;#10;&amp;quot;Nasty ticks in big burgers&amp;#10;&amp;#10;Tasty hamburger ingredients are placed on the table. Each player gets four ingredients on his hand and tries to build delicious burgers which get high scores. But hey, what's that? There's a tick between the ingredients. Try to get rid of it as fast as possible. Put it in a burger and hope that no one notices. Fortunately you also can put it in an opponent's burger. But he may give you his burger then and you mustn't refuse that nice 'gift'.&amp;#10;Bluff: Place your ingredients face-down on the table. So no one knows if it's cheese, salad, onions or a little tick. When your opponent gives you that burger, you'll get extra-score. Find the right strategy and the right face-expression to convince your opponents. When the cards are turned face-up, it's getting funny. Tick-Burger is a funny mixture of strategy, chance and bluff for the whole family.&amp;quot;&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="2005" />
+						               				<minplayers value="2" />
+						               				<maxplayers value="4" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="0">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+			
+		<results numplayers="4+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="0" />
+					<result value="Not Recommended" numvotes="0" />
+				</results>					
+	</poll> 			               				<playingtime value="30" />
+						               				<minplaytime value="30" />
+						               				<maxplaytime value="30" />
+						               				<minage value="0" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="0">
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1023" value="Bluffing" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1002" value="Card Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1079" value="Humor" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2004" value="Set Collection" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="64224" value="Food &amp; Drink: Burgers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5841" value="Theme: Food / Cooking" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="2543" value="Kemal Yun" />
+		
+									
+			
+
+			      			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="1681" value="Yun Games" />
+		
+									
+			
+
+			
+			<videos total="1">
+						<video id="19672" title="How to play (in German) by publisher Yun Games " category="instructional" language="German" link="http://www.youtube.com/watch?v=pkUZiCe1fYY" username="marble911" userid="384899" postdate="2012-08-16T23:28:25-05:00" />
+					</videos>
+
+	<versions><item type="boardgameversion" id="110802">
+         <thumbnail>https://cf.geekdo-images.com/yyoy-cEI5tpZkDl4EqgOXg__thumb/img/TFYuFiV7Whv455hc76rs136jfok=/fit-in/200x150/filters:strip_icc()/pic315354.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/yyoy-cEI5tpZkDl4EqgOXg__original/img/gSBUL8nYkJvQll6iscWQblDGdDY=/0x0/filters:format(jpeg)/pic315354.jpg</image>
+            				
+		 			
+
+			
+		
+					<link type="boardgameversion" id="35421" value="Zecken Burger" inbound="true"/>
+		
+									
+			
+
+			                               				
+				<name type="primary" sortindex="1" value="German edition" />
+			
+						                           
+						      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="1681" value="Yun Games" />
+		
+									
+			
+
+			      			
+
+			               				<yearpublished value="2005" />
+						               				<productcode value="" />
+						               				<width value="0" />
+						               				<length value="0" />
+						               				<depth value="0" />
+						               				<weight value="0" />
+						      				
+		 			
+
+			
+		
+					<link type="language" id="2188" value="German" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+</versions>
+
+	
+		<comments page="1" totalitems="1">
+			<comment username="verdigast" rating="N/A" value="Kemal Zhang (Yun Games)
+" />
+		</comments>
+	
+	
+   		<statistics page="1">
+								<ratings >
+			<usersrated value="0" />
+			<average value="0" />
+			<bayesaverage value="0" />
+
+			<ranks>
+															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+												</ranks>
+
+			<stddev value="0" />
+			<median value="0" />
+			<owned value="6" />
+			<trading value="0" />
+			<wanting value="0" />
+			<wishing value="3" />
+			<numcomments value="1" />
+			<numweights value="0" />
+			<averageweight value="0" />
+			</ratings>
+								</statistics>
+     
+	
+          
+</item>
+<item type="boardgame" id="234669">
+         <thumbnail>https://cf.geekdo-images.com/RAdppZ1_dduI7vnJi3mtZQ__thumb/img/lSVVIS6MP8Hvn_qLj7DAHYQtl-4=/fit-in/200x150/filters:strip_icc()/pic3754388.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/RAdppZ1_dduI7vnJi3mtZQ__original/img/evc4kIOTJl3PEC1opktfjRNZtzI=/0x0/filters:format(jpeg)/pic3754388.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="Legacy of Dragonholt" />
+			
+						                           
+						               													<description>Gather your band of heroes and journey to Realms of Terrinoth in Legacy of Dragonholt!&amp;#10;&amp;#10;The first game to use the Oracle system, Legacy of Dragonholt captures the spirit of a roleplaying game without needing a game master. This narrative game for one to six players allows players to build their own unique hero and embark on six noble quests. Battle goblins, foil the plot of an evil lord, and add a new story to your tale!&amp;#10;&amp;#10;Prepare for Adventure&amp;#10;Legacy of Dragonholt is a narrative adventure game that creates a unique experience by blending aspects of roleplaying and adventure games, open world concept video games, and even Choose Your Own Adventure books. Unlike many games, Legacy of Dragonholt is not about winning or losing, but rather about the act of creating a story. Without the need for a Game Master, this game ensures that every player has the opportunity to shape how their adventure plays out while its intuitive gameplay means that you waste little time before jumping into your tale.&amp;#10;&amp;#10;Before you first set out on your adventure, you must confront one of the most difficult questions in gaming: who will you become? Legacy of Dragonholt gives you the opportunity to play as one of six humanoid races that reside in Terrinoth: humans, elves, dwarves, orcs, gnomes, and catfolk. Next, you'll select a class, before defining your physical and personality traits, and scribing a personal history. Each of these features creates a multifaceted character and defines the types of traits you possess, which in turn affect how you will approach obstacles throughout your journey and how you'll contribute to your party. For an in-depth look at the character creation process, you may look at our previous article here. Once you've created your own unique character, you're ready to dive in to a narrative adventure unlike any you&amp;rsquo;ve seen before.&amp;#10;&amp;#10;Explore The Realm&amp;#10;Once your journey begins, Legacy of Dragonholt combines two forms of gameplay between the comprehensive Village Book and the six quest books that provide the plotlines of your tales. Within Dragonholt Village, you will encounter many colorful characters, each with their own stories that progress and interweave regardless of your involvement. The world is yours to explore, but it is not yours to control. Like a real community, the places you can explore vary depending on when you visit, and your encounters with the locals change depending on your traits and past experiences. For instance, a bakery may only be open early in the day, and the baker themselves may take a shine to you if you&amp;rsquo;ve already met their cousin, or if they&amp;rsquo;ve heard of the great deeds you&amp;rsquo;ve accomplished earlier in your stay in the village. Outside the relative safety of the village, thrilling dangers and mysteries await that you can experience in six unique quests. You will investigate strange happenings within in the village and venture into the wilds beyond to journey through deep woods, delve into dark crypts, and confront creatures long thought dead. As you progress throughout the game you will find that, like your village experience, your quests also change based on your past experience, who you have or have not met, and how much time has passed. After all, if you learn that someone is in peril to the west of Dragonholt Village, they are not likely to wait patiently for three days while you explore in the east. Your actions have consequences, but ultimately the choice lies with you. You do not have to be a hero. This is your story, and it is yours to define.&amp;#10;&amp;#10;&amp;mdash;description from the publisher&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="2017" />
+						               				<minplayers value="1" />
+						               				<maxplayers value="6" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="102">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="76" />
+					<result value="Recommended" numvotes="20" />
+					<result value="Not Recommended" numvotes="2" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="19" />
+					<result value="Recommended" numvotes="49" />
+					<result value="Not Recommended" numvotes="13" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="7" />
+					<result value="Recommended" numvotes="32" />
+					<result value="Not Recommended" numvotes="27" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="4" />
+					<result value="Recommended" numvotes="16" />
+					<result value="Not Recommended" numvotes="44" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="9" />
+					<result value="Not Recommended" numvotes="54" />
+				</results>					
+			
+		<results numplayers="6">		
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="8" />
+					<result value="Not Recommended" numvotes="57" />
+				</results>					
+			
+		<results numplayers="6+">		
+					<result value="Best" numvotes="0" />
+					<result value="Recommended" numvotes="1" />
+					<result value="Not Recommended" numvotes="57" />
+				</results>					
+	</poll> 			               				<playingtime value="999" />
+						               				<minplaytime value="60" />
+						               				<maxplaytime value="999" />
+						               				<minage value="14" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="21">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="1" />
+					<result value="8" numvotes="2" />
+					<result value="10" numvotes="8" />
+					<result value="12" numvotes="3" />
+					<result value="14" numvotes="4" />
+					<result value="16" numvotes="2" />
+					<result value="18" numvotes="1" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="8">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="0" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="5" />
+					<result level="5" value="Unplayable in another language" numvotes="3" />
+				</results>					
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1022" value="Adventure" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1020" value="Exploration" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1010" value="Fantasy" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2023" value="Cooperative Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2851" value="Narrative Choice / Paragraph" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2028" value="Role Playing" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2027" value="Storytelling" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="24281" value="Mechanism: Campaign Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5137" value="Setting: The Realms of Terrinoth" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="69718" value="Nikki Valens" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="11413" value="Daniel Clark (I)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="46411" value="Tim Flanders" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="103924" value="Annie VanderMeer Mitsoda" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="34934" value="Greg Spyridis" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="30957" value="Alex Aparin" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="52485" value="Jacob Atienza" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="12193" value="Jared Blando" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="29343" value="Anna Christenson" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="97767" value="Amanda Duarte" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="13115" value="David Griffith" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="79287" value="Jaime Martinez" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="36620" value="Sandara Tang Sin Yun" />
+		
+									
+			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="17" value="Fantasy Flight Games" />
+		
+									
+			
+
+			
+			<videos total="55">
+						<video id="272514" title="Game Review: Legacy of Dragonholt" category="review" language="English" link="http://www.youtube.com/watch?v=VzNYMj_rYnE" username="nswesquire" userid="321848" postdate="2020-07-13T22:48:38-05:00" />
+						<video id="253204" title="Cómo es Legacy of Dragonholt" category="review" language="Spanish" link="http://www.youtube.com/watch?v=OoG5ucDRRcI" username="discipulosdearmitage" userid="1084209" postdate="2020-02-25T14:58:41-06:00" />
+						<video id="246097" title="Legacy of Dragonholt Playthrough - Dragonholt Village Day 2 | Optimal Play" category="session" language="English" link="http://www.youtube.com/watch?v=fMHa2HX-aLQ" username="optimalplay" userid="1930556" postdate="2019-12-31T18:17:40-06:00" />
+						<video id="240704" title="Legacy of Dragonholt Playthrough - Sliver of Silver | Optimal Play" category="session" language="English" link="http://www.youtube.com/watch?v=D32d1p-8NEw" username="optimalplay" userid="1930556" postdate="2019-11-12T12:04:58-06:00" />
+						<video id="235109" title="Dice and Dragons - Legacy of Dragonholt Revisit and Campaign Review" category="review" language="English" link="http://www.youtube.com/watch?v=IDSOtDQssvg" username="Dice_and_Dragons" userid="1720379" postdate="2019-10-03T05:47:19-05:00" />
+						<video id="231555" title="Legacy of Dragonholt Playthrough - Dragonholt Village | Optimal Play" category="session" language="English" link="http://www.youtube.com/watch?v=WROjCFZnz98" username="optimalplay" userid="1930556" postdate="2019-09-04T14:43:44-05:00" />
+						<video id="226701" title="Legacy of Dragonholt Playthrough - Chapter 1 | Optimal Play" category="session" language="English" link="http://www.youtube.com/watch?v=vVA7RQzxfI0" username="optimalplay" userid="1930556" postdate="2019-07-25T10:47:04-05:00" />
+						<video id="225630" title="Legacy of Dragonholt - Story Board Gamer’s 2019 Top 60" category="other" language="English" link="http://www.youtube.com/watch?v=71ltb2wuqYE" username="StoryBoardGamer" userid="255789" postdate="2019-07-17T06:14:16-05:00" />
+						<video id="194959" title="Uitleg &amp; review door Nox&#039; Spellenzolder" category="instructional" language="Dutch" link="http://www.youtube.com/watch?v=fbl-U3DHyuo" username="Dharquen" userid="408533" postdate="2018-10-28T09:34:30-05:00" />
+						<video id="185121" title="BGO Playthrough: Legacy of Dragonholt Ep 5" category="review" language="English" link="http://www.youtube.com/watch?v=io3de0e4iSk" username="Jonathan Hicks" userid="597327" postdate="2018-08-03T12:14:09-05:00" />
+						<video id="184890" title="Budget Board Gamer Plays Legacy of Dragonholt- Episode 1: To New Roads" category="session" language="English" link="http://www.youtube.com/watch?v=v6nlYHXUAzU" username="TFJ383" userid="1419438" postdate="2018-08-01T11:44:42-05:00" />
+						<video id="184654" title="What Makes it Special? - Spoiler Free" category="instructional" language="English" link="http://www.youtube.com/watch?v=Dy1Za0IYpOc" username="rob2kewl" userid="536700" postdate="2018-07-30T13:08:58-05:00" />
+						<video id="183556" title="Legacy of Dragonholt (Part 3) - Fists and Flying Furniture - Board Crazy Plays..." category="session" language="English" link="http://www.youtube.com/watch?v=VNgHB76VSS8" username="Board Crazy" userid="1569110" postdate="2018-07-20T14:13:12-05:00" />
+						<video id="179886" title="Legacy of Dragonholt (Part 2) - Exploring the Village - Board Crazy Plays..." category="session" language="English" link="http://www.youtube.com/watch?v=V0OoQNMMWu8" username="Board Crazy" userid="1569110" postdate="2018-06-15T17:10:31-05:00" />
+						<video id="179437" title="TLD - quick hit" category="review" language="English" link="http://www.youtube.com/watch?v=Up9ZaDr30qo" username="calandale" userid="222883" postdate="2018-06-11T05:17:31-05:00" />
+					</videos>
+
+	<versions><item type="rpgitemversion" id="368170">
+         <thumbnail>https://cf.geekdo-images.com/RAdppZ1_dduI7vnJi3mtZQ__thumb/img/lSVVIS6MP8Hvn_qLj7DAHYQtl-4=/fit-in/200x150/filters:strip_icc()/pic3754388.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/RAdppZ1_dduI7vnJi3mtZQ__original/img/evc4kIOTJl3PEC1opktfjRNZtzI=/0x0/filters:format(jpeg)/pic3754388.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="Boxed Set" />
+			
+						               				<yearpublished value="2017" />
+						               				<format value="box" />
+						      				
+		 			
+
+			
+		
+					<link type="language" id="2184" value="English" />
+		
+									
+			
+
+			               				<productcode value="ORA01" />
+						               				<pagecount value="0" />
+						               				<isbn10 value="" />
+						               				<isbn13 value="" />
+						               				<width value="9.8" />
+						               				<height value="11.6" />
+						               				<weight value="4" />
+						               													<description></description>
+										
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgameversion" id="378476">
+         <thumbnail>https://cf.geekdo-images.com/RAdppZ1_dduI7vnJi3mtZQ__thumb/img/lSVVIS6MP8Hvn_qLj7DAHYQtl-4=/fit-in/200x150/filters:strip_icc()/pic3754388.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/RAdppZ1_dduI7vnJi3mtZQ__original/img/evc4kIOTJl3PEC1opktfjRNZtzI=/0x0/filters:format(jpeg)/pic3754388.jpg</image>
+            				
+		 			
+
+			
+		
+					<link type="boardgameversion" id="234669" value="Legacy of Dragonholt" inbound="true"/>
+		
+									
+			
+
+			                               				
+				<name type="primary" sortindex="1" value="English edition" />
+			
+						                           
+						      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="17" value="Fantasy Flight Games" />
+		
+									
+			
+
+			      			
+
+			               				<yearpublished value="2017" />
+						               				<productcode value="ORA01" />
+						               				<width value="9.8" />
+						               				<length value="11.6" />
+						               				<depth value="2.5" />
+						               				<weight value="4" />
+						      				
+		 			
+
+			
+		
+					<link type="language" id="2184" value="English" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+</versions>
+
+	
+		<comments page="1" totalitems="592">
+			<comment username="0time" rating="6" value="Good choose your own adventure type game. Finished the game, but no desire to play again." />
+			<comment username="4ndrewcol3" rating="7" value="I love the idea of a game that is mostly story with choices for the characters to make.  The writing is good, but could have been great with more editing and work.
+
+Update: After more plays I&apos;m getting into the story and am enjoying myself very much." />
+			<comment username="79strat" rating="6" value="This was oddly hard to get into for me, especially the character creation. I had a really hard time &quot;teaching&quot; this one as the only real way it seemed for someone to learn is to read the whole character creation book themselves, or read it to them, which sucks. So we finally just read the whole thing together out loud and I made up a hero I guess (no imagination hence I don&apos;t RPG) and we did the introduction scenario, which was rather boring as I didn&apos;t particularly care about either of the NPCs leading us through the woods. I&apos;m assuming it will pick up as time goes on." />
+			<comment username="Abaddon1991" rating="N/A" value="Choose your own adventure game. Kind of RPG, a lot of reading, probably best with low player count. Quite expensive." />
+			<comment username="Acholt22" rating="N/A" value="I partially bought this game because it has HOLT in the title. . ." />
+			<comment username="Ackiatta" rating="N/A" value="1-6 players" />
+			<comment username="acorns2009" rating="8.5" value="Definitely the best storytelling I&apos;ve encountered in a while. The NPC&apos;s are well-thought out characters with unique personalities that reflect well in the writing. The day-to-day life in the city of Dragonholt isn&apos;t the same depending on what areas or shops you visit and the time of day you visit them. Depending on how well you do in the city and your adventures may alter the story line. 
+
+As an individual who grew up in a very conservative home, the only part I personally didn&apos;t like is the two supporting cast NPC&apos;s are lesbian and have their own part in the story. The two characters are lightly flirty (no graphic details, but implied meanings) and may you attend their wedding as an option.
+
+This isn&apos;t a combat-heavy book as there are only a few adventures (books) outside the city of Dragonholt, but they provide enough adventure for me to feel satisfied. 
+
+" />
+			<comment username="Adio75" rating="9" value="Not Sleeved" />
+			<comment username="Aerothorn" rating="8.9" value="Playing with Joanna!" />
+			<comment username="aesthetocyst" rating="N/A" value="Too scripted. Would have been cheaper as a book." />
+			<comment username="aircastle" rating="10" value="Rating based on the JustinRRizzo-type comments.  Stop being such sensitive whiny babies.  
+
+Also, lazy for making assumptions that aren&apos;t even correct.  I suppose that&apos;s how people like you operate.  I agree it&apos;s not 100% for you, but that&apos;s only saying a lot about you, not the game.  Why so afraid?" />
+			<comment username="ajewo" rating="N/A" value="Perfect game to introduce people to role playing games. Each player generates his own character with an individual background story. The story has countless branches. A brilliant thing is, that to.e matters, so that player cannot do everything, they have to make decisions what they want to do but it may be too late then for a particular opportunity. Moreover, each player can once do a decision although it is not within his skill set by flipping a coin token. After that he can do it again when all other players have flipped there coin. This system leads to interesting decision making.
+The game has a lot of text, it plays in a utopian fantasy world, and social passages happen more often than action scenes or fights.
+Replayability is rather low, maximal two playthroughs" />
+			<comment username="Alannamairead" rating="N/A" value="part BG part RPG solo game" />
+			<comment username="alarm" rating="9" value="seminal bg/adventure gamebook mesh." />
+			<comment username="albcann" rating="7" value="Very well written, lots of work went into this and considering the voluminous material, I detected no typos so the proofreaders were spot on.  The story was good, tense at times and much more immersive than the typical &quot;Choose your own adventure&quot; books that the game is compared to.  
+
+My complaints
+(1) It moved along slowly at times.  To some, that might be a positive because it made the story seem more real, not adventure after adventure. But I found those parts a little boring.  
+
+(2) This one is tough to articulate.  The game seemed a little over the top regarding 2017 themes.  There is a lesbian marriage and a transgender character.  Not sure that is necessary in a fantasy setting, but then again, those are prominent issues currently.  However, I felt this was a little too overt for my tastes.  As a result, I am hesitant to pass the game on to my brother and his 5th grade daughter who were looking forward to borrowing the game when I finished.  
+
+Nonetheless, the game is a positive experience and I think worth the $45 to pick it up.  You probably could replay it a couple of times with different characters to try and see everything, but the replayability is not a selling point here.  " />
+			<comment username="AlexDev" rating="8" value="Lovely (idealistic!) world to inhabit. A definite cut above most &apos;Choose Your Own Adventures&apos; both in scope and quality. Thoroughly fun to play from start to finish." />
+			<comment username="alfaro68" rating="N/A" value="Weight 1.2
+Players 1-6
+60++ Min
+$45
+Narrative/Exploration" />
+			<comment username="ALGO" rating="8" value="Makeweight in the Dino Island trade
+
+Really great storytelling game for me. Does everything one could want from this sort of game without a lot of the nonsense that tends to surround them." />
+			<comment username="AmesGames" rating="7" value="As a multiplayer &quot;board&quot; game/RPG, this is not ideal. As a singleplayer collection of related gamebooks, it&apos;s pretty good." />
+			<comment username="amiller01" rating="7" value="It&apos;s a low/no-difficulty self-guided story that doesn&apos;t focus so much on your character vs. those around you. Minor value in going through a second time, probably none to do a third. Read about it, know what you&apos;re getting into, and enjoy the story it creates." />
+			<comment username="Anarchosyn" rating="N/A" value="Starting." />
+			<comment username="Anasthy" rating="8" value="This is a fantastically crafted adventure story book (which I enjoy). If you&apos;re expecting a board game I would skip. 
+
+Very well written with a high fantasy theme. I enjoy jumping around the books and it feels seamless. The character creation is easy and relates great to a tabletop lingo. The cards are suppose to give a board game feel. I play without them as I imagine most roleplayers would (people familiar to managing a large character sheet with many options).
+
+There are no dice, only options to select that play out in narrative. I enjoy other adventure games that have a dice mechanic, a lot of items to get bonus or abilities to introduce new options (like passive abilities). Also rolling against then story for skill checks or fighting monsters.
+
+Can be played with up to six &quot;readers&quot;. I&apos;m reading through solo with a single character- works great." />
+			<comment username="ande9249" rating="9" value="The experience and game engine is wonderful. But there is one mis-step I would call out here. This box would have been better served by have 20+ pre-made characters that people could select from and run through the game with. Possibly refining the talents and stamina around. The main problem is my group did a great job developing unique backgrounds and characters, but it feels like we are coloring outside the lines. The options we would take in a full RPG just aren&apos;t being presented in the story. While 80% of the time it is working fine, and the story is good and driving along at a good pace, the other 20% of the time we are talking over the reader of the story, stating that we are doing this or that instead. Now this probably means that my group is ready to move onto a full RPG instead, but this product just isn&apos;t a perfect fit. 
+
+That said for those who don&apos;t have experience with an RPG this product is a great way to play a game &quot;on rails&quot; just a little bit. But that audience would want that stack of pre-made characters to choose from anyways...just a mis step to not have them." />
+			<comment username="anderspree" rating="N/A" value="1 - 6 Players
+Best: 1
+
+60 - 999 Min
+Weight: 1.20" />
+			<comment username="anerien" rating="10" value="Definitely not for everyone, especially if you&apos;re looking for a heavy dungeon crawler with lots of dice chucking. But if you are a fan of a good narrative and branching plot points, then this game is a MUST and one of a kind. The closest game out there I can think of that mirrors open world sand box videogames, like Witcher or Fallout. Price point can seem a bit high, but worth every penny to me." />
+			<comment username="anjulka" rating="N/A" value="We had a lot of fun with this game, but the ending left a very bad taste in my mouth." />
+			<comment username="AnotherHorrorFan" rating="2" value="2019-05: Played through the whole game. At first the game seemed like a dream come true but then I realized the stats only created a mirage of decisions. I also had some major issues with the narrative. Will not be continuing to play the line." />
+			<comment username="anwei" rating="8.3" value="Not a category that&apos;s generally to my taste, but amazing in the category and I loved playing with my daughter. 
+This is discussed on the forums, but there are things to know going in, if playing with kids, especially a somewhat surprising and upsetting outcome.
+
+My 6yo&apos;s notes in quotes.
+
+Interesting Decisions: 3/5
+&quot;The decisions are interesting, but not as much as Santorini. Maybe 7 out of 10. &quot;
+
+Fun: 5/5
+&quot;It&apos;s really fun. That&apos;s what it&apos;s best at. Maybe 10 out of 10.&quot;
+
+Flow: 5/5
+&quot;I do like to keep playing a lot. Maybe a 10.&quot;
+
+Interactivity: 3/5
+
+Tail: 4/5
+&quot;We know most of the story. If we did other things it might do other things. It&apos;s maybe an 8 cause it&apos;s pretty long, but some other games might be longer than it.&quot;
+
+Presentation: 5/5
+&quot;Maybe I think that&apos;s a 9. The story is pretty good. That&apos;s not what it&apos;s best at though, it&apos;s best at being fun.&quot;
+
+Overall: 8.3/10" />
+			<comment username="anyregularnamewilldo" rating="10" value="Very high production value. Due to Corona, I&apos;m running two groups for this over Discord, acting as the bookkeeper/narrator, while also playing a solo campaign. It&apos;s fun to see the groups take different paths through the story and having everyone roleplay their character a little bit. Small tip: If you use the character names and pronouns while reading the entries, that really adds to the immersion.
+
+This is really an 8 for me, first time I&apos;m choosing to counter-rate a game, due to the ridiculously backwards people giving it a 1 (without having played it) because they&apos;re afraid of lesbians. Leave your swamp sometime if you feel compelled to reviewbomb a title for having &quot;modern social agendas&quot;. Orcs, magic and dragons are okay, but I guess if the story is not about a bunch of straight cis dudes rescuing damsels in distress, then that&apos;s just a step too far.
+
+It&apos;s quite ridiculous that the community needs to correct ratings like this. Wish there was a report system for these trolls." />
+			<comment username="archrobin" rating="10" value="I love the stories and the developing choices." />
+			<comment username="arglik" rating="9" value="Couple of times started the campaign and couldn&apos;t finish because of other people too busy. Now I have finished it with a not great but OK ending. A perfect system witch a cool twist - no die but only a thoughtful combination of skills. A very solid writing which is easy to read and follow (complaining people just don&apos;t like to read). Pity that no similar games followed." />
+			<comment username="arisep" rating="8.5" value="A very nice choose-your-own-path adventure, the ending was a bit blah, though." />
+			<comment username="Arkeas" rating="9" value="Incredibly well written and extremely entertaining. It&apos;s a &quot;game&quot; in the same way that a choose your own adventure book is; you&apos;re simply reading passages based on choices. What makes this more interesting, however, is that there are story points (state flags) that record certain things that have happened in the story and the various passages change based on what has happened in the world. Wonderful experience." />
+			<comment username="arkhamnative" rating="N/A" value="Crazy inching ever downward price on Amazon after Gen Con 2018. Got mine at $29." />
+			<comment username="artadius" rating="N/A" value="
+
+Will be selling at BGGCON" />
+			<comment username="Ashavan" rating="6" value="Intro: Kua Klassen" />
+			<comment username="Ashton" rating="N/A" value="Great Car Adventure Game. -SM Games" />
+			<comment username="asta" rating="8" value="An elaborate choose your own adventure. I really like this system and it is great to play solo. Lots of places to visit explore and quite replayable as your story choices will affect the outcomes a lot." />
+			<comment username="Astronautone" rating="10" value="rated 10/10 for positive representation of LGBTQ+ and female characters and accurately negative portrayal of men
+
+good game too" />
+			<comment username="aszentkiralyi" rating="N/A" value="TTS" />
+			<comment username="Atomikrin" rating="8" value="This is a fantasy choose your own adventure book played with character sheets and inventory. Very well written, and incredibly fun, but I wouldn&apos;t really classify it as a &quot;game&quot; per se. This is ideally a single player experience, possibly a two player/couples experience. I can&apos;t imagine ever playing it with more than that." />
+			<comment username="Auzette" rating="3" value="Watered down RPG or souped up Choose Your Own Adventure, the result is the same: A box of high quality paper waiting for a real purpose to come rescue it.
+
+Had the game decided to focus on weaving together pieces of an entertaining story, rather than driving its errant agenda, it may have been more compelling. Even so, the system is capped at &apos;boring&apos; no matter what the setting is, due to its simplistic stats and obvious choice points. 
+
+In short, it&apos;s an empty, soulless walk down depravity lane." />
+			<comment username="balrogest" rating="N/A" value="!" />
+			<comment username="BastardCafe" rating="N/A" value="1 115.3" />
+			<comment username="bastiat" rating="6" value="Cute idea, but man, there&apos;s way too much setting description." />
+			<comment username="bcnevan" rating="2" value="Legacy of Dragonholt (LoD) is a failure of a choose-your-own-adventure  game. The writing spells out everything with such directness that there&apos;s little mystery, little sense of danger, and basically zero difficult narrative choice. With a dire lack of mystery, only the non-player characters provide a hook for the player to engage with the experience. And, in view of the atomization required by its hard-coded paragraph format, those hooks are dulled. 
+
+LoD is a failure of an RPG. The story makes so many assumptions about the player-created characters and how they want to interact with the world. (If I squint, there&apos;s a part of me that feels as if the volume of assumptions is intentional and may even be the point; but they needed to lean in harder if they meant for that sort of meta-commentary to be impactful.) Further, the text manages to provide little sense of history or that you are occupying a lived-in world. The story is told at you, and the player characters&apos; skills provide only a small diffraction from what the authors intend to tell you. There&apos;s no role playing here, just reading. This failure as an RPG is emphasized in neon yellow highlighting and furious underlining since I played multiple sessions of Thousand Year Old Vampire just before trying this title. Thousand Year Old Vampire is rich in theme, history, creativity, and actual role-playing. In comparison, it becomes clear that LoD removes the dynamic creativity of the game master from the RPG experience; but also maintains most of the admin needed to track story progression. In essence, LoD manages to excise the dynamic narrative benefits of an RPG, while capturing the administrative burdens. 
+
+LoD is a failure of a puzzle game. The small moments where the game asks for some deduction and/or puzzle solving are so basic as they may as well not be there. It&apos;s trivial nonsense that also makes playing multiplayer more cumbersome.
+
+Most of the above failures are exacerbated by the limitations of LoD&apos;s physical implementation. A large part of the game is abstractly traversing two hubs. The first hub is the town of Dragonholt and its location-sparse map. The second hub is the paragraph book and its constant page shuffling. LoD manages to take what might be one act of an excellent RPG video game and stretch it over an exhaustive amount of page turning and map perusal. The first time you go through the paragraph book&apos;s version of a customer service shortcut menu so you can ask an NPC about another NPC, you will scream for automation. 
+
+This game would be a passable narrative-based video game. Nothing would be lost in either the solo experience or the multi-player experience if this game was converted to a purely digital experience. In fact, the experience could only be improved. The narrative bits would incorporate past choices more smoothly. Needless admin would be lessened and not hang like an anchor in view of the number of decisions you make in the game. Even the best aspect of the game, the time passing mechanism, would be simply automated by a digital product. Choosing the right medium for your experience is important. Unfortunately, LoD actively chooses not to." />
+			<comment username="BDodin" rating="N/A" value="Traded back to Boardgameco. Just wasn’t interested. " />
+			<comment username="Begger41" rating="N/A" value="War of the Ring: Collector&apos;s Edition - Yellow: Standard MDG-7152 (20)" />
+			<comment username="Belloque" rating="6" value="It&apos;s a choose-your-own-adventure with a fancy box and pretty solid writing. The story is nothing special though, the usual fantasy tropes, and I gotta say there was nothing that surprised me at all. Well, one thing that was different was the amount of strong female characters that did make it stand out a bit. And it was way too easy!" />
+			<comment username="Benjamin75" rating="N/A" value="Single player game
+" />
+			<comment username="benjamingronvold" rating="N/A" value="Not interested" />
+			<comment username="BenjaminHester" rating="6" value="started off strong, but the story lost me part way through.  Definitely hope this system sees another iteration, perhaps in a different setting." />
+			<comment username="bennycocohalo" rating="8" value="component:8,gameplay:8,lore:8,replayability:7, solo bonus+1
+" />
+			<comment username="Ben_Bos" rating="7.5" value="For someone like me who considers gaming a matter of dreaming away instead of &quot;winning&quot; a game, this of course is a great experience.
+I tried a few times a &quot;read through adventure&quot; book before, but this is simply better.
+
+I don&apos;t know why exactly. Perhaps it is the lack of dice or the writing, but this FFG &quot;game&quot; is indeed better.
+The creation of your character is already great with many more skills to choose from. But this gem succeeds in convincing me I actually walk in a world of adventure.
+
+I guess the competitive euro gamer will not like it much. There is no &quot;win&quot; as such, nor is there a competition through planting vegetables or tiles.
+The game system though is for those who love RPG&apos;s and dream away in their adventure games. It is very straight though, no Magic Realm magic...
+As such it succeeds where sometimes more traditional games often fall short: story telling and mood setting. 
+I can only hope this system will be expanded upon as it could be transferred to Mystery murder solving or HP Lovecraft spooky tales.
+
+Replayability. I think yes there is at least room for 2 adventures through the whole series with complete different characters. And I think that after 3-4 years you could enjoy one or two more rides. Like in Ambush series.
+
+It certainly helps when you would add a group to an adventure you already ran through and without revealing things, you could have really FUN with repeated plays.
+
+With 15-20hours per box and going to 2 seperate playing sessions over the year, I think you will have 30-40 hours of fun with this box. That&apos;s more than an average video game will give you as STORY telling is concerned.
+
+TLDR: Buy it if you wanted a RPG to play solo or with the wife.
+Avoid it at all costs if you are a competitive gamer with euro play in mind." />
+			<comment username="BernardR" rating="7.5" value="it is interesting and for me new experience og such a game play, it take a lot of time ,and you wont be able to play it as other board games with many friend ..." />
+			<comment username="BeyondSolitaire" rating="8" value="Solo play. 
+
+Written review: http://www.beyondsolitaire.net/blog/solo-review-legacy-of-dragonholt" />
+			<comment username="bigfootjedi" rating="8.5" value="
+" />
+			<comment username="bigp75" rating="9" value="A very good series of stories in a box. My wife and I played through three game days across two days.
+The story you weave is entirely down to the choices you make (and we are still devastated by the consequences of some bad choices made on the third day)." />
+			<comment username="Bigtop305" rating="9" value="This deserves a nine more than most nines in my collection I think. There is SO much well done game here, from the immersive story, to the innovative time mechanic, to puzzles GALORE that don&apos;t ruin the game if you miss them. The package is so complete! while there is a ton here, it is truly tragic to think that this system will not be used in other product lines or see Dragonholt itself deepened. Still there is a lot in this box, it is beyond worth the asking price in my opinion with the supplementary locations and books also brilliantly produced. This game lays brilliant for one as much as a party, and re-playability has so far not taken a hit for me playing solo then with others back through the same content with different choices. You pick your character, you have some light character building, then off you go on an adventure that is meaty, and eventful. Choose your path and wind your way through the world, but don&apos;t look too deeply in the box when you get it, as player aids, themed and timed for the play-through await you to flesh out the role playing. you just need paper, pencil your own imagination is optional but helps and then sit back and go on a wild ride that is well worth it!" />
+			<comment username="BioKeith" rating="N/A" value="Wonderful solo experience. Really well written. Probably good for at least 3 playthroughs to see all of the different paths before it becomes a little samey." />
+			<comment username="BirdfluNuggetz" rating="7" value="Basically, a huge “Choose your own way” novel with some character stat maintenance.  Mild inventory tracking, skills, events.  If you like that sort of thing (I loved it as a kid), it’s a nice revisit.  Quality story, wish it has a bit more flexibility and options for healing and refreshing skills (I had one particularly nasty battle, and it inactivated 5 skills, I had no way to recover even 30% before endgame). 
+
+Recommended for the solo crowd, not sure about multiple players." />
+			<comment username="birdsong703" rating="8" value="I&apos;ve just started a campaign with some queer and trans friends, and am excited about what&apos;s to come! - what a treasure Nikki Valens is to the tabletop community. " />
+			<comment username="Bizmat" rating="N/A" value="Try this sooner than later. Look up how to play it." />
+			<comment username="Bjanze" rating="N/A" value="Thank you Secret Santa 2018!
+This is an awesome looking storytelling game (between board game and roleplaying game) however, I don&apos;t currently have the group to commit to this.
+
+Currently at my parents place in Tampere" />
+			<comment username="bkjohns1" rating="10" value="Writing is excellent, and very much a “Choose Your Own Adventure” story.  Playing/reading with my 10 yo son who is enjoying the game/story as well." />
+			<comment username="Black Canyon" rating="7.5" value="This is a great story game system.  I feel like it shines as a single player game though, since you can tackle the story at your own pace.  When playing with others, everyone gets a chance to make decisions." />
+			<comment username="BlueFoxMoon" rating="N/A" value="Sleeves not required" />
+			<comment username="Blustar" rating="3" value="Where&apos;s the game? It&apos;s basically an interactive novel, which barely scratches the surface of an actual game. The writing isn&apos;t terrible, does it&apos;s job." />
+			<comment username="bneffer" rating="7" value="Wish the story was deeper? Want to get back to this one again." />
+			<comment username="bolivina" rating="6" value="My husband and I enjoy cooperative narrative-driven games so we were looking forward to playing this game. However, we were disappointed in the end. We enjoyed the adventures in the separate books, but felt we spent too much time in the village wandering around aimlessly. It also felt like we lacked real choices at times. In the adventure on Day 6 it felt like we weren&apos;t allowed to make the choice we wanted and most of the &quot;choices&quot; were if you have this skill go here/if you don&apos;t go here. That&apos;s not a choice! We completed the adventure and then were faced with spending more time in the village wandering aimlessly and having tedious conversations. Clearly this was not the game for us. We don&apos;t play rpgs and I don&apos;t like fantasy so we decided to move on from this game without completing the campaign." />
+			<comment username="booned" rating="6" value="Hurm. So I like the idea of the game, I like a lot of CYOA-style board games. As a game, it works, it&apos;s well written and a lot of thought was given to game mechanisms, instead of it just being a narrative adventure, which I appreciate.
+
+As noted, the game is quite inclusive, and goes against traditional character types by having lots of female fighters, for example. I suppose some people could find parts of the writing a bit heavy-handed. Extremely minor spoiler: There&apos;s a character who&apos;s a princess, I guess, and her dad wants her to marry a prince, but she wants to go off and adventure. And she almost literally, at one point, says, &quot;And what if I want to marry a princess instead? What about THAT, Dad? Eh? What do you say to THAT?&quot; Fine sentiment, but it&apos;s wielded clumsily, like trying to fight armed with a 2x4. (The rest of the writing is very, very good.)
+
+I have a complaint, and I guess it&apos;s a small one but it really impacts my enjoyment of the game.
+
+The game will give you options regarding your skills: If you have archery, you can choose to shoot an arrow. Great so far.
+In a multiplayer game (I play 2p with my son), one player makes a choice, then all the consequences happen to that one player (stamina lost, etc.) until the next decision point comes along. Okay, makes sense. It&apos;s a little awkward but it works.
+But it&apos;s become a joke in our game that every time I try to use my archery skill, I succeed at shooting my arrow, and the story continues... and then it asks me if I have another, completely unrelated skill. You can only have a small number of skills, so you&apos;re not likely to have what it asks for. While I have archery, I don&apos;t have both archery and devotion, or don&apos;t have archery and streetwise, or archery and brawling. So I succeed in my arrow shot, then I take a massive amount of damage because I&apos;m unable to avoid the next thing, which requires a completely different skill set.
+
+This is exacerbated by the fact that, as you lose health/stamina, you eventually lose skills. And healing stamina doesn&apos;t automatically bring those skills back. I started the game with something like six or eight skills, and now I have one, because I took so much damage that I lost skills. I get a small number (2?) back with rest, which is much too few, and makes it more likely I will be unable to perform the next test and so will take more damage. The weak get weaker.
+
+Before playing your first game, I&apos;d strongly recommend a house rule: Sleeping for the night restores all of your skills." />
+			<comment username="Bovelix" rating="8" value="No és exactament un joc... més aviat un tria la teva aventura vitaminat, però com a això molt bé. 
+It is not exactly a game. More a book, but so nice. 
+Más bien es un escoge tu propia aventura de toda la vida vitaminado" />
+			<comment username="brainpattern" rating="N/A" value="TRADED - Jeb" />
+			<comment username="Broodstar" rating="9" value="Solitaire rating --- 100
+Family rating ----- 65
+Fantasy level ----- 90
+Sci Fi level -------- 0
+
+Everything from the creation of the character to the beautifully written story is done with passion.
+The Oracle system that drives the game is very good and you feel like playing a session of Dungeons and Dragons or other Pen and Paper Role Playing Game without a Game Master, dices or complicated rules." />
+			<comment username="brumcg" rating="10" value="Completed the campaign with my family.  A top 5 experience.
+
+It&apos;s a variation of choose-your-own-adventure." />
+			<comment username="bsacks" rating="9" value="Now half-way through my second full game (both solo), I am LOVING this game (whether or not it is technically a &quot;game&quot; or more of an interactive story). The story is incredibly immersive and really makes me feel the emotions of my character. I love the mix of goal-oriented quests and the more open-ended exploration of town. This has been a great escape for me during this time when we&apos;re all trapped at home. I can pick this up for just a few minutes or a few hours at a time, and enjoy my time either way." />
+			<comment username="btasam" rating="7" value="Despite resting more on narrative-choice than role playing, LoD offers an immersive experience that&apos;s layered with moments of intrigue and exploration. The character creation is well executed and subsequent plays require no set up or prep time. Even the prologue was quite enjoyable for an opening encounter. 
+
+LoD&apos;s ability to create and sustain a realistic society continues to be one of its greatest strengths. As an example, visiting a location on a certain day but also at a certain time of day can generate unique outcomes.
+
+After more plays, exploring the city of Dragonholt has started to feel tedious, but even worse, I&apos;m beginning lose faith in any narrative direction. Part of this is due to the growing number of loose ends in the plot. I really hope I&apos;m wrong and that some convergence is on the horizon." />
+			<comment username="Burnham" rating="10" value="This is not a book. It also doesn’t scratch my itch to play a boardgame. But it is some of the most fun I’ve ever had “doing something!”
+
+-It’s true that there’s not really any game mechanics but it’s a really clever system.
+-The town feels alive and you become emotionally invested in the characters.
+-Obviously this isn’t SUPER replayable, but I am looking forward to my next playing of it and I just completed the campaign about an hour ago.
+-Granted I’m playing it solo (and it works great that way), I would really enjoy it playing with other people too.
+-CANON QUEER CHARACTERS! I wish this were so common in games that it didn’t need to be pointed out when it occurs, but unfortunately it’s still a rarity. Thank you Nikki Valens!
+
+It really does feel like an rpg and I can’t wait for a sequel!" />
+			<comment username="busdjur" rating="N/A" value="This peaked my interest due to being something you can play solo or with a group. I however have not decided yet if I should give it a go on my own or play it with my son." />
+			<comment username="Cag7575" rating="8" value="Solo variant" />
+			<comment username="Cakej7" rating="7" value="1-2" />
+			<comment username="calandale" rating="7" value="Trying to decide if this is serious, or if the game itself is an elaborate act of trolling.
+
+But, it&apos;s a clever design either way. Didn&apos;t expect the paragraph system to be used for combat ever in quite this manner." />
+			<comment username="CalvinG35" rating="N/A" value="I got this to introduce my daughter to Roleplaying" />
+			<comment username="camidon" rating="9" value="What a nice surprise. An expanded choose your own adventure.  A great evening story game with light decisions. When I’m exhausted after work, this one still is easy to play and enjoy. As a writer, I find the story interesting, if somewhat expected, and well written. I quite like the time you spend in town, which rounds out the adventures nicely.  Few complaints. You don’t get much in the box for the price, but clearly a lot of development went to the branching storylines. Couldn’t we have gotten some copies of the tracking sheets.  Really? We have to copy this stuff? Occasionally there’s a disconnect between story events where opponents visit other places, and the the story assumes you know what happened while you were doing other things.  Overall, a hit. I’d purchase more like this, especially if they come out with a story better suited to play with my kids." />
+			<comment username="Cancelled" rating="6.5" value="Not sure yet, as we aren&apos;t done, but so far my impressions through most of the game are: great gameplay evolution on Consulting detective, innovative storytelling mechanisms meets DnD light, and unfortunately a very unbalanced and ramble-y pace through much of the game. This games highs are high, but you can wander around reading stuff that you feel like the game wants you to read... only to realize it is pointless, generic fantasy drivel. Mad points for building a story that is very inclusive to all kinds of characters, especially LGBTQ ones (even if that inclusion can be a bit heavy handed at times). A marvelous piece of Art that I am enjoying seeing through to the end, but is a little more duty than mad excitement at this point. It is really fun to real along with the characters (even the combat is fun!), but so far feels like the pace of the story varies too wildly for it to be continually engaging throughout.
+
+Edit: Sadly traded away before we even finished it. The story dragged and dragged and finally we weren&apos;t even compelled to finish the big finale. I wish the story had done more to consistently hook you in for another session, rather than have such wild variations in pace." />
+			<comment username="CapnAlex" rating="10" value="Really nice to see games with more progressive representation, particularly of LGBT/queer characters." />
+			<comment username="captainfold2" rating="N/A" value="Played some" />
+			<comment username="carlcorey" rating="N/A" value="Campaign game (legacy-like), might be interesting to play with wife" />
+			<comment username="carnodingo" rating="7.5" value="Beaucoup de plaisir avec ma femme a lire nos aventure. c&apos;est une introduction pour elle au jeu de rôle et le niveau très bas de règles le rend très accessible.
+
+C&apos;est en fait une grosse histoire dont nous sommes les héros.
+
+Catégorie: Léger
+
+Thème: Fantaisie
+
+Mécaniques: Livre dont vous êtes le héro
+
+Similaire dans ma collection : Gen7 (Campagne), Tales of the arabian night (dont tu es le héro)" />
+			<comment username="cass0526" rating="N/A" value="Good cooperative at two player" />
+			<comment username="cbrua" rating="7" value="A giant solo adventure that brought me happy memories of playing Tunnels &amp; Trolls as a kid.  It is well written with vivid descriptions and characters that have distinctive personalities.  The story point system is an excellent way of &quot;remembering&quot; past events so that they impact the story, and the skill system was a lot quicker than rolling a bunch of dice.  Fun, but it&apos;s still a $60 game that you will only play once.  The LGBT content was a bit off-putting for me and seemed a bit forced into the story.  
+
+I enjoyed the game overall and recommend it if you like the &quot;choose your own adventure&quot; style of books." />
+			<comment username="cbs42" rating="8" value="The game group had a fun time with it. In the first session we did the intro book, then puttered around Dragonholt city for a bit, then ran through the &quot;Slivers of Silver&quot; quest. I do wish there was more &quot;game&quot; in this game though. As entertaining and different as it was, it really just felt like a group Choose Your Own Adventure session. There are no randomizers of any kind, so no dice rolling or card play. I wish it did include just a little more mechanical depth, but the storyline has been very entertaining." />
+			<comment username="ce13" rating="3" value="Basically just people reading a poorly written book together. Felt very railroad with no choices that actually mattered and no threat." />
+			<comment username="Ceahorse" rating="7" value="22usd" />
+			<comment username="CeeTee2001" rating="8" value="1-6 players" />
+			<comment username="Chada" rating="8" value="Easy to play but also more than enough depth into the stories to stay interested. I really enjoy it!" />
+			<comment username="Cheelara1" rating="N/A" value="Traded" />
+			<comment username="chestond" rating="N/A" value="1-6" />
+			<comment username="Chimpy20" rating="4" value="Too much reading aloud and no gameplay apart from story choices. I found it disappointing." />
+			<comment username="Chris Barnard" rating="5" value="Played the Introduction, Day 1 and The Mine. The system is quite clever (building up new skills, story points and time passing) but the story has been slow and I find the setting to be unbelievable e.g. A new plate glass window for the pharmacy? Where from exactly? And why cart broken bits of furniture to a town dump when they could be broken up to heat a house? There&apos;s a lot of reading aloud (if you are not playing solo), not many decisions per adventure and no feeling of peril." />
+		</comments>
+	
+	
+   		<statistics page="1">
+								<ratings >
+			<usersrated value="2302" />
+			<average value="7.2912" />
+			<bayesaverage value="6.53112" />
+
+			<ranks>
+															<rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="971" bayesaverage="6.53112" />
+											<rank type="subtype" id="16" name="rpgitem" friendlyname="RPG Item Rank" value="349" bayesaverage="6.91257" />
+																				<rank type="family" id="5496" name="thematic" friendlyname="Thematic Rank" value="180" bayesaverage="6.81102" />
+												</ranks>
+
+			<stddev value="1.718" />
+			<median value="0" />
+			<owned value="5370" />
+			<trading value="170" />
+			<wanting value="351" />
+			<wishing value="2078" />
+			<numcomments value="591" />
+			<numweights value="76" />
+			<averageweight value="1.2105" />
+			</ratings>
+								</statistics>
+     
+	
+          <marketplacelistings>
+              <listing>
+         <listdate value="Sun, 07 Jan 2018 22:04:43 +0000" />
+         <price currency="USD" value="90.00" />
+           <condition value="new" />
+         <notes value="Please send geekmail for shipping cost. Will combine shipping for multiple items." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/1391103" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Fri, 23 Feb 2018 14:28:36 +0000" />
+         <price currency="EUR" value="57.99" />
+           <condition value="new" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/1431027" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Tue, 15 May 2018 08:06:07 +0000" />
+         <price currency="EUR" value="55.99" />
+           <condition value="new" />
+         <notes value="New." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/1489871" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Wed, 16 May 2018 11:44:34 +0000" />
+         <price currency="USD" value="33.00" />
+           <condition value="verygood" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/1490723" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Thu, 24 May 2018 00:17:13 +0000" />
+         <price currency="USD" value="60.00" />
+           <condition value="new" />
+         <notes value="Buyer pays shipping." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/1497774" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Thu, 25 Oct 2018 14:27:43 +0000" />
+         <price currency="EUR" value="62.50" />
+           <condition value="new" />
+         <notes value="weight: 1721 grams + packaging" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/1651260" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Tue, 11 Dec 2018 20:40:10 +0000" />
+         <price currency="USD" value="51.95" />
+           <condition value="likenew" />
+         <notes value="Brand new in ripped shrink (English edition 2017) $9.95 flat shipping for the contiguous United States" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/1698867" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Wed, 16 Sep 2020 20:57:31 +0000" />
+         <price currency="USD" value="40.00" />
+           <condition value="likenew" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2324094" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Mon, 28 Sep 2020 13:20:27 +0000" />
+         <price currency="USD" value="55.00" />
+           <condition value="new" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2333179" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Tue, 20 Oct 2020 01:03:54 +0000" />
+         <price currency="CAD" value="70.00" />
+           <condition value="likenew" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2351392" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Sun, 25 Oct 2020 07:20:56 +0000" />
+         <price currency="CAD" value="75.00" />
+           <condition value="new" />
+         <notes value="If shipping outside of North America, please contact me first.&amp;#10;Available for local pick-up in the Greater Vancouver Area&amp;#10;When placing an order please message me your phone number for easier communication." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2355684" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Mon, 07 Dec 2020 22:34:38 +0000" />
+         <price currency="USD" value="49.00" />
+           <condition value="new" />
+         <notes value="New in shrink." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2394006" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Sun, 17 Jan 2021 18:28:04 +0000" />
+         <price currency="EUR" value="99.00" />
+           <condition value="new" />
+         <notes value="Language: english&amp;#10;Edition Year: 2017&amp;#10;Publisher: Fantasy Flight Games&amp;#10;Game Condition: Mint&amp;#10;Box Condition: Mint&amp;#10;PREORDER - The current availability of this product needs to be checked.&amp;#10;The order could be deleted after the availability check.&amp;#10;We will inform you anyway.&amp;#10;ID Gis: 35150 (for reference)" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2435596" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Sat, 23 Jan 2021 22:31:59 +0000" />
+         <price currency="EUR" value="49.00" />
+           <condition value="likenew" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2442288" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Mon, 25 Jan 2021 16:18:08 +0000" />
+         <price currency="EUR" value="55.00" />
+           <condition value="likenew" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2444150" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Tue, 16 Feb 2021 23:13:57 +0000" />
+         <price currency="CAD" value="70.00" />
+           <condition value="likenew" />
+         <notes value="Played once but never wrote on any of the sheets." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2465969" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Wed, 24 Feb 2021 14:25:38 +0000" />
+         <price currency="EUR" value="50.00" />
+           <condition value="likenew" />
+         <notes value="Payment via Bank transfer. Shipment within EU via DHL." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2479198" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Thu, 04 Mar 2021 12:08:02 +0000" />
+         <price currency="USD" value="50.99" />
+           <condition value="new" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2486038" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Fri, 05 Mar 2021 01:50:43 +0000" />
+         <price currency="USD" value="30.00" />
+           <condition value="verygood" />
+         <notes value="Received in trade, but in excellent condition." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2486741" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Sun, 07 Mar 2021 13:05:09 +0000" />
+         <price currency="EUR" value="45.00" />
+           <condition value="verygood" />
+         <notes value="Shipping to Europe from France with Mondial Relay, in the 2-3kg range." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2488596" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Wed, 10 Mar 2021 02:26:52 +0000" />
+         <price currency="CAD" value="45.00" />
+           <condition value="likenew" />
+         <notes value="" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2490999" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Sun, 14 Mar 2021 01:40:50 +0000" />
+         <price currency="USD" value="32.95" />
+           <condition value="verygood" />
+         <notes value="SLIGHT DISHING of box bottom (please see photos).  All game components in still in like new condition." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2494331" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Mon, 15 Mar 2021 19:13:31 +0000" />
+         <price currency="EUR" value="48.00" />
+           <condition value="likenew" />
+         <notes value="The game is unplayed. The outer shrink wrap has been removed. The cardboard tokens have been punched.&amp;#10;&amp;#10;Payment via PayPal or bank transfer (&amp;#226;&amp;#130;&amp;#172; 1.60 discount).&amp;#10;&amp;#10;Shipping as DHL parcel 5 kg&amp;#10;- Germany: 6 &amp;#226;&amp;#130;&amp;#172;&amp;#10;- EU: 16 &amp;#226;&amp;#130;&amp;#172;" />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2495949" title="marketlisting" />
+       </listing>
+              <listing>
+         <listdate value="Wed, 17 Mar 2021 19:28:58 +0000" />
+         <price currency="USD" value="35.00" />
+           <condition value="likenew" />
+         <notes value="Lightly used. 100% complete and in excellent condition." />
+                  <link href="https://boardgamegeek.com/geekmarket/product/2497696" title="marketlisting" />
+       </listing>
+            </marketplacelistings>
+          
+</item>
+</items>

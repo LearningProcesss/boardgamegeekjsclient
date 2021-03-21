@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="174430">
+         <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="Gloomhaven" />
+			
+						                               				
+				<name type="alternate" sortindex="1" value="Gloomhaven, aventures à Havrenuit" />
+			    				
+				<name type="alternate" sortindex="1" value="Gloomhaven: Мрачная Гавань" />
+			    				
+				<name type="alternate" sortindex="1" value="Homályrév" />
+			    				
+				<name type="alternate" sortindex="1" value="グルームヘイヴン" />
+			    				
+				<name type="alternate" sortindex="1" value="幽港迷城" />
+			    				
+				<name type="alternate" sortindex="1" value="글룸헤이븐" />
+			
+						               													<description>Gloomhaven  is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.&amp;#10;&amp;#10;This is a game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a &amp;ldquo;Choose Your Own Adventure&amp;rdquo; book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.&amp;#10;&amp;#10;Each turn, a player chooses two cards to play out of their hand. The number on the top card determines their initiative for the round. Each card also has a top and bottom power, and when it is a player&amp;rsquo;s turn in the initiative order, they determine whether to use the top power of one card and the bottom power of the other, or vice-versa. Players must be careful, though, because over time they will permanently lose cards from their hands. If they take too long to clear a dungeon, they may end up exhausted and be forced to retreat.&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="2017" />
+						               				<minplayers value="1" />
+						               				<maxplayers value="4" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1113">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="119" />
+					<result value="Recommended" numvotes="477" />
+					<result value="Not Recommended" numvotes="245" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="255" />
+					<result value="Recommended" numvotes="624" />
+					<result value="Not Recommended" numvotes="62" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="539" />
+					<result value="Recommended" numvotes="369" />
+					<result value="Not Recommended" numvotes="26" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="344" />
+					<result value="Recommended" numvotes="440" />
+					<result value="Not Recommended" numvotes="119" />
+				</results>					
+			
+		<results numplayers="4+">		
+					<result value="Best" numvotes="5" />
+					<result value="Recommended" numvotes="41" />
+					<result value="Not Recommended" numvotes="605" />
+				</results>					
+	</poll> 			               				<playingtime value="120" />
+						               				<minplaytime value="60" />
+						               				<maxplaytime value="120" />
+						               				<minage value="14" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="258">
+			<results>		
+					<result value="2" numvotes="4" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="5" />
+					<result value="10" numvotes="39" />
+					<result value="12" numvotes="74" />
+					<result value="14" numvotes="116" />
+					<result value="16" numvotes="15" />
+					<result value="18" numvotes="2" />
+					<result value="21 and up" numvotes="3" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="58">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="1" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="2" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="41" />
+					<result level="5" value="Unplayable in another language" numvotes="14" />
+				</results>					
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1022" value="Adventure" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1020" value="Exploration" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1010" value="Fantasy" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1046" value="Fighting" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1047" value="Miniatures" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2689" value="Action Queue" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2839" value="Action Retrieval" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2018" value="Campaign / Battle Card Driven" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2857" value="Card Play Conflict Resolution" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2893" value="Communication Limits" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2023" value="Cooperative Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2854" value="Critical Hits and Failures" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="3004" value="Deck Construction" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2664" value="Deck, Bag, and Pool Building" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2676" value="Grid Movement" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2040" value="Hand Management" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2026" value="Hexagon Grid" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2824" value="Legacy Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2011" value="Modular Board" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2846" value="Once-Per-Game Abilities" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2822" value="Scenario / Mission / Campaign Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2020" value="Simultaneous Action Selection" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2819" value="Solo / Solitaire Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2027" value="Storytelling" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2015" value="Variable Player Powers" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="59218" value="Category: Dungeon Crawler" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="25158" value="Components: Miniatures" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="65191" value="Components: Multi-Use Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="66335" value="Components: Standees" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="68438" value="Creatures: Demons" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7005" value="Creatures: Dragons" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5615" value="Creatures: Monsters" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="8374" value="Crowdfunding: Kickstarter" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="45610" value="Game: Gloomhaven" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="24281" value="Mechanism: Campaign Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="25404" value="Mechanism: Legacy" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="312632" value="Gloomhaven: Assault on the Morning Star (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="310777" value="Gloomhaven: Beyond the End of the World (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="312638" value="Gloomhaven: Curse of the Lost Cabal (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="250337" value="Gloomhaven: Forgotten Circles" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="312635" value="Gloomhaven: No Pun Included 2019 Kickstarter (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="298195" value="Gloomhaven: Return of the Lost Cabal (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="297586" value="Gloomhaven: Secrets of the Lost Cabal (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="226868" value="Gloomhaven: Solo Scenarios" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="310773" value="Gloomhaven: The Catacombs of Chaos (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="231934" value="Gloomhaven: The End of the World (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="300402" value="Gloomhaven: The Lucky Meeple (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="310754" value="Gloomhaven: The Tower of Misfortune (Promo Scenario)" />
+		
+									
+			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameintegration" id="295770" value="Frosthaven" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameintegration" id="291457" value="Gloomhaven: Jaws of the Lion" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="69802" value="Isaac Childres" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+		
+									
+			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4304" value="Albi" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="46179" value="Albi Polska" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3475" value="Arclight" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="157" value="Asmodee" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="22380" value="Feuerland Spiele" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="15605" value="Galápagos Jogos" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="40478" value="Games Warehouse" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8820" value="Gém Klub Kft." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="18852" value="Hobby World" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames Co., Ltd." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="23756" value="MYBG Co., Ltd." />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+</items>

@@ -3,14 +3,6 @@ import fetch from 'isomorphic-unfetch';
 
 export class TextFetcher implements IFetcher<string, string> {
     async doFetch(query: string): Promise<string> {
-        // const response = await fetch(query);
-
-        // if(response.status === 202) {
-
-        // }
-
-        // return response.text();
-
         let response = await this.internalFetch(query);
 
         while (response.status === 202) {

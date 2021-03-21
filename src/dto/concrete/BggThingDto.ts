@@ -3,7 +3,7 @@ import { IBggDto } from "../interface";
 import { BggStatisticsPaginatedDto, BggThingVideoPaginatedDto, BggThingCommentPaginatedDto} from "./paginated";
 import { BggLinkDto, BggThingMarketlistingsDto } from "./subdto";
 
-@JsonIgnoreProperties({ value: ['poll'] })
+@JsonIgnoreProperties({ value: ['poll', 'versions'] })
 export class BggThingDto implements IBggDto {
 
     @JsonProperty()
