@@ -20,6 +20,13 @@ export class BggThingDto implements IBggDto {
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({
+        using: (value: []) => value.map(item => item['@_value'])[0]
+    })
+    originalname!: string;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_type"] })
     type!: string;
 

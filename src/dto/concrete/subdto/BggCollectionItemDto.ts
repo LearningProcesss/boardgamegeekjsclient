@@ -50,6 +50,10 @@ export class BggCollectionItemDto {
     name!: string;
 
     @JsonProperty()
+    @JsonClassType({ type: () => [String] })
+    originalname!: string;
+
+    @JsonProperty()
     @JsonClassType({ type: () => [BggCollectionItemStatusDto] })
     @JsonDeserialize({
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
