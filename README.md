@@ -1,5 +1,9 @@
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/LearningProcesss/boardgamegeekjsclient/CD%20-%20NPM/main?style=for-the-badge) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/learningprocesss/boardgamegeekjsclient?color=ff595e&style=for-the-badge)
 
+# forked from boardgamegeekclient
+
+This package is forked from boardgamegeekclient in order to do maintance myself and to have an updated package in my project.
+
 # boardgamegeekclient
 
 It's a wrapper around the offcial boardgamegeek V2 API, 

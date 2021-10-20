@@ -1,5 +1,6 @@
 {
-  "version": "1.0.4",
+  "name": "@mrmory/bggclient",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -48,9 +49,8 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "boardgamegeekclient",
-  "description": "Javascript client to interact with BoardGameGeek public XML API",
-  "author": "learningprocesss",
+  "description": "Javascript client to interact with BoardGameGeek public XML API based on boardgamegeekjsclient",
+  "author": "Marijn van der Steen",
   "module": "dist/boardgamegeekjsclient.esm.js",
   "size-limit": [
     {

@@ -1,9 +1,10 @@
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonIgnoreProperties, JsonManagedReference, JsonProperty } from "jackson-js";
 import { IBggDto } from "../interface";
+import { BggPollDto } from "./BggPollDto";
 import { BggStatisticsPaginatedDto, BggThingVideoPaginatedDto, BggThingCommentPaginatedDto} from "./paginated";
 import { BggLinkDto, BggThingMarketlistingsDto } from "./subdto";
 
-@JsonIgnoreProperties({ value: ['poll', 'versions'] })
+@JsonIgnoreProperties({ value: ['versions'] })
 export class BggThingDto implements IBggDto {
 
     @JsonProperty()
@@ -17,13 +18,6 @@ export class BggThingDto implements IBggDto {
         using: (value: []) => value.map(item => item['@_value'])[0]
     })
     name!: string;
-
-    @JsonProperty()
-    @JsonClassType({ type: () => [String] })
-    @JsonDeserialize({
-        using: (value: []) => value.map(item => item['@_value'])[0]
-    })
-    originalname!: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
@@ -90,6 +84,12 @@ export class BggThingDto implements IBggDto {
         using: (value: []) => value.map(item => item['@_value'])[0]
     })
     minage!: number;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [Array, [BggPollDto]] })
+    @JsonManagedReference()
+    @JsonAlias({ values: ["poll"]})
+    poll!: BggPollDto[];
 
     @JsonProperty()
     @JsonClassType({ type: () => [Array, [BggLinkDto]] })
