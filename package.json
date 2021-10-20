@@ -11,12 +11,12 @@
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://github.com/LearningProcesss/boardgamegeekjsclient#readme",
+  "homepage": "https://github.com/MrMory/boardgamegeekjsclient#readme",
   "bugs": {
-    "url": "https://github.com/LearningProcesss/boardgamegeekjsclient/issues"
+    "url": "https://github.com/MrMory/boardgamegeekjsclient/issues"
   },
   "repository": {
-    "url": "https://github.com/LearningProcesss/boardgamegeekjsclient",
+    "url": "https://github.com/MrMory/boardgamegeekjsclient",
     "type": "git"
   },
   "keywords": [
