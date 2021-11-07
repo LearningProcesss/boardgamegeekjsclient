@@ -33,7 +33,7 @@
     "build:post": "node postbuild.js",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "prepare": "tsdx build && yarn run build:post",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "tsc:watch": "tsc -w",
