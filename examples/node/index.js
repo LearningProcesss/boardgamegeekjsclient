@@ -1,4 +1,4 @@
-const { BggClient } = require("boardgamegeekjsclient")
+const { BggClient } = require("boardgamegeekclient")
 
 const client = BggClient.Create()
 

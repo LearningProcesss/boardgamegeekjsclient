@@ -27,7 +27,10 @@
   ],
   "scripts": {
     "start": "tsdx watch",
-    "build": "tsdx build",
+    "build": "tsdx build && yarn run build:post",
+    "build:testdistributionup": "tsdx build && (cd dist && yarn link) && (cd examples/node && yarn link boardgamegeekclient) && yarn run build:post",
+    "build:testdistributiondown": "(cd examples/node && yarn unlink boardgamegeekclient) && (cd dist && yarn unlink)",
+    "build:post": "node postbuild.js",
     "test": "tsdx test",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
