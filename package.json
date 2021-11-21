@@ -1,11 +1,14 @@
 {
   "version": "1.0.6",
+  "name": "boardgamegeekclient",
+  "description": "Javascript client to interact with BoardGameGeek public XML API",
+  "author": "learningprocesss",
   "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "engines": {
     "node": ">=10"
@@ -26,23 +29,21 @@
     "typescript"
   ],
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build && yarn run build:post",
-    "build:testdistributionup": "tsdx build && (cd dist && yarn link) && (cd examples/node && yarn link boardgamegeekclient) && yarn run build:post",
-    "build:testdistributiondown": "(cd examples/node && yarn unlink boardgamegeekclient) && (cd dist && yarn unlink)",
-    "build:post": "node postbuild.js",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build && yarn run build:post",
-    "size": "size-limit",
-    "analyze": "size-limit --why",
+    "start": "echo TODO!",
+    "build": "yarn run build:ts",
+    "build:ts": "rm -r -f dist && mkdir dist && yarn run build:ts:cjs && yarn run build:ts:esm && (sleep 5 && yarn run build:ts:post)",
+    "build:ts:cjs": "rm -r -f cjs && tsc -p tsconfig.cjs.json --outdir cjs",
+    "build:ts:esm": "rm -r -f esm && tsc -p tsconfig.esm.json --outdir esm",
+    "build:ts:post": "cp -r cjs dist && cp -r esm dist && rm -r -f cjs && rm -r -f esm",
+    "test": "jest --verbose",
+    "lint": "echo TODO!",
+    "prepare": "yarn run build:ts",
     "tsc:watch": "tsc -w",
     "semantic-release": "semantic-release"
   },
-  "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "yarn test"
     }
   },
   "prettier": {
@@ -51,20 +52,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "boardgamegeekclient",
-  "description": "Javascript client to interact with BoardGameGeek public XML API",
-  "author": "learningprocesss",
-  "module": "dist/boardgamegeekjsclient.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/boardgamegeekjsclient.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/boardgamegeekjsclient.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/git": "^9.0.0",
@@ -72,11 +59,11 @@
     "@semantic-release/npm": "^7.0.10",
     "@semantic-release/release-notes-generator": "^9.0.2",
     "@size-limit/preset-small-lib": "^4.10.0",
+    "@types/jest": "^27.0.3",
     "husky": "^5.1.3",
+    "jest": "^27.3.1",
     "semantic-release": "^17.4.2",
-    "size-limit": "^4.10.0",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.1.0",
+    "ts-jest": "^27.0.7",
     "typescript": "^4.2.3"
   },
   "dependencies": {
