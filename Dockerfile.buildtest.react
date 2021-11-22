@@ -1,0 +1,15 @@
+FROM node:16-alpine@sha256:60ef0bed1dc2ec835cfe3c4226d074fdfaba571fd619c280474cc04e93f0ec5b AS packer
+WORKDIR /usr/src/boardgamegeekclient-packfase
+COPY . .
+RUN yarn pack 
+
+FROM node:16-alpine@sha256:60ef0bed1dc2ec835cfe3c4226d074fdfaba571fd619c280474cc04e93f0ec5b AS reacttester
+WORKDIR /usr/src/boardgamegeekclient-test
+COPY --from=packer /usr/src/boardgamegeekclient-packfase/boardgamegeekclient-v1.0.6.tgz .
+COPY --from=packer /usr/src/boardgamegeekclient-packfase/buildtest/react/start.sh .
+ENV NODE_ENV production
+RUN npx create-react-app react-test && cd react-test && yarn add file:/usr/src/boardgamegeekclient-test/boardgamegeekclient-v1.0.6.tgz
+COPY --from=packer /usr/src/boardgamegeekclient-packfase/buildtest/react/App.js ./react-test/src
+RUN chmod 755 start.sh
+EXPOSE 3000
+ENTRYPOINT [ "./start.sh" ]

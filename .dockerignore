@@ -1,0 +1,8 @@
+node_modules
+.git
+.github
+.dockerignore
+.devcontainer
+.releaserc
+Dock*
+examples
