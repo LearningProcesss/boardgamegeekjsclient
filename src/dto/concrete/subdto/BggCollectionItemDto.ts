@@ -44,15 +44,17 @@ export class BggCollectionItemDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
-        //eslint-disable-next-line @typescript-eslint/no-explicit-any
         using: (value: []) => value.map(item => item['#text'])[0]
     })
     name!: string;
 
     @JsonProperty()
+    @JsonClassType({ type: () => [String] })
+    originalname!: string;
+
+    @JsonProperty()
     @JsonClassType({ type: () => [BggCollectionItemStatusDto] })
     @JsonDeserialize({
-        //eslint-disable-next-line @typescript-eslint/no-explicit-any
         using: (value: any[]) => value[0]
     })
     @JsonManagedReference()
