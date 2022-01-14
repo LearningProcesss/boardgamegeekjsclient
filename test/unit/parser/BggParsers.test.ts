@@ -1,9 +1,10 @@
 import { XmlResponseParser } from "../../../src/responseparser";
-import { readFixture } from "./BggCollection.fixture";
+import { textResponseByEndpoint } from "../ResponseFixtureReader";
 
-describe('Bgg response parser', () => {
-    test('should parse an xml to json', async () => {
-        const xmlResponse = await readFixture();
+describe('XmlResponseParser', () => {
+    it('should parse xml to json when xml response is correctly formatted', async () => {
+
+        const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=174430'];
 
         const parser: XmlResponseParser = new XmlResponseParser();
 

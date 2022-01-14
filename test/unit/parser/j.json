@@ -1,0 +1,614 @@
+{
+    "items": [
+        {
+            "@_termsofuse": "https://boardgamegeek.com/xmlapi/termsofuse",
+            "item": [
+                {
+                    "@_type": "boardgame",
+                    "@_id": 174430,
+                    "thumbnail": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg",
+                    "image": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg",
+                    "name": [
+                        {
+                            "@_type": "primary",
+                            "@_sortindex": 1,
+                            "@_value": "Gloomhaven"
+                        },
+                        {
+                            "@_type": "alternate",
+                            "@_sortindex": 1,
+                            "@_value": "Gloomhaven, aventures à Havrenuit"
+                        },
+                        {
+                            "@_type": "alternate",
+                            "@_sortindex": 1,
+                            "@_value": "Gloomhaven: Мрачная Гавань"
+                        },
+                        {
+                            "@_type": "alternate",
+                            "@_sortindex": 1,
+                            "@_value": "Homályrév"
+                        },
+                        {
+                            "@_type": "alternate",
+                            "@_sortindex": 1,
+                            "@_value": "グルームヘイヴン"
+                        },
+                        {
+                            "@_type": "alternate",
+                            "@_sortindex": 1,
+                            "@_value": "幽港迷城"
+                        },
+                        {
+                            "@_type": "alternate",
+                            "@_sortindex": 1,
+                            "@_value": "글룸헤이븐"
+                        }
+                    ],
+                    "description": "Gloomhaven  is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.&amp;#10;&amp;#10;This is a game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a &amp;ldquo;Choose Your Own Adventure&amp;rdquo; book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.&amp;#10;&amp;#10;Each turn, a player chooses two cards to play out of their hand. The number on the top card determines their initiative for the round. Each card also has a top and bottom power, and when it is a player&amp;rsquo;s turn in the initiative order, they determine whether to use the top power of one card and the bottom power of the other, or vice-versa. Players must be careful, though, because over time they will permanently lose cards from their hands. If they take too long to clear a dungeon, they may end up exhausted and be forced to retreat.&amp;#10;&amp;#10;",
+                    "yearpublished": [
+                        {
+                            "@_value": 2017
+                        }
+                    ],
+                    "minplayers": [
+                        {
+                            "@_value": 1
+                        }
+                    ],
+                    "maxplayers": [
+                        {
+                            "@_value": 4
+                        }
+                    ],
+                    "poll": [
+                        {
+                            "@_name": "suggested_numplayers",
+                            "@_title": "User Suggested Number of Players",
+                            "@_totalvotes": 1113,
+                            "results": [
+                                {
+                                    "@_numplayers": 1,
+                                    "result": [
+                                        {
+                                            "@_value": "Best",
+                                            "@_numvotes": 119
+                                        },
+                                        {
+                                            "@_value": "Recommended",
+                                            "@_numvotes": 477
+                                        },
+                                        {
+                                            "@_value": "Not Recommended",
+                                            "@_numvotes": 245
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_numplayers": 2,
+                                    "result": [
+                                        {
+                                            "@_value": "Best",
+                                            "@_numvotes": 255
+                                        },
+                                        {
+                                            "@_value": "Recommended",
+                                            "@_numvotes": 624
+                                        },
+                                        {
+                                            "@_value": "Not Recommended",
+                                            "@_numvotes": 62
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_numplayers": 3,
+                                    "result": [
+                                        {
+                                            "@_value": "Best",
+                                            "@_numvotes": 539
+                                        },
+                                        {
+                                            "@_value": "Recommended",
+                                            "@_numvotes": 369
+                                        },
+                                        {
+                                            "@_value": "Not Recommended",
+                                            "@_numvotes": 26
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_numplayers": 4,
+                                    "result": [
+                                        {
+                                            "@_value": "Best",
+                                            "@_numvotes": 344
+                                        },
+                                        {
+                                            "@_value": "Recommended",
+                                            "@_numvotes": 440
+                                        },
+                                        {
+                                            "@_value": "Not Recommended",
+                                            "@_numvotes": 119
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_numplayers": "4+",
+                                    "result": [
+                                        {
+                                            "@_value": "Best",
+                                            "@_numvotes": 5
+                                        },
+                                        {
+                                            "@_value": "Recommended",
+                                            "@_numvotes": 41
+                                        },
+                                        {
+                                            "@_value": "Not Recommended",
+                                            "@_numvotes": 605
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@_name": "suggested_playerage",
+                            "@_title": "User Suggested Player Age",
+                            "@_totalvotes": 258,
+                            "results": [
+                                {
+                                    "result": [
+                                        {
+                                            "@_value": 2,
+                                            "@_numvotes": 4
+                                        },
+                                        {
+                                            "@_value": 3,
+                                            "@_numvotes": 0
+                                        },
+                                        {
+                                            "@_value": 4,
+                                            "@_numvotes": 0
+                                        },
+                                        {
+                                            "@_value": 5,
+                                            "@_numvotes": 0
+                                        },
+                                        {
+                                            "@_value": 6,
+                                            "@_numvotes": 0
+                                        },
+                                        {
+                                            "@_value": 8,
+                                            "@_numvotes": 5
+                                        },
+                                        {
+                                            "@_value": 10,
+                                            "@_numvotes": 39
+                                        },
+                                        {
+                                            "@_value": 12,
+                                            "@_numvotes": 74
+                                        },
+                                        {
+                                            "@_value": 14,
+                                            "@_numvotes": 116
+                                        },
+                                        {
+                                            "@_value": 16,
+                                            "@_numvotes": 15
+                                        },
+                                        {
+                                            "@_value": 18,
+                                            "@_numvotes": 2
+                                        },
+                                        {
+                                            "@_value": "21 and up",
+                                            "@_numvotes": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@_name": "language_dependence",
+                            "@_title": "Language Dependence",
+                            "@_totalvotes": 58,
+                            "results": [
+                                {
+                                    "result": [
+                                        {
+                                            "@_level": 1,
+                                            "@_value": "No necessary in-game text",
+                                            "@_numvotes": 1
+                                        },
+                                        {
+                                            "@_level": 2,
+                                            "@_value": "Some necessary text - easily memorized or small crib sheet",
+                                            "@_numvotes": 0
+                                        },
+                                        {
+                                            "@_level": 3,
+                                            "@_value": "Moderate in-game text - needs crib sheet or paste ups",
+                                            "@_numvotes": 2
+                                        },
+                                        {
+                                            "@_level": 4,
+                                            "@_value": "Extensive use of text - massive conversion needed to be playable",
+                                            "@_numvotes": 41
+                                        },
+                                        {
+                                            "@_level": 5,
+                                            "@_value": "Unplayable in another language",
+                                            "@_numvotes": 14
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "playingtime": [
+                        {
+                            "@_value": 120
+                        }
+                    ],
+                    "minplaytime": [
+                        {
+                            "@_value": 60
+                        }
+                    ],
+                    "maxplaytime": [
+                        {
+                            "@_value": 120
+                        }
+                    ],
+                    "minage": [
+                        {
+                            "@_value": 14
+                        }
+                    ],
+                    "link": [
+                        {
+                            "@_type": "boardgamecategory",
+                            "@_id": 1022,
+                            "@_value": "Adventure"
+                        },
+                        {
+                            "@_type": "boardgamecategory",
+                            "@_id": 1020,
+                            "@_value": "Exploration"
+                        },
+                        {
+                            "@_type": "boardgamecategory",
+                            "@_id": 1010,
+                            "@_value": "Fantasy"
+                        },
+                        {
+                            "@_type": "boardgamecategory",
+                            "@_id": 1046,
+                            "@_value": "Fighting"
+                        },
+                        {
+                            "@_type": "boardgamecategory",
+                            "@_id": 1047,
+                            "@_value": "Miniatures"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2689,
+                            "@_value": "Action Queue"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2839,
+                            "@_value": "Action Retrieval"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2018,
+                            "@_value": "Campaign / Battle Card Driven"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2857,
+                            "@_value": "Card Play Conflict Resolution"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2893,
+                            "@_value": "Communication Limits"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2023,
+                            "@_value": "Cooperative Game"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2854,
+                            "@_value": "Critical Hits and Failures"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 3004,
+                            "@_value": "Deck Construction"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2664,
+                            "@_value": "Deck, Bag, and Pool Building"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2676,
+                            "@_value": "Grid Movement"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2040,
+                            "@_value": "Hand Management"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2026,
+                            "@_value": "Hexagon Grid"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2824,
+                            "@_value": "Legacy Game"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2011,
+                            "@_value": "Modular Board"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2846,
+                            "@_value": "Once-Per-Game Abilities"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2822,
+                            "@_value": "Scenario / Mission / Campaign Game"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2020,
+                            "@_value": "Simultaneous Action Selection"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2819,
+                            "@_value": "Solo / Solitaire Game"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2027,
+                            "@_value": "Storytelling"
+                        },
+                        {
+                            "@_type": "boardgamemechanic",
+                            "@_id": 2015,
+                            "@_value": "Variable Player Powers"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 59218,
+                            "@_value": "Category: Dungeon Crawler"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 25158,
+                            "@_value": "Components: Miniatures"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 65191,
+                            "@_value": "Components: Multi-Use Cards"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 66335,
+                            "@_value": "Components: Standees"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 68438,
+                            "@_value": "Creatures: Demons"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 7005,
+                            "@_value": "Creatures: Dragons"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 5615,
+                            "@_value": "Creatures: Monsters"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 8374,
+                            "@_value": "Crowdfunding: Kickstarter"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 45610,
+                            "@_value": "Game: Gloomhaven"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 24281,
+                            "@_value": "Mechanism: Campaign Games"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 25404,
+                            "@_value": "Mechanism: Legacy"
+                        },
+                        {
+                            "@_type": "boardgamefamily",
+                            "@_id": 5666,
+                            "@_value": "Players: Games with Solitaire Rules"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 312632,
+                            "@_value": "Gloomhaven: Assault on the Morning Star (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 310777,
+                            "@_value": "Gloomhaven: Beyond the End of the World (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 312638,
+                            "@_value": "Gloomhaven: Curse of the Lost Cabal (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 250337,
+                            "@_value": "Gloomhaven: Forgotten Circles"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 312635,
+                            "@_value": "Gloomhaven: No Pun Included 2019 Kickstarter (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 298195,
+                            "@_value": "Gloomhaven: Return of the Lost Cabal (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 297586,
+                            "@_value": "Gloomhaven: Secrets of the Lost Cabal (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 226868,
+                            "@_value": "Gloomhaven: Solo Scenarios"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 310773,
+                            "@_value": "Gloomhaven: The Catacombs of Chaos (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 231934,
+                            "@_value": "Gloomhaven: The End of the World (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 300402,
+                            "@_value": "Gloomhaven: The Lucky Meeple (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameexpansion",
+                            "@_id": 310754,
+                            "@_value": "Gloomhaven: The Tower of Misfortune (Promo Scenario)"
+                        },
+                        {
+                            "@_type": "boardgameintegration",
+                            "@_id": 295770,
+                            "@_value": "Frosthaven"
+                        },
+                        {
+                            "@_type": "boardgameintegration",
+                            "@_id": 291457,
+                            "@_value": "Gloomhaven: Jaws of the Lion"
+                        },
+                        {
+                            "@_type": "boardgamedesigner",
+                            "@_id": 69802,
+                            "@_value": "Isaac Childres"
+                        },
+                        {
+                            "@_type": "boardgameartist",
+                            "@_id": 77084,
+                            "@_value": "Alexandr Elichev"
+                        },
+                        {
+                            "@_type": "boardgameartist",
+                            "@_id": 78961,
+                            "@_value": "Josh T. McDowell"
+                        },
+                        {
+                            "@_type": "boardgameartist",
+                            "@_id": 84269,
+                            "@_value": "Alvaro Nebot"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 27425,
+                            "@_value": "Cephalofair Games"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 4304,
+                            "@_value": "Albi"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 46179,
+                            "@_value": "Albi Polska"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 3475,
+                            "@_value": "Arclight"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 157,
+                            "@_value": "Asmodee"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 22380,
+                            "@_value": "Feuerland Spiele"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 15605,
+                            "@_value": "Galápagos Jogos"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 40478,
+                            "@_value": "Games Warehouse"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 8820,
+                            "@_value": "Gém Klub Kft."
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 18852,
+                            "@_value": "Hobby World"
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 8291,
+                            "@_value": "Korea Boardgames Co., Ltd."
+                        },
+                        {
+                            "@_type": "boardgamepublisher",
+                            "@_id": 23756,
+                            "@_value": "MYBG Co., Ltd."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

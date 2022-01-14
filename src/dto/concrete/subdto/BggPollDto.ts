@@ -1,4 +1,5 @@
-import { JsonAlias, JsonClassType, JsonProperty } from "jackson-js";
+import { JsonAlias, JsonClassType, JsonManagedReference, JsonProperty } from "jackson-js";
+import { BggPollResultDto } from "./BggPollResultDto";
 
 export class BggPollDto {
     @JsonProperty()
@@ -15,4 +16,10 @@ export class BggPollDto {
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_totalvotes"] })
     totalvotes!: string;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [Array, [BggPollResultDto]] })
+    @JsonManagedReference()
+    @JsonAlias({ values: ["results"] })
+    polls!: BggPollResultDto[]
 }
