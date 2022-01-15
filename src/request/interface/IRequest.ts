@@ -92,7 +92,7 @@ export interface IForumlistRequest extends IRequest, IRequestWithType<ForumlistT
      */
     id: number;
 
-    type: ForumlistType;
+    // type: ForumlistType;
 }
 
 export interface IForumRequest extends IRequest {

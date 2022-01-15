@@ -17,7 +17,7 @@ export class BggForumDto implements IBggDto {
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
     @JsonAlias({ values: ["@_noposting"] })
-    numposting!: number;
+    noposting!: number;
 
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
