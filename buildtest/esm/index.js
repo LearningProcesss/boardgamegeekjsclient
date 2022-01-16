@@ -2,5 +2,5 @@ import { BggClient } from 'boardgamegeekclient'
 
 const client = BggClient.Create()
 
-client.thing.query({ id: 331787 }).then(result => JSON.stringify(result, null, 4))
+client.thing.query({ id: 331787 }).then(result => console.log(JSON.stringify(result, null, 4)))
 
