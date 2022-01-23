@@ -21,5 +21,5 @@ export class BggPollDto {
     @JsonClassType({ type: () => [Array, [BggPollResultDto]] })
     @JsonManagedReference()
     @JsonAlias({ values: ["results"] })
-    polls!: BggPollResultDto[]
+    results!: BggPollResultDto[]
 }

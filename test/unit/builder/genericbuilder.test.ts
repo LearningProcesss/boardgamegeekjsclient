@@ -158,7 +158,7 @@ describe('GeneriBuilder', () => {
                 username: 'mattiabanned'
             }
 
-            const urlExpected = 'id=174430&username=mattiabanned&page=2&type=thing'
+            const urlExpected = 'id=174430&username=mattiabanned'
 
             const url = builder.build(request);
 

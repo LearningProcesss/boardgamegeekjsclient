@@ -1,0 +1,1 @@
+export { TextResponseByEndpoint, WriteXmlParseByEndpoint, ReflectionType } from './fixturesReader'

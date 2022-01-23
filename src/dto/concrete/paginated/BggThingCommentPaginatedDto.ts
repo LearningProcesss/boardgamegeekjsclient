@@ -1,4 +1,5 @@
 import { JsonAlias, JsonClassType, JsonManagedReference, JsonProperty } from "jackson-js";
+import { BggThingCommentDto } from "./BggThingCommentDto";
 
 export class BggThingCommentPaginatedDto {
     @JsonProperty()
@@ -16,26 +17,4 @@ export class BggThingCommentPaginatedDto {
     @JsonManagedReference()
     @JsonAlias({ values: ["comment"] })
     items!: BggThingCommentDto[];
-}
-
-class BggThingCommentDto {
-    @JsonProperty()
-    @JsonClassType({ type: () => [String] })
-    @JsonAlias({ values: ["@_value"] })
-    value!: string;
-
-    @JsonProperty()
-    @JsonClassType({ type: () => [String] })
-    @JsonAlias({ values: ["@_username"] })
-    username!: string;
-
-    @JsonProperty()
-    @JsonClassType({ type: () => [Number] })
-    @JsonAlias({ values: ["@_id"] })
-    id!: number;
-
-    @JsonProperty()
-    @JsonClassType({ type: () => [Number] })
-    @JsonAlias({ values: ["@_rating"] })
-    rating!: number;
 }

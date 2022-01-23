@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <item type="boardgame" id="174430">
+    <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+    <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+    <name type="primary" sortindex="1" value="Gloomhaven" />
+    <name type="alternate" sortindex="1" value="Gloomhaven, aventures à Havrenuit" />
+    <name type="alternate" sortindex="1" value="Gloomhaven: Мрачная Гавань" />
+    <name type="alternate" sortindex="1" value="Homályrév" />
+    <name type="alternate" sortindex="1" value="グルームヘイヴン" />
+    <name type="alternate" sortindex="1" value="幽港迷城" />
+    <name type="alternate" sortindex="1" value="글룸헤이븐" />
+    <description>Gloomhaven  is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.&amp;#10;&amp;#10;This is a game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a &amp;ldquo;Choose Your Own Adventure&amp;rdquo; book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.&amp;#10;&amp;#10;Each turn, a player chooses two cards to play out of their hand. The number on the top card determines their initiative for the round. Each card also has a top and bottom power, and when it is a player&amp;rsquo;s turn in the initiative order, they determine whether to use the top power of one card and the bottom power of the other, or vice-versa. Players must be careful, though, because over time they will permanently lose cards from their hands. If they take too long to clear a dungeon, they may end up exhausted and be forced to retreat.&amp;#10;&amp;#10;</description>
+    <yearpublished value="2017" />
+    <minplayers value="1" />
+    <maxplayers value="4" />
+    <poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1271">
+      <results numplayers="1">
+        <result value="Best" numvotes="128" />
+        <result value="Recommended" numvotes="545" />
+        <result value="Not Recommended" numvotes="291" />
+      </results>
+      <results numplayers="2">
+        <result value="Best" numvotes="301" />
+        <result value="Recommended" numvotes="706" />
+        <result value="Not Recommended" numvotes="75" />
+      </results>
+      <results numplayers="3">
+        <result value="Best" numvotes="613" />
+        <result value="Recommended" numvotes="426" />
+        <result value="Not Recommended" numvotes="31" />
+      </results>
+      <results numplayers="4">
+        <result value="Best" numvotes="399" />
+        <result value="Recommended" numvotes="490" />
+        <result value="Not Recommended" numvotes="142" />
+      </results>
+      <results numplayers="4+">
+        <result value="Best" numvotes="6" />
+        <result value="Recommended" numvotes="44" />
+        <result value="Not Recommended" numvotes="699" />
+      </results>
+    </poll>
+    <playingtime value="120" />
+    <minplaytime value="60" />
+    <maxplaytime value="120" />
+    <minage value="14" />
+    <poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="283">
+      <results>
+        <result value="2" numvotes="4" />
+        <result value="3" numvotes="0" />
+        <result value="4" numvotes="0" />
+        <result value="5" numvotes="0" />
+        <result value="6" numvotes="0" />
+        <result value="8" numvotes="5" />
+        <result value="10" numvotes="42" />
+        <result value="12" numvotes="81" />
+        <result value="14" numvotes="129" />
+        <result value="16" numvotes="17" />
+        <result value="18" numvotes="2" />
+        <result value="21 and up" numvotes="3" />
+      </results>
+    </poll>
+    <poll name="language_dependence" title="Language Dependence" totalvotes="59">
+      <results>
+        <result level="1" value="No necessary in-game text" numvotes="1" />
+        <result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+        <result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="2" />
+        <result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="42" />
+        <result level="5" value="Unplayable in another language" numvotes="14" />
+      </results>
+    </poll>
+    <!-- <link type="boardgamecategory" id="1022" value="Adventure" />
+    <link type="boardgamecategory" id="1020" value="Exploration" />
+    <link type="boardgamecategory" id="1010" value="Fantasy" />
+    <link type="boardgamecategory" id="1046" value="Fighting" />
+    <link type="boardgamecategory" id="1047" value="Miniatures" />
+    <link type="boardgamemechanic" id="2689" value="Action Queue" />
+    <link type="boardgamemechanic" id="2839" value="Action Retrieval" />
+    <link type="boardgamemechanic" id="2018" value="Campaign / Battle Card Driven" />
+    <link type="boardgamemechanic" id="2857" value="Card Play Conflict Resolution" />
+    <link type="boardgamemechanic" id="2893" value="Communication Limits" />
+    <link type="boardgamemechanic" id="2023" value="Cooperative Game" />
+    <link type="boardgamemechanic" id="2854" value="Critical Hits and Failures" />
+    <link type="boardgamemechanic" id="3004" value="Deck Construction" />
+    <link type="boardgamemechanic" id="2664" value="Deck, Bag, and Pool Building" />
+    <link type="boardgamemechanic" id="2676" value="Grid Movement" />
+    <link type="boardgamemechanic" id="2040" value="Hand Management" />
+    <link type="boardgamemechanic" id="2026" value="Hexagon Grid" />
+    <link type="boardgamemechanic" id="2824" value="Legacy Game" />
+    <link type="boardgamemechanic" id="2011" value="Modular Board" />
+    <link type="boardgamemechanic" id="2846" value="Once-Per-Game Abilities" />
+    <link type="boardgamemechanic" id="2822" value="Scenario / Mission / Campaign Game" />
+    <link type="boardgamemechanic" id="2020" value="Simultaneous Action Selection" />
+    <link type="boardgamemechanic" id="2819" value="Solo / Solitaire Game" />
+    <link type="boardgamemechanic" id="2027" value="Storytelling" />
+    <link type="boardgamemechanic" id="2015" value="Variable Player Powers" />
+    <link type="boardgamefamily" id="59218" value="Category: Dungeon Crawler" />
+    <link type="boardgamefamily" id="25158" value="Components: Miniatures" />
+    <link type="boardgamefamily" id="65191" value="Components: Multi-Use Cards" />
+    <link type="boardgamefamily" id="66335" value="Components: Standees" />
+    <link type="boardgamefamily" id="68438" value="Creatures: Demons" />
+    <link type="boardgamefamily" id="7005" value="Creatures: Dragons" />
+    <link type="boardgamefamily" id="5615" value="Creatures: Monsters" />
+    <link type="boardgamefamily" id="8374" value="Crowdfunding: Kickstarter" />
+    <link type="boardgamefamily" id="73596" value="Digital Implementations: TableTop Simulator Mod ( TTS)" />
+    <link type="boardgamefamily" id="45610" value="Game: Gloomhaven" />
+    <link type="boardgamefamily" id="24281" value="Mechanism: Campaign Games" />
+    <link type="boardgamefamily" id="25404" value="Mechanism: Legacy" />
+    <link type="boardgamefamily" id="72224" value="Misc: Limited replayability" />
+    <link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules" />
+    <link type="boardgameexpansion" id="312632" value="Gloomhaven: Assault on the Morning Star (Promo Scenario)" />
+    <link type="boardgameexpansion" id="310777" value="Gloomhaven: Beyond the End of the World (Promo Scenario)" />
+    <link type="boardgameexpansion" id="250337" value="Gloomhaven: Forgotten Circles" />
+    <link type="boardgameexpansion" id="312635" value="Gloomhaven: Memories of Gloomhaven (Promo Scenario)" />
+    <link type="boardgameexpansion" id="298195" value="Gloomhaven: Return of the Lost Cabal (Promo Scenario)" />
+    <link type="boardgameexpansion" id="297586" value="Gloomhaven: Secrets of the Lost Cabal (Promo Scenario)" />
+    <link type="boardgameexpansion" id="226868" value="Gloomhaven: Solo Scenarios" />
+    <link type="boardgameexpansion" id="310773" value="Gloomhaven: The Catacombs of Chaos (Promo Scenario)" />
+    <link type="boardgameexpansion" id="231934" value="Gloomhaven: The End of the World (Promo Scenario)" />
+    <link type="boardgameexpansion" id="300402" value="Gloomhaven: The Lucky Meeple (Promo Scenario)" />
+    <link type="boardgameexpansion" id="310754" value="Gloomhaven: The Tower of Misfortune (Promo Scenario)" />
+    <link type="boardgameexpansion" id="312638" value="Gloomhaven: Twilight of the Lost Cabal (Promo Scenario)" />
+    <link type="boardgameintegration" id="295770" value="Frosthaven" />
+    <link type="boardgameintegration" id="291457" value="Gloomhaven: Jaws of the Lion" />
+    <link type="boardgamedesigner" id="69802" value="Isaac Childres" />
+    <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+    <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+    <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+    <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+    <link type="boardgamepublisher" id="4304" value="Albi" />
+    <link type="boardgamepublisher" id="46179" value="Albi Polska" />
+    <link type="boardgamepublisher" id="3475" value="Arclight" />
+    <link type="boardgamepublisher" id="157" value="Asmodee" />
+    <link type="boardgamepublisher" id="22380" value="Feuerland Spiele" />
+    <link type="boardgamepublisher" id="15605" value="Galápagos Jogos" />
+    <link type="boardgamepublisher" id="40478" value="Games Warehouse" />
+    <link type="boardgamepublisher" id="8820" value="Gém Klub Kft." />
+    <link type="boardgamepublisher" id="18852" value="Hobby World" />
+    <link type="boardgamepublisher" id="8291" value="Korea Boardgames Co., Ltd." />
+    <link type="boardgamepublisher" id="23756" value="MYBG Co., Ltd." /> -->
+    <videos total="1045">
+      <video id="361996" title="?Campaña GLOOMHAVEN? Capítulo 9" category="session" language="Spanish" link="http://www.youtube.com/watch?v=Pc42jmx5PmA" username="Gostilian" userid="266115" postdate="2022-01-20T06:39:40-06:00" />
+      <video id="361802" title="How Stuff Fits: Gloomhaven by The Broken Token" category="instructional" language="English" link="http://www.youtube.com/watch?v=A70_FqnST_o" username="Turtleman951" userid="837852" postdate="2022-01-18T21:26:54-06:00" />
+      <video id="361158" title="Gloomhaven Digital - Capítulo 8" category="session" language="Spanish" link="http://www.youtube.com/watch?v=MiC1EUZKfYg" username="Gostilian" userid="266115" postdate="2022-01-15T04:21:06-06:00" />
+      <video id="361157" title="Gloomhaven Digital - Capítulo 7" category="session" language="Spanish" link="http://www.youtube.com/watch?v=ilPzd6NkpNs" username="Gostilian" userid="266115" postdate="2022-01-15T04:20:34-06:00" />
+      <video id="361156" title="Gloomhaven Digital - Capítulo 6" category="session" language="Spanish" link="http://www.youtube.com/watch?v=R3TTGIjz28I" username="Gostilian" userid="266115" postdate="2022-01-15T04:20:05-06:00" />
+      <video id="361155" title="Gloomhaven Digital - Capítulo 5" category="session" language="Spanish" link="http://www.youtube.com/watch?v=GoHfVRnXuoQ" username="Gostilian" userid="266115" postdate="2022-01-15T04:19:27-06:00" />
+      <video id="361154" title="Gloomhaven Digital - Capítulo 4" category="session" language="Spanish" link="http://www.youtube.com/watch?v=hJDsbcXMqAU" username="Gostilian" userid="266115" postdate="2022-01-15T04:18:51-06:00" />
+      <video id="361153" title="Gloomhaven Digital - Capítulo 3" category="session" language="Spanish" link="http://www.youtube.com/watch?v=f-TGaDePUmg" username="Gostilian" userid="266115" postdate="2022-01-15T04:18:11-06:00" />
+      <video id="361152" title="Gloomhaven Digital - Capítulo 2" category="session" language="Spanish" link="http://www.youtube.com/watch?v=bPxzS5H__9c" username="Gostilian" userid="266115" postdate="2022-01-15T04:17:43-06:00" />
+      <video id="361151" title="Gloomhaven Digital - Capítulo 1" category="session" language="Spanish" link="http://www.youtube.com/watch?v=F-mCEdEguB4" username="Gostilian" userid="266115" postdate="2022-01-15T04:16:46-06:00" />
+      <video id="359108" title="Canje Plays Gloomhaven Digital Co-Op" category="session" language="English" link="http://www.youtube.com/watch?v=eKKWsbSz_5k" username="seroth77" userid="1863907" postdate="2022-01-01T06:56:55-06:00" />
+      <video id="358741" title="5 Quick Strategy Tips for Gloomhaven - TCbH&#039;s Cardboard Academy " category="instructional" language="English" link="http://www.youtube.com/watch?v=bVts2dyzfl4" username="jeddy lee" userid="460040" postdate="2021-12-28T14:22:59-06:00" />
+      <video id="358623" title="Can we play ALL of Gloomhaven in 1 week?" category="session" language="English" link="http://www.youtube.com/watch?v=dHQAZcXYd08" username="TheBrothersMurph" userid="1653529" postdate="2021-12-27T12:59:43-06:00" />
+      <video id="356728" title="Desks and Dorks! The Dork Goes on an Adventure | Gloomhaven Collection Review" category="review" language="English" link="http://www.youtube.com/watch?v=LwDdJEPBWVU" username="DesksandDorks" userid="2708402" postdate="2021-12-12T19:42:46-06:00" />
+      <video id="356354" title="The Gloomhaven Organizer By TBT" category="instructional" language="English" link="http://www.youtube.com/watch?v=7M_OrihhUlE" username="Turtleman951" userid="837852" postdate="2021-12-09T15:36:49-06:00" />
+    </videos>
+    <versions>
+      <item type="boardgameversion" id="460243">
+        <thumbnail>https://cf.geekdo-images.com/-FscE2pbauFHXxXCAPQHug__thumb/img/q21ULrNeQxFMTk_5jCtifq02HoI=/fit-in/200x150/filters:strip_icc()/pic4780773.png</thumbnail>
+        <image>https://cf.geekdo-images.com/-FscE2pbauFHXxXCAPQHug__original/img/19NU9tzaXqLqqqGGH_6Ax-rC-iE=/0x0/filters:format(png)/pic4780773.png</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Chinese edition" />
+        <link type="boardgamepublisher" id="40478" value="Games Warehouse" />
+        <link type="boardgamepublisher" id="23756" value="MYBG Co., Ltd." />
+        <yearpublished value="2019" />
+        <productcode value="" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="18.9598" />
+        <link type="language" id="2181" value="Chinese" />
+      </item>
+      <item type="boardgameversion" id="482203">
+        <thumbnail>https://cf.geekdo-images.com/F1zRcQjx4KutleETnpsbSQ__thumb/img/RO6AmgRF5vaajfEql9xgRvGepfg=/fit-in/200x150/filters:strip_icc()/pic6366365.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/F1zRcQjx4KutleETnpsbSQ__original/img/FdW4yu8KNtTpEdXHZSo9BbzWmTI=/0x0/filters:format(jpeg)/pic6366365.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Czech edition" />
+        <link type="boardgamepublisher" id="4304" value="Albi" />
+        <yearpublished value="2019" />
+        <productcode value="" />
+        <width value="0" />
+        <length value="0" />
+        <depth value="0" />
+        <weight value="0" />
+        <link type="language" id="2180" value="Czech" />
+      </item>
+      <item type="boardgameversion" id="479734">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition, fifth printing" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+        <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+        <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+        <yearpublished value="2019" />
+        <productcode value="CPH0201" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="21.6053" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="331120">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition, first printing" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <yearpublished value="2017" />
+        <productcode value="CPH0201" />
+        <width value="16" />
+        <length value="11.5" />
+        <depth value="7.5" />
+        <weight value="19" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="451774">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition, fourth printing" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <yearpublished value="2018" />
+        <productcode value="CPH0201" />
+        <width value="16.1417" />
+        <length value="11.5748" />
+        <depth value="7.55906" />
+        <weight value="0" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="591864">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition, ninth printing" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+        <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+        <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+        <yearpublished value="2020" />
+        <productcode value="019962194719" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="0" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="351462">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition, second printing" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+        <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+        <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+        <yearpublished value="2017" />
+        <productcode value="" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="19" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="384592">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition, second printing (with Solo Scenarios)" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+        <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+        <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+        <yearpublished value="2017" />
+        <productcode value="CPH0210" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="19" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="520054">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition, sixth printing" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+        <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+        <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+        <yearpublished value="2020" />
+        <productcode value="" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="0" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="481236">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition, third printing" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <yearpublished value="2018" />
+        <productcode value="" />
+        <width value="16" />
+        <length value="11.5" />
+        <depth value="7.5" />
+        <weight value="0" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="268248">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English miniatures edition" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <yearpublished value="2017" />
+        <productcode value="CPH0204" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="19" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="331119">
+        <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="English standees edition" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <yearpublished value="2017" />
+        <productcode value="CPH0201" />
+        <width value="16" />
+        <length value="11.5" />
+        <depth value="7.5" />
+        <weight value="19" />
+        <link type="language" id="2184" value="English" />
+      </item>
+      <item type="boardgameversion" id="475996">
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="French edition" />
+        <link type="boardgamepublisher" id="157" value="Asmodee" />
+        <yearpublished value="2019" />
+        <productcode value="" />
+        <width value="0" />
+        <length value="0" />
+        <depth value="0" />
+        <weight value="0" />
+        <link type="language" id="2187" value="French" />
+      </item>
+      <item type="boardgameversion" id="399953">
+        <thumbnail>https://cf.geekdo-images.com/F5Pp4c30mMwEOo_qTdQqkA__thumb/img/wY7ypqdghzONwNzpbSomzy8eX28=/fit-in/200x150/filters:strip_icc()/pic4162536.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/F5Pp4c30mMwEOo_qTdQqkA__original/img/oc_N78LgtO9KV-iBd70omgtHejY=/0x0/filters:format(jpeg)/pic4162536.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="German first edition" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <link type="boardgamepublisher" id="22380" value="Feuerland Spiele" />
+        <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+        <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+        <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+        <yearpublished value="2018" />
+        <productcode value="" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="0" />
+        <link type="language" id="2188" value="German" />
+      </item>
+      <item type="boardgameversion" id="466963">
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="German second edition" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <link type="boardgamepublisher" id="22380" value="Feuerland Spiele" />
+        <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+        <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+        <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+        <yearpublished value="2019" />
+        <productcode value="" />
+        <width value="0" />
+        <length value="0" />
+        <depth value="0" />
+        <weight value="0" />
+        <link type="language" id="2188" value="German" />
+      </item>
+      <item type="boardgameversion" id="596972">
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="German third edition" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <link type="boardgamepublisher" id="22380" value="Feuerland Spiele" />
+        <yearpublished value="2020" />
+        <productcode value="" />
+        <width value="11.5" />
+        <length value="16" />
+        <depth value="7.5" />
+        <weight value="0" />
+        <link type="language" id="2188" value="German" />
+      </item>
+      <item type="boardgameversion" id="441836">
+        <thumbnail>https://cf.geekdo-images.com/-kwTbAYnheusSGa3pKZ6jg__thumb/img/Ki1kfkuDTHAXyY6H57nlHgMMmu8=/fit-in/200x150/filters:strip_icc()/pic5228234.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/-kwTbAYnheusSGa3pKZ6jg__original/img/nsAqJxgAKJA1AY-UVJyLRhUaNYY=/0x0/filters:format(jpeg)/pic5228234.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Hungarian edition" />
+        <link type="boardgamepublisher" id="8820" value="Gém Klub Kft." />
+        <yearpublished value="2019" />
+        <productcode value="" />
+        <width value="16" />
+        <length value="11.5" />
+        <depth value="7.5" />
+        <weight value="0" />
+        <link type="language" id="2191" value="Hungarian" />
+      </item>
+      <item type="boardgameversion" id="448521">
+        <thumbnail>https://cf.geekdo-images.com/muHI8OKuXqj_nFgwfwE1Cg__thumb/img/ypXwEcL_kwQ76Hvqo6M0GVAy2JY=/fit-in/200x150/filters:strip_icc()/pic6164676.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/muHI8OKuXqj_nFgwfwE1Cg__original/img/YifnItDahAn1X9FgRH7Bc_TYkOI=/0x0/filters:format(jpeg)/pic6164676.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Italian edition" />
+        <link type="boardgamepublisher" id="157" value="Asmodee" />
+        <yearpublished value="2020" />
+        <productcode value="" />
+        <width value="0" />
+        <length value="0" />
+        <depth value="0" />
+        <weight value="0" />
+        <link type="language" id="2193" value="Italian" />
+      </item>
+      <item type="boardgameversion" id="554544">
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Japanese edition" />
+        <link type="boardgamepublisher" id="3475" value="Arclight" />
+        <link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+        <yearpublished value="2019" />
+        <productcode value="" />
+        <width value="11.811" />
+        <length value="16.1417" />
+        <depth value="7.48031" />
+        <weight value="0" />
+        <link type="language" id="2194" value="Japanese" />
+      </item>
+      <item type="boardgameversion" id="455813">
+        <thumbnail>https://cf.geekdo-images.com/udOip6FFDVAWwWTLX2kq2Q__thumb/img/qGsYhW8CWyF-O1j2Fs3XP4e6qBU=/fit-in/200x150/filters:strip_icc()/pic4986163.png</thumbnail>
+        <image>https://cf.geekdo-images.com/udOip6FFDVAWwWTLX2kq2Q__original/img/jSZMlTQ8bcvo5JpUGcVPOCqUkWU=/0x0/filters:format(png)/pic4986163.png</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Korean edition" />
+        <link type="boardgamepublisher" id="8291" value="Korea Boardgames Co., Ltd." />
+        <yearpublished value="2020" />
+        <productcode value="" />
+        <width value="0" />
+        <length value="0" />
+        <depth value="0" />
+        <weight value="0" />
+        <link type="language" id="2195" value="Korean" />
+      </item>
+      <item type="boardgameversion" id="424523">
+        <thumbnail>https://cf.geekdo-images.com/OpNha0U5Q-zoy5x1UQUi4g__thumb/img/izvyngFgS6loXrHiSllZe98vjiE=/fit-in/200x150/filters:strip_icc()/pic4994169.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/OpNha0U5Q-zoy5x1UQUi4g__original/img/LwWWDwftx_a_KaZDX5dBpJW5S4c=/0x0/filters:format(jpeg)/pic4994169.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Polish edition" />
+        <link type="boardgamepublisher" id="4304" value="Albi" />
+        <yearpublished value="2019" />
+        <productcode value="" />
+        <width value="16" />
+        <length value="11.5" />
+        <depth value="7.5" />
+        <weight value="19" />
+        <link type="language" id="2199" value="Polish" />
+      </item>
+      <item type="boardgameversion" id="507879">
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Portuguese edition" />
+        <link type="boardgamepublisher" id="15605" value="Galápagos Jogos" />
+        <link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+        <link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+        <link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+        <yearpublished value="2020" />
+        <productcode value="" />
+        <width value="16.1417" />
+        <length value="11.811" />
+        <depth value="7.48031" />
+        <weight value="22.0462" />
+        <link type="language" id="2200" value="Portuguese" />
+      </item>
+      <item type="boardgameversion" id="388684">
+        <thumbnail>https://cf.geekdo-images.com/-H30MgGVk0hcdCDpGT4_gQ__thumb/img/_Nx6SciYWb6l3yFOF09FOpz8liw=/fit-in/200x150/filters:strip_icc()/pic4429564.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/-H30MgGVk0hcdCDpGT4_gQ__original/img/dalVMioqeqRfJwTprET52pHU9PI=/0x0/filters:format(jpeg)/pic4429564.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Russian edition" />
+        <link type="boardgamepublisher" id="18852" value="Hobby World" />
+        <yearpublished value="2018" />
+        <productcode value="" />
+        <width value="16" />
+        <length value="11.5" />
+        <depth value="7.5" />
+        <weight value="19" />
+        <link type="language" id="2202" value="Russian" />
+      </item>
+      <item type="boardgameversion" id="447572">
+        <thumbnail>https://cf.geekdo-images.com/OpNha0U5Q-zoy5x1UQUi4g__thumb/img/izvyngFgS6loXrHiSllZe98vjiE=/fit-in/200x150/filters:strip_icc()/pic4994169.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/OpNha0U5Q-zoy5x1UQUi4g__original/img/LwWWDwftx_a_KaZDX5dBpJW5S4c=/0x0/filters:format(jpeg)/pic4994169.jpg</image>
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Spanish edition" />
+        <link type="boardgamepublisher" id="157" value="Asmodee" />
+        <yearpublished value="2019" />
+        <productcode value="CPHGH01ES" />
+        <width value="7.48031" />
+        <length value="16.2008" />
+        <depth value="11.811" />
+        <weight value="20.2825" />
+        <link type="language" id="2203" value="Spanish" />
+      </item>
+      <item type="boardgameversion" id="569024">
+        <link type="boardgameversion" id="174430" value="Gloomhaven" inbound="true"/>
+        <name type="primary" sortindex="1" value="Spanish second edition" />
+        <link type="boardgamepublisher" id="157" value="Asmodee" />
+        <yearpublished value="2021" />
+        <productcode value="CPHGH01ES" />
+        <width value="0" />
+        <length value="0" />
+        <depth value="0" />
+        <weight value="0" />
+        <link type="language" id="2203" value="Spanish" />
+      </item>
+    </versions>
+    <comments page="1" totalitems="8621">
+      <comment username="-Johnny-" rating="N/A" value="Cons:
+-10/10 fiddliness
+-The time investment is ridiculous.
+-The monster AI system is very messy &amp; unintuitive. 20 games in, we were still checking the rulebook constantly.
+-Play patterns can be repetitive.
+-It&apos;s very hard to keep track of the campaign story (&quot;what is there at the Desecrated Crypt? Where do we have to go to fight the necromancer?&quot;).
+
+Pros:
+-I keep wanting to play." />
+      <comment username="-mIDE-" rating="9" value="Kickstarter (Estimated delivery: May 2016)" />
+      <comment username="0 1 1 2 3 5 8" rating="N/A" value="If it&apos;s half as good as Forge War..." />
+      <comment username="0stuart0" rating="10" value="Best and most addictive coop game I’ve ever played. Desperately, pondering over moves, cards, levelling up, etc. in my spare time. And not just me but also the other 3 members of my mercenary party :)" />
+      <comment username="1 Family Meeple" rating="5" value="[IMG]https://cf.geekdo-static.com/mbs/mb_17587_1.png[/IMG] 
+
+Gloomhaven (second printing): BASE GAME
+Gloomhaven:  Forgotten Circles Expansion
+Gloomhaven:  Removable Sticker Set
+Gloomhaven:  Forgotten Circles (Removable Sticker Set)
+Gloomhaven:  METAL COIN UPGRADE" />
+      <comment username="1000rpm" rating="7" value="After one play, not completing a dungeon I’m seeing a decent tactical RPG, but struggling to see the #1 game.
+2nd session, one big fight took up the whole 3 hour session. Fun, but slow." />
+      <comment username="11celle" rating="9" value="This game is a beast.
+So far my group has only played 3 times, and we have loved every minute of it. The monster AI is actually good, and challenging, while not entirely over whelming. The art is great, the minis are amazing, and I love the legacy aspect of it (though instead of ripping up pieces, we made a R.I.P bag to put in cards that we were done with, and get the removable sticker set, so if we ever decide to play again or pass on the game, its all there). 
+
+My only problem, after purchasing this beat of a game, I found that there was not room to properly store all the pieces in the box without just dumping them in and hoping I could find the pieces I needed within a reasonable time. So off to the bait and tackle section of Walmart to get some off brand Plano boxes. 
+( For those wondering, I Pretty much just followed this thread https://boardgamegeek.com/thread/1726878/yss-yet-another-storage-solution )
+
+All in all, amazing game, and 100%" />
+      <comment username="13inha" rating="N/A" value="G" />
+      <comment username="1arska" rating="9.5" value="People are talking a lot of box size, but there&apos;s a lot of content for gameplay and it&apos;s not even filled much of miniature mess, instead there&apos;s dozens of cards, tokens, cardboards and other gameplay stuff in good price. That&apos;s why you might need insert solution for content. You will spend a lot of time with this. My gaming group spend already one year (once per week), and there&apos;s still much for explore. And still learning rules, though main mechanisms are simple. You need gaming group with same mates all the campaign, but it&apos;s possible for solo; however, I would recommend to find other game for solo play, for example maybe Mage Knight or 7th Continent." />
+      <comment username="1hooman" rating="N/A" value="2nd KS" />
+    </comments>
+    <statistics page="1">
+      <ratings >
+        <usersrated value="48234" />
+        <average value="8.74272" />
+        <bayesaverage value="8.51049" />
+        <ranks>
+          <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="1" bayesaverage="8.51049" />
+          <rank type="family" id="5496" name="thematic" friendlyname="Thematic Rank" value="1" bayesaverage="8.48792" />
+          <rank type="family" id="5497" name="strategygames" friendlyname="Strategy Game Rank" value="1" bayesaverage="8.47681" />
+        </ranks>
+        <stddev value="1.64041" />
+        <!-- <median value="0" /> -->
+        <owned value="78372" />
+        <trading value="660" />
+        <wanting value="1347" />
+        <wishing value="17741" />
+        <numcomments value="8615" />
+        <numweights value="2079" />
+        <averageweight value="3.8696" />
+      </ratings>
+    </statistics>
+    <marketplacelistings>
+      <listing>
+        <listdate value="Sat, 25 Feb 2017 07:28:00 +0000" />
+        <price currency="CAD" value="350.00" />
+        <condition value="new" />
+        <notes value="Would prefer to avoid shipping (since it is such a huge heavy box and shipping costs are a loss for everyone).  Local pick up in the Vancouver area preferred but willing to ship if requested.&amp;#10;Shipping would be from V3K 1V8 and box is: 46.2 x 34.8 x 26.2cm and 9.7kg" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1145418" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 14 Dec 2017 18:57:04 +0000" />
+        <price currency="USD" value="300.00" />
+        <condition value="new" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1371509" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 22 Dec 2017 19:51:51 +0000" />
+        <price currency="USD" value="360.00" />
+        <condition value="new" />
+        <notes value="Brand New Kickstarter edition.&amp;#10;&amp;#10;This is 22 lbs. of gaming goodness. This game is HUGE!" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1380179" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 18 Jan 2018 23:16:33 +0000" />
+        <price currency="EUR" value="139.90" />
+        <condition value="new" />
+        <notes value="Second printing/edition - retail edition (it does NOT include the Solo Scenarios - but they are free to download from the internet).&amp;#10;New from factory, never opened.&amp;#10;&amp;#10;Weight with packaging included: 9,9 kg&amp;#10;Check my shipping cost for 5-10kg to your country.&amp;#10;Shipment expedition is made in 24 hours after payment." />
+        <link href="https://boardgamegeek.com/geekmarket/product/1400133" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 15 Apr 2018 17:59:30 +0000" />
+        <price currency="USD" value="250.00" />
+        <condition value="new" />
+        <notes value="Unopened Gloomhaven + removable sticker set (opened, but not used) for additional gameplays.&amp;#10;&amp;#10;Prefer to deliver in or around San Francisco, but open to shipping.&amp;#10;&amp;#10;Paypal, cash or Venmo ok." />
+        <link href="https://boardgamegeek.com/geekmarket/product/1468042" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 30 May 2018 23:04:24 +0000" />
+        <price currency="USD" value="300.00" />
+        <condition value="new" />
+        <notes value="Original retail version, first printing, brand new unopened" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1503303" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 01 Jun 2018 11:51:37 +0000" />
+        <price currency="AUD" value="170.00" />
+        <condition value="new" />
+        <notes value="1st edition kickstarter" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1504874" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 20 Jun 2018 12:04:47 +0000" />
+        <price currency="EUR" value="155.00" />
+        <condition value="new" />
+        <notes value="Postage within Ireland is 10 euro. UK is 16 euro. Rest of the world, well, very expensive sorry, this is a heavy game and irish post is pricy for big hefty parcels... I'll be happy to give a quote if asked." />
+        <link href="https://boardgamegeek.com/geekmarket/product/1519583" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 16 Jul 2018 13:26:56 +0000" />
+        <price currency="EUR" value="209.00" />
+        <condition value="new" />
+        <notes value="New as it comes from the Editor&amp;#10;Retail version 2018&amp;#10;paypal add 4%&amp;#10;&amp;#10;THE GAME WILL BE SHIPPED WITH A DOUBLE PACKAGE TO AVOID ANY DAMAGE!  =)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1548437" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 12 Sep 2018 17:58:23 +0000" />
+        <price currency="USD" value="140.00" />
+        <condition value="likenew" />
+        <notes value="Organized and sorted using FOUR Plano boxes ($30 value), but never been played. All components are present and unmodified, save for 2 stickers which are pre-game setup for the first scenario." />
+        <link href="https://boardgamegeek.com/geekmarket/product/1591679" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 14 Sep 2018 10:31:56 +0000" />
+        <price currency="EUR" value="180.00" />
+        <condition value="likenew" />
+        <notes value="it is kickstarter edition 2017 completed with solo scenarios&amp;#10;&amp;#10;it is new and never played.&amp;#10;&amp;#10;just opened in order to check integrity and I've ordered and received some parts that were not good&amp;#10;&amp;#10;shipment costs to your charge" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1592743" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 06 Dec 2018 04:50:54 +0000" />
+        <price currency="USD" value="175.00" />
+        <condition value="new" />
+        <notes value="Still factory sealed, never unboxed." />
+        <link href="https://boardgamegeek.com/geekmarket/product/1692643" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 25 Jan 2019 13:53:56 +0000" />
+        <price currency="USD" value="115.00" />
+        <condition value="new" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1743900" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 18 Feb 2019 13:13:52 +0000" />
+        <price currency="EUR" value="154.99" />
+        <condition value="new" />
+        <notes value="Full list https://www.boardgamegeek.com/geekmarket/user/karadoc&amp;#10;Shipping Information&amp;#10;&amp;#10;Belgium 6 &amp;#226;&amp;#130;&amp;#172;&amp;#10;Netherlands/Luxembourg 10 &amp;#226;&amp;#130;&amp;#172;&amp;#10;Other European Countries 15 &amp;#226;&amp;#130;&amp;#172;&amp;#10;Other continents please reuqest your shipping quote&amp;#10;&amp;#10;We can send a payment link so you can easily pay with all credit cards&amp;#10;Bank Transfer to BNP Paribas 001-4570423-53&amp;#10;Paypal address: paypal@outpost.be pay as friends and family, otherwise add 4% fee'sBank information for payments form outside Belgium&amp;#10;IBAN BE53001457042353 BIC GEBABEBB&amp;#10;&amp;#10;&amp;#10;Full list https://www.boardgamegeek.com/geekmarket/user/karadoc" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1763666" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 03 Mar 2019 22:17:25 +0000" />
+        <price currency="EUR" value="170.00" />
+        <condition value="good" />
+        <notes value="Greetings everyone!&amp;#10;&amp;#10;After over 500 hours of gameplay and finishing the whole package, I decided to pass on my Gloomhaven.&amp;#10;It is the second print with the solo scenarios included.&amp;#10;&amp;#10;The game has been completly finished, so let me give you a heads up right here:&amp;#10;~ The game is in a good condition. It is used over about 500 hours but has always been treated carefully and was stored appropriatly.&amp;#10;~ The game box endured some carrying around.&amp;#10;~ Some monster standees are a little torn because the included standee holders sometimes are very tight. &amp;#10;~ ALL components are available, with a minor exception of the non used global achievment stickers regarding other path choices.&amp;#10;&amp;#10;~ All Stickers have been mounted onto the world map, aswell as the global achievments following our playthrough; Also, a good amount of cards have been enhanced.&amp;#10;(We used the available stickers from the base game, NOT the removeable ones!)&amp;#10;~ The Worldmap has been framed into a picture frame. (I am willing to include this as a separate package if desired; if not the frame will be removed, the map folded and stored into the original box)&amp;#10;~ All Character boxes, envelopes and other stuff has been opened of course!&amp;#10;&amp;#10;~ ALL cards have been sleeved with the original docsmagic sleeves and are additionally stored inside zip-bags if necessary. There are still a lot of left-over sleeves/bags that I will also include.&amp;#10;~ ALL map tiles are properly stored alphabetically in an accordion folder. &amp;#10;~ ALL items are stored in a proper folder which is treated as a &quot;shop&quot; this way. (Locked items turned down, unlocked items faced up)&amp;#10;~ Road/City events, random dungeon generator and life time goals are stored in a 4-divided-limpid box.&amp;#10;~ ALL the remaining parts of the game have been carefully sorted and stored into plano boxes.&amp;#10;(My setup time never exceeded 10 minutes thanks to the orginization)&amp;#10;~ Some character sheets have been used. If you need more, basically all of them are available as printed .pdf-versions here on BGG.&amp;#10;&amp;#10;The price includes FREE shipping in most parts of EU, however I am willing to ship worldwide, so write a message if you are interested from abroad.&amp;#10;You can pay via PayPal friends or Bank Wire Transfer.&amp;#10;&amp;#10;If you have any questions or want to see some additional pictures feel free to send me a message! :)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1775709" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 07 Mar 2019 08:26:40 +0000" />
+        <price currency="EUR" value="139.00" />
+        <condition value="likenew" />
+        <notes value="The game is practically like new, cards still in their original packaging to be opened, all the material is still sealed, has only been punched, plus I add removable stickers.&amp;#10;&amp;#10;Payment can be done by:&amp;#10;&amp;#10;A. Bank transfer&amp;#10;B. Paypal" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1778485" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 28 Apr 2019 08:55:58 +0000" />
+        <price currency="USD" value="13.99" />
+        <condition value="new" />
+        <notes value="My deck organizer will really up your Gloomhaven game. We all love Gloomhaven, but really adding some organization can make the whole experience way better. Your buddy Mike is gonna spill his beer someday, and mess up your cards. the day will come when Suzie scatters everything with a good sneeze. Be honest, you don't want that. Get my friggin' dope organizer and parry the wiles of game day mayhem; only then will you be truly winning. &amp;#10;&amp;#10;Let me know which color you prefer, I've got red, blue, black, yellow, grey, purple, white, and green!&amp;#10;&amp;#10;Ships FREE domestically from Texas! Message me, for any international shipping arrangements. Thank you!&amp;#10;&amp;#10;You can find more of my HUGE selection of organizers here: https://www.etsy.com/shop/M3is3D" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1830656" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 28 Apr 2019 09:03:31 +0000" />
+        <price currency="USD" value="10.99" />
+        <condition value="new" />
+        <notes value="Look guys, you don't need all that.&amp;#10;&amp;#10;Sure, you could pay $25 and get a player dashboard that props up your cards instead of them laying on the table, but why? Why is putting those cards in a slot worth a full $16?&amp;#10;&amp;#10;Just get my super-cool, sleek dashboard, and you'll be playing in style without shelling out a ridiculous amount of coin, for no real reason. Let me know which color you prefer, I've got red, blue, black, yellow, grey, purple, white, and green!&amp;#10;&amp;#10;Also, if you want to get a set for your whole crew, we can work something out.&amp;#10;&amp;#10;Ships from Austin, Texas! Check out my other Gloomhaven stuff, I have some really great deck organizers and stuff you'll probably love. Have a great day!&amp;#10;&amp;#10;You can find more of my HUGE selection of organizers here: https://www.etsy.com/shop/M3is3D&amp;#10;-&amp;#10;&amp;#10;Gloomhaven Character Dashboard Simple with Storage Top by schleprocker&amp;#10;Published on October 25, 2018&amp;#10;www.thingiverse.com/thing:3175718" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1830657" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 28 Apr 2019 09:09:56 +0000" />
+        <price currency="USD" value="14.99" />
+        <condition value="new" />
+        <notes value="You could get a lot of Gloomhaven Dashboards, but don't you wanna keep track of your XP and Health? Now you can, my friend!&amp;#10;&amp;#10;Comes in your favorite color, custom orders available!&amp;#10;&amp;#10;Ships from Austin, Texas! Check out my other Gloomhaven stuff, I have some really great deck organizers and stuff you'll probably love. Have a great day!&amp;#10;&amp;#10;You can find more of my HUGE selection of organizers here: https://www.etsy.com/shop/M3is3D&amp;#10;&amp;#10;Gloomhaven compact dashboard with trackers by DocKuro is licensed under the Creative Commons - Attribution license. https://www.thingiverse.com/thing:3474938" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1830660" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 30 Apr 2019 07:25:30 +0000" />
+        <price currency="USD" value="10.99" />
+        <condition value="new" />
+        <notes value="You know it, I know it, organization is key. Your Gloomhaven game is gonna rock with this character organizer!&amp;#10;&amp;#10;Accommodates ability, attack modifier and item cards in separate dividers, plus class tokens and the miniature (for most classes). For storage, the health/xp dial, character sheet and character mat/card are placed on top.&amp;#10;&amp;#10;You can totally use during play also, so it's really a win-win. This organizer would also probably work for many other tabletop games, like Scythe, Founders of Gloomhaven, Terraforming Mars, etc.&amp;#10;&amp;#10;Works with sleeved cards! Let me know which color you prefer, I've got red, blue, black, yellow, grey, purple, white, and green!&amp;#10;&amp;#10;You can find more of my HUGE selection of organizers here: https://www.etsy.com/shop/M3is3D&amp;#10;&amp;#10;-&amp;#10;&amp;#10;Gloomhaven Character Storage Tray by rally25rs is licensed under the Creative Commons - Attribution license. Published on February 18, 2018. www.thingiverse.com/thing:2798522&amp;#10;Creative Commons - Attribution" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1832086" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 28 May 2019 14:41:51 +0000" />
+        <price currency="EUR" value="149.99" />
+        <condition value="new" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1854721" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 20 Oct 2019 09:32:02 +0000" />
+        <price currency="EUR" value="125.00" />
+        <condition value="likenew" />
+        <notes value="In great shape, played only few hours. Feel free to ask for photos and shipping charges.&amp;#10;Accept Bitcoins, Paypal or Wire Transfer, worldwide shipping.&amp;#10;&amp;#10;Kickstarter Edition of Gloomhaven.&amp;#10;GLOOMHAVEN WITH MINIS - 1 copy of GLOOMHAVEN with miniatures (1 miniature for each character class).&amp;#10;This tier includes all stretch goals.&amp;#10;Gloomhaven second printing&amp;#10;Upgrade combo pack&amp;#10;This level includes three previous levels at a reduced price for those who own the first printing.&amp;#10;INCLUDES:&amp;#10;Four health and experience dials&amp;#10;Rule book and scenario book upgrades&amp;#10;Solo scenario book" />
+        <link href="https://boardgamegeek.com/geekmarket/product/1976260" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 13 Nov 2019 15:48:55 +0000" />
+        <price currency="EUR" value="135.00" />
+        <condition value="new" />
+        <notes value="Brand new copy of the game, in shrink wrap.&amp;#10;&amp;#10;Shipping to Europe would be 40-50 euros, depending on location, and the package should arrive in 7-10 days. Elsewhere &amp;#226;&amp;#128;&amp;#147; please ask!&amp;#10;&amp;#10;Check out my other products for sale as well! If you buy multiple items, I will combine shipping costs. It&amp;#226;&amp;#128;&amp;#153;s much cheaper this way." />
+        <link href="https://boardgamegeek.com/geekmarket/product/1996737" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 21 Dec 2019 18:42:00 +0000" />
+        <price currency="EUR" value="90.00" />
+        <condition value="likenew" />
+        <notes value="only play one time.  The prize of transport must be added  at the prize of the game, depending where you come from" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2026486" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 07 Oct 2020 13:29:13 +0000" />
+        <price currency="USD" value="139.99" />
+        <condition value="new" />
+        <notes value="Still sealed in original shrink wrap and shipping box!" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2100182" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 15 Mar 2020 00:05:48 +0000" />
+        <price currency="USD" value="875.00" />
+        <condition value="verygood" />
+        <notes value="Help pass the days stuck in home with this deluxe Wall and Floor set for Gloomhaven the Boardgame. &amp;#10;-I built this set using the plans from Hirst Arts (https://www.hirstarts.com/gloom/gloom.html). I played through the entire campaign using this set and it adds soo much to our game nights. You become much more immersed with the 3D set and it looks gorgeous on the table. &amp;#10;-All pieces are made out of dental stone, molded, primed and hand inked and painted.&amp;#10;-The bottom of each piece is layered with cork or foam so table tops are not scratched.&amp;#10;-The pieces have a satisfying weight to them.&amp;#10;A substantial amount of time went into building this set, over 80 hours ? Each piece needs to be built individually and glued together. Then primed, dry brushed with numerous layers, lacquered with a matte finish, bottom finished with cork or foam, and finally labeled (floor tiles).&amp;#10;-The floor tiles are labeled to correspond with the tiles in the game. Pictured below is scenario 1. I built the scenario showing double doors because I thought it looked cool, but you can build it anyway you want. This shows the flexibility you have when building the rooms. Floor tiles required for that scenario are L, G, and I. I have a label on the back of each tile.&amp;#10;Whats included:&amp;#10;All floor pieces to run every scenario in the base game. -30-&amp;#10;Enough wall pieces to run any scenario in the base game -54-&amp;#10;6 doors molded and painted&amp;#10;6 crates&amp;#10;2 tables&amp;#10;3 barrels&amp;#10;6 single floor spaces to link boards together.&amp;#10;-Once purchased I will send you a video to make a storage box. Unfortunately, with shipping constraints I'm not able to send the box I normally used to store the pieces. With pick up you'll have the storage boxes.&amp;#10;-This set is unfortunately heavy. Shipping base cost is set to $100. I will adjust from there for location. The optimal purchase would be pickup, I understand that's not always available.&amp;#10;&amp;#10;If you have further questions/pictures please reach out to me ?" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2101516" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 10 Apr 2020 12:41:35 +0000" />
+        <price currency="EUR" value="225.00" />
+        <condition value="new" />
+        <notes value="En fran&amp;#195;&amp;#167;ais, new in shrink, please contact me for shipping costs first (heavy box)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2121776" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 23 Apr 2020 04:52:56 +0000" />
+        <price currency="USD" value="110.00" />
+        <condition value="new" />
+        <notes value="Unpunched, unplayed, you pay for shipping" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2132279" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 03 May 2020 12:52:28 +0000" />
+        <price currency="USD" value="235.00" />
+        <condition value="new" />
+        <notes value="Never played. Brand new in box." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2139225" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 05 May 2020 01:03:35 +0000" />
+        <price currency="USD" value="210.00" />
+        <condition value="likenew" />
+        <notes value="Like New just opened to verify components. Never played in excellent condition" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2140552" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 29 May 2020 09:56:39 +0000" />
+        <price currency="USD" value="110.00" />
+        <condition value="likenew" />
+        <notes value="Pretty much brand new.  I opened it, punched it out, and never played it.&amp;#10;&amp;#10;$110 + shipping" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2159223" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 29 May 2020 18:33:24 +0000" />
+        <price currency="USD" value="135.00" />
+        <condition value="likenew" />
+        <notes value="Opened and tried to sort. Got exhausted from all the pieces and put it back together." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2159597" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 06 Jun 2020 12:44:26 +0000" />
+        <price currency="GBP" value="150.00" />
+        <condition value="likenew" />
+        <notes value="DUE TO WEIGHT AND VALUE, I WILL ONLY DELIVER TO UK, OR IT CAN BE COLLECTED FROM ME IN WINSFORD, CHESHIRE (WITH SAFETY PRECAUTIONS).&amp;#10;&amp;#10;Includes fourth printing of Gloomhaven, solo scenarios, Forgotten Circles expansion, and removable sticker sheets for the base game and expansion. Everything complete and like new. &amp;#10;&amp;#10;The Gloomhaven box has been opened but has never been played, and everything is still unpunched and still sealed. The Forgotten Circles expansion has also been opened but never played, and the contents are still sealed. There is a small crease on the Forgotten Circles box lid.&amp;#10;&amp;#10;Please message me if you are interested and have any questions.&amp;#10;&amp;#10;Thanks, Alex" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2165848" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 10 Jun 2020 16:11:55 +0000" />
+        <price currency="USD" value="100.00" />
+        <condition value="verygood" />
+        <notes value="Only played once, includes removable sticker pack (not used).  There is 1 damaged component, a monster, however the rest of the game is complete and in great condition." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2175234" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 19 Jun 2020 11:43:52 +0000" />
+        <price currency="EUR" value="135.00" />
+        <condition value="likenew" />
+        <notes value="box gloomhaven + removable sticker set (NEW)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2187901" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 28 Jun 2020 09:56:44 +0000" />
+        <price currency="EUR" value="120.00" />
+        <condition value="new" />
+        <notes value="Game weight: 10 kg&amp;#10;IN STOCK" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2194603" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 29 Jul 2020 10:57:24 +0000" />
+        <price currency="EUR" value="100.00" />
+        <condition value="verygood" />
+        <notes value="The game includes the removable sticker pack to play as many campaigns as you want and a token organiser. It also comes with the 4 base miniatures painted. It's the english version but I have a pdf with all the material in spanish if interested." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2239122" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 12 Aug 2020 18:01:19 +0000" />
+        <price currency="USD" value="210.00" />
+        <condition value="verygood" />
+        <notes value="Great game! Bought in April 2020. The game is in great shape and includes everything including a few painted minis. (4 starter minis)  All cards are sleeved. (Except monster cards. We used the app no need to use the monster cards.) Comes with a awesome insert that keep everything organized making it easier to get the game to the table. Oh also comes with the reusable stickers for maps. &amp;#10;Will take cashapp $biglew031 or PayPal  thanks. Pics coming soon!" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2268916" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 23 Aug 2020 19:53:31 +0000" />
+        <price currency="USD" value="250.00" />
+        <condition value="likenew" />
+        <notes value="Includes forgotten circles.  All cards are sleeved and has the broken token organizer" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2288346" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 03 Sep 2020 18:20:42 +0000" />
+        <price currency="USD" value="150.00" />
+        <condition value="verygood" />
+        <notes value="Excellent condition. Free shipping(!) to CONUS.&amp;#10;&amp;#10;Includes a fully-assembled Broken Token organizer (which is a huge lifesaver) and enough sleeves to cover the player cards for four people, plus sleeves for most of the items/events/battle goals/etc. The campaign has been played through, but we used the removable sticker set for everything so you should be able to fully reset the box.&amp;#10;&amp;#10;ALSO INCLUDES:&amp;#10;[thing=226868][/thing]&amp;#10;[thing=236232][/thing]&amp;#10;[thing=272783][/thing]" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2308631" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 21 Sep 2020 11:24:38 +0000" />
+        <price currency="USD" value="300.00" />
+        <condition value="new" />
+        <notes value="ULTIMATE  handmade Gloomhaven terrain set, fully painted and ready to play, 102 pieces for every scenario!&amp;#10;&amp;#10;Gloomhaven is one of the best boardgames ever made, and it only serves it well to have the best terrain set to go along with it. So that's what we made :) This is fully painted resin set, ready to play right out of the box, consisting of no less than 102 pieces! Every model is addressed with extreme care to attention and detail, to provide you the greatest campaign experience a boardgame can offer. Once you set it up on the table, an entire game changes completely. You are no longer facing opponents on the flat board, but rather across 3d landscape that is painted and detailed to a high gaming standard.&amp;#10;&amp;#10;This ultimate set consists all the necessary elements for every scenario to be paid fully with terrain, and we tried to add as many variants as possible, so you don't have repeated models on the table. Every model is hand painted, and most have very cool and intricate details that will help you immerse fully into the scenarios and bring 3d element into your battles.&amp;#10;Please note that there may be variations in the set you receive from the one shown in pictures, mostly in shape of the bushes, different books and potion placements, and various individual elements that we add later on by hand. This certainly doesn't mean less details, just different ones due to big variety.&amp;#10;This set consists of:&amp;#10;5x treasure tile&amp;#10;2x table&amp;#10;3x barrel&amp;#10;6x totem&amp;#10;2x crate&amp;#10;6x stone pillar&amp;#10;4x altar&amp;#10;6x rubble&amp;#10;6x bush&amp;#10;2x cabinet&amp;#10;4x bookcase&amp;#10;2x shelf&amp;#10;6x boulder&amp;#10;4x large boulder&amp;#10;4x huge boulder&amp;#10;1x fountain&amp;#10;6x wall section&amp;#10;6x stalagmites&amp;#10;6x rock column&amp;#10;3x tree&amp;#10;4x stairs&amp;#10;5x stump&amp;#10;3x log&amp;#10;2x crystal" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2327566" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 10 Oct 2020 11:30:02 +0000" />
+        <price currency="EUR" value="200.00" />
+        <condition value="new" />
+        <notes value="New and factory sealed.&amp;#10;&amp;#10;I'm also selling the reward for Envelope X but it is a Preorder, because the Reward will be send with the Frosthaven Kickstarter.&amp;#10;&amp;#10;Will ship insured with DHL for additional 9,49&amp;#226;&amp;#130;&amp;#172; to germany. Please ask me for other regions.&amp;#10;&amp;#10;I accept bank transfer and paypal, please add the paypal fees to the order." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2342459" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 19 Oct 2020 10:14:33 +0000" />
+        <price currency="EUR" value="111.00" />
+        <condition value="new" />
+        <notes value="Game is new but not in shrink.&amp;#10;&amp;#10;Will be shipped in it's original packaging&amp;#10;&amp;#10;Shipping in Germany 10&amp;#226;&amp;#130;&amp;#172; / EU 25&amp;#226;&amp;#130;&amp;#172; / International please ask before you buy.&amp;#10;&amp;#10;Shipping insured with DHL only.&amp;#10;&amp;#10;If you buy multiple games you only pay shipping once.&amp;#10;&amp;#10;DISCOUNT: For every additional game you buy, you get 2&amp;#226;&amp;#130;&amp;#172; discount." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2350705" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 28 Oct 2020 04:08:53 +0000" />
+        <price currency="EUR" value="60.00" />
+        <condition value="new" />
+        <notes value="DAEDALUS INSERT&amp;#10;&amp;#10;Selling the gorgeous Daedalus insert for Gloomhaven, considered one of the best (if not THE best) insert ever for the game, and definitely the best looking! It's also a collector item, as Daedalus unfortunately closed shop in 2019.&amp;#10;I simply never found the time to assemble it, and do not play the game much these days, so may as well sell the insert.&amp;#10;&amp;#10;Here is a comparison with the Broken Token one:&amp;#10;https://www.youtube.com/watch?v=on1evnZYZD8&amp;#10;&amp;#10;And here's an example of quick setup using the insert:&amp;#10;https://www.youtube.com/watch?v=BFs8deR6_pA&amp;#10;&amp;#10;Shipping to Europe should be around 10-15 euros (cheaper if France)." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2358305" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 29 Oct 2020 19:06:28 +0000" />
+        <price currency="EUR" value="149.90" />
+        <condition value="new" />
+        <notes value="Versand innerhalb Deutschlands kostet 6 Euro." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2359647" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 15 Nov 2020 11:24:07 +0000" />
+        <price currency="EUR" value="250.00" />
+        <condition value="likenew" />
+        <notes value="This game won't see our table.&amp;#10;This is the second edition Kickstarter with the solo scenarios.&amp;#10;The packet consist of the base game sorted in a Folded Space insert, the expansion Forgotten Circles still in shrink and 2 packs of removable stickers for the base set and expansion.&amp;#10;I prefer Pick-up, but shipping is also possible" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2373333" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 16 Nov 2020 10:19:51 +0000" />
+        <price currency="EUR" value="90.00" />
+        <condition value="verygood" />
+        <notes value="- with folded space inlay!&amp;#10;- With solo senarios&amp;#10;- With updated components (rules, etc) to 2nd edition&amp;#10;- played 3 times -&gt; there are 4 Stickers on the board" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2374297" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 17 Nov 2020 04:52:27 +0000" />
+        <price currency="USD" value="100.00" />
+        <condition value="verygood" />
+        <notes value="Some of the campaign sheets have been used.  Well cared for.  Organized in bead organizers." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2375044" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 07 Dec 2020 13:57:34 +0000" />
+        <price currency="GBP" value="100.00" />
+        <condition value="likenew" />
+        <notes value="I can send a picture of the game on request." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2393604" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 10 Dec 2020 02:09:49 +0000" />
+        <price currency="USD" value="90.00" />
+        <condition value="new" />
+        <notes value="This a brand new copy of the retail version&amp;#10;Never opened&amp;#10;The game is about 22 Lb&amp;#10;Game will ship from Zip Code 45459" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2401479" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 10 Dec 2020 09:57:31 +0000" />
+        <price currency="EUR" value="159.99" />
+        <condition value="new" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2401641" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 16 Dec 2020 12:01:15 +0000" />
+        <price currency="GBP" value="90.00" />
+        <condition value="new" />
+        <notes value="New, removed seal but unpunched&amp;#10;&amp;#10;Happy to post royal mail 1st class, Hermes, or any other courier,  at cost or cash on collection (Wigan area)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2406616" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 09 Jan 2021 16:47:02 +0000" />
+        <price currency="USD" value="200.00" />
+        <condition value="new" />
+        <notes value="I bought this but the game is far too complex for my family's skill level so we literally tried to play it once and switched to Jaws of the Lion which was more appropriate for us. It is brand new in pristine condition and, with the pressouts all done ready to go. It includes:&amp;#10;&amp;#10;1) Gloomhaven wooden organiser from Towerrex ($72 new)&amp;#10;2) Gloomhaven stickers (still sealed)&amp;#10;3) Gloom haven forgotten circles (still sealed)&amp;#10;4) Gloomhaven forgotten circles expansion pack (still sealed)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2425875" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 12 Jan 2021 17:14:10 +0000" />
+        <price currency="USD" value="150.00" />
+        <condition value="verygood" />
+        <notes value="Less than 10 of the map stickers have been placed on the board and a couple of checkboxes in the quest book are checked, but aside from that the game is in great condition.  Also, I am including the already put together Broken Token insert which makes set up and tear down WAY easier." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2428280" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 17 Jan 2021 20:49:26 +0000" />
+        <price currency="USD" value="74.00" />
+        <condition value="verygood" />
+        <notes value="We have played roughly the first 8 or so missions so those stickers are on the map. We have not destroyed any of the components when prompted (event cards, etc.). We simply found after a few plays that the game was not for us! Feel free to message me if you would like more info." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2435975" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 19 Jan 2021 16:19:37 +0000" />
+        <price currency="EUR" value="1000.00" />
+        <condition value="new" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2438113" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 24 Jan 2021 15:27:59 +0000" />
+        <price currency="EUR" value="139.95" />
+        <condition value="new" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2442878" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 01 Feb 2021 08:18:46 +0000" />
+        <price currency="AUD" value="120.00" />
+        <condition value="new" />
+        <notes value="BNIS, still in original shipping box." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2450302" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 08 Feb 2021 11:53:48 +0000" />
+        <price currency="AUD" value="426.00" />
+        <condition value="verygood" />
+        <notes value="Very good condition and includes convenient, integrated organisation for rapid set-up and tear-down. The following is included:&amp;#10;&amp;#10;- Gloomhaven Board Game. Only played with removable stickers.&amp;#10;- Fully assembled and integrated Broken Token organiser.&amp;#10;- Alphabetised &amp;#226;&amp;#128;&amp;#156;Pendaflex&amp;#226;&amp;#128;&amp;#157; accordion folder for storing tiles.&amp;#10;&amp;#10;Available for collection in Sydney." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2457230" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 08 Feb 2021 13:03:42 +0000" />
+        <price currency="EUR" value="90.00" />
+        <condition value="verygood" />
+        <notes value="Have played the campaign.&amp;#10;The only things that have been applied are the stickers on the mounted map. No other stickers have been used, e.g. on the cards. &amp;#10;A few characters still unlocked and cards in shrink wrap. Every piece has been handeld very carefully, no kids, no smoking, no cats. &amp;#10;All cards, that were used, have been sleeved before the first usage." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2457280" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 12 Feb 2021 21:39:29 +0000" />
+        <price currency="USD" value="99.99" />
+        <condition value="new" />
+        <notes value="***New, In Shrink.***&amp;#10;&amp;#10;Shipping is USPS flat rate to the USA&amp;#10;&amp;#10;-OR-&amp;#10;&amp;#10;Local Pickup in-store (343 S. Robertson Blvd, Beverly Hills, CA 90211)&amp;#10;&amp;#10;***A Bit About Our Store:***&amp;#10;&amp;#10;We are an online AND brick and mortar game shop located in the Los Angeles/Robertson/Beverly Hills area. The store is a labor of love between friends and brought to you by avid gamers.&amp;#10;&amp;#10;Focusing on hobbyist games as well as popular family board games and miniatures gaming, we hope to have something for everyone! We are a licensed Games Workshop stockist and have a 3d printing service as well, for pre-printed and custom products. We also carry gaming accessories and collectibles. We will carry the new, hot games as well as many timeless classics from all of the current publishers. We will also sell Kickstarter exclusive games/editions from time to time.&amp;#10;&amp;#10;Our Brick and Mortar shop will share our online prices, so whether you visit us in person or order via the internet, you'll get the same competitive prices you are accustomed to online, and we ship nation-wide! Our prices here on BGG mirror our low prices, and we are happy to sell on BGG to help support this wonderful community.&amp;#10;&amp;#10;If you live in the Los Angeles area, we will have in-store events, classes, and hope to be a gaming hub for years to come.&amp;#10;&amp;#10;If you don't live in the LA area but would love to support a Brick and Mortar shop, we ship all over the USA and you'll see that our prices are competitive with the top online retailers!&amp;#10;&amp;#10;We TRULY appreciate your business!&amp;#10;&amp;#10;-Blue Gnome Games" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2461842" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 16 Feb 2021 11:51:17 +0000" />
+        <price currency="EUR" value="139.90" />
+        <condition value="new" />
+        <notes value="In it's original packaging" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2465427" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 21 Feb 2021 16:14:09 +0000" />
+        <price currency="EUR" value="80.00" />
+        <condition value="good" />
+        <notes value="Used (some stickers, cards etc.), but complete. Kickstarter Edition" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2471027" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 03 Mar 2021 22:41:45 +0000" />
+        <price currency="EUR" value="179.00" />
+        <condition value="likenew" />
+        <notes value="Game is complete, in mint condition, and unplayed but punched and sorted. A nice, laser-cut plywood insert is included in the price, pictures are available upon request.&amp;#10;&amp;#10;Due to the heavy box, pick-up is preferred. Delivery to some parts of Belgium can be arranged. However, shipping is possible and can be arranged via Geekmail and charged separately." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2485498" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 05 Mar 2021 21:26:58 +0000" />
+        <price currency="USD" value="90.00" />
+        <condition value="verygood" />
+        <notes value="Took some things apart and started first game then decided it was not for us. Also includes Etsy &amp;#10;3D printed bases for characters with movable arrow for tracking." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2487298" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 20 Mar 2021 21:34:08 +0000" />
+        <price currency="EUR" value="199.00" />
+        <condition value="new" />
+        <notes value="Language: english&amp;#10;Edition Year: 2018&amp;#10;Publisher: Cephalofair Games&amp;#10;Game Condition: Mint&amp;#10;Box Condition: Mint&amp;#10;Notes: Retail edition&amp;#10;Availability: Now Available&amp;#10;ID Gis: 28457 (for reference)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2501903" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 25 Mar 2021 03:21:42 +0000" />
+        <price currency="USD" value="119.00" />
+        <condition value="likenew" />
+        <notes value="Opened once.  Unused&amp;#10;&amp;#10;Shipping is probably around $16 USD" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2507259" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 26 Mar 2021 08:34:59 +0000" />
+        <price currency="GBP" value="75.00" />
+        <condition value="verygood" />
+        <notes value="Hardly played and no stickers have been attached." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2508187" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 07 Apr 2021 14:46:12 +0000" />
+        <price currency="EUR" value="80.00" />
+        <condition value="likenew" />
+        <notes value="No stickers used!" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2517975" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 11 Apr 2021 16:50:17 +0000" />
+        <price currency="EUR" value="135.00" />
+        <condition value="new" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2521289" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 17 Apr 2021 17:44:54 +0000" />
+        <price currency="EUR" value="110.00" />
+        <condition value="likenew" />
+        <notes value="Hi! I  have a second printing of Gloomhaven for sale. Only removed the shrink wrap. Nothing punched." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2531734" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 26 Apr 2021 04:15:44 +0000" />
+        <price currency="USD" value="140.00" />
+        <condition value="new" />
+        <notes value="New unopened Kickstarter, includes add-on sticker package" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2538279" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 02 May 2021 16:57:04 +0000" />
+        <price currency="EUR" value="140.00" />
+        <condition value="likenew" />
+        <notes value="Unplayed game." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2543280" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 09 May 2021 04:34:36 +0000" />
+        <price currency="AUD" value="130.00" />
+        <condition value="new" />
+        <notes value="Second Kickstarter edition containing miniatures&amp;#10;Also includes solo scenarios&amp;#10;Box is open as shrinkwrap was torn on delivery, but all items are sealed inside.&amp;#10;&amp;#10;Collection available in Sydney.&amp;#10;&amp;#10;Prefer cash for pickup, or DD for posting, thank you." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2548603" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 10 May 2021 17:07:19 +0000" />
+        <price currency="EUR" value="126.00" />
+        <condition value="new" />
+        <notes value="[size=14][b]All prices are inclusive of UK and EU VAT, but do not include shipping costs.[/b][/size] &amp;#10;&amp;#10;&amp;#10;[size=12][b]Shipping Cost:[/b][/size] &amp;#10;Shipping (with tracking) for this item will be:&amp;#10;8 Euros in Germany.&amp;#10;&amp;#10;No shipping outside of Germany.&amp;#10;&amp;#10;&amp;#10;[size=14][b]Payment Options:[/b][/size] &amp;#10;&amp;#10;[size=12][b]Paypal:[/b][/size] No fee is charged to you, if you pay using Paypal. But Paypal does not change currency at the fair market rate. So you will lose 3% or more of your money, if you are converting to Euros.&amp;#10;&amp;#10;[size=12][b]IBAN Bank Transfer:[/b][/size] Payment by bank transfer is possible using an IBAN compatible account. [b]There is a 3% discount if you pay using IBAN Bank Transfer[/b] (i.e., your total payment due is 3% less). &amp;#10;&amp;#10;[size=12][b]Wise:[/b][/size] There is a 3% discount if you pay using Wise (i.e., your total payment due is 3% less). The company does currency conversion at the fair market rate, and charges the sender a fee of about 0.5% of the amount of money sent.&amp;#10;&amp;#10;[size=12][b]Revolut:[/b][/size] There is a 3% discount if you pay using Revolut (i.e., your total payment due is 3% less). The company does currency conversion at the fair market rate, and there are no fees to send money. &amp;#10;&amp;#10;[size=12][b]Interac e-transfer:[/b][/size] If you have a Canadian bank account (like me), then you can pay by Interac e-transfer. In this case, you pay in Canadian dollars, at the fair market exchange rate. There is also a 3% discount, if you pay using Interac e-transfer (i.e., your total payment due is 3% less).&amp;#10;&amp;#10;[size=12][b]Payment in Dollars:[/b][/size] It is possible to make Paypal payments in US or Canadian dollars, at the fair market exchange rate. You will automatically receive this option, if your address is in the USA or Canada.&amp;#10;&amp;#10;&amp;#10;[size=14][b]I take responsibility for the safe delivery of your order:[/b][/size] I am a registered commercial seller. Thus, insofar as you are a private consumer, it is required by German law that I take responsibility for any loss or damage of goods that occurs during shipment.&amp;#10;&amp;#10;&amp;#10;[size=14][b]Looking for something that is not listed here?[/b][/size] &amp;#10;I also sell smaller items on BGG here:&amp;#10;https://boardgamegeek.com/geekmarket/user/europa_major?pageid=1&amp;#10;&amp;#10;If you want to combine items from my other alias, let me know. The flat rate shipping offered there does not apply to the items listed here. The items sold there will typically (but not always) ship for free with the items sold here.&amp;#10;&amp;#10;I can also make [size=12][b]special orders[/b][/size] for items that I don't have in stock. Send me a message concerning an item, and I will check for availability and tell you what the price would be." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2549819" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 15 May 2021 20:15:18 +0000" />
+        <price currency="USD" value="120.00" />
+        <condition value="verygood" />
+        <notes value="Includes broken token organizer and removable stickers. Only a few removable stickers were used but I'll get everything reset for you. Almost entire game is sleeved.&amp;#10;&amp;#10;Its a heavy box with the broken token so shipping is going to be up there but will still be cheaper than buying gloom haven, broken token, sleeves, and sticker pack.&amp;#10;&amp;#10;Shipping from 76028" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2553707" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 17 May 2021 14:49:57 +0000" />
+        <price currency="USD" value="150.00" />
+        <condition value="verygood" />
+        <notes value="This game is relatively brand new. It's been in a smoke-free, humidity-controlled Kallax game shelf since we bought it in 2019 brand new from the game store. We also added the incredibly awesome Go7Gaming storage solution, by itself a $100 value, and the Gloomhaven metal coins from the Frosthaven KS, a $20 value. The whole package cost us over $220, and it's been cared for greatly. We (the two of us) only played three scenarios with no other players, and didn't throw away or tear up a single card. Every single component is present and accounted for, and if you want a full inventory confirmation of the components, I will accommodate that request. This is the huge base game only, and does not include any expansion content except the Dice Tower scenario from their 2019 KS (a little bonus for you).&amp;#10;&amp;#10;This game will NOT be inexpensive to ship, so be warned. The box is 16&quot;L x 12&quot;W x 8.5&quot;D, and weighs a beastly 27.5 lbs. (12.47kg). Can do local pickup if you're in the Pittsburgh, PA or surrounding area." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2555064" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 22 May 2021 23:47:26 +0000" />
+        <price currency="USD" value="35.00" />
+        <condition value="verygood" />
+        <notes value="Buyer pays shipping.&amp;#10;&amp;#10;This copy has been played and does have stickers applied to the cards and map and some of the boxes and envelopes are opened. &amp;#10;&amp;#10;So this is for a played legacy game, components and box are in very good condition otherwise." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2559067" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 23 May 2021 11:07:19 +0000" />
+        <price currency="GBP" value="100.00" />
+        <condition value="verygood" />
+        <notes value="Collection Only. Item Location United Kingdom KT12 Postcode&amp;#10;&amp;#10;This includes the Forgotten Circle expansion and Solo scenarios. Only have 5-6 removable stickers on the map." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2559283" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 01 Jun 2021 20:45:03 +0000" />
+        <price currency="USD" value="94.99" />
+        <condition value="new" />
+        <notes value="CLS Games - Atlanta's Board Game Warehouse - is the largest retailer of board games in metro Atlanta! All games are new &amp; still in factory shrink-wrap.&amp;#10;&amp;#10;GLOOMHAVEN: $94.99&amp;#10;Cephalofair Games [CPH 0204]&amp;#10;&amp;#10;SHIPPING&amp;#10;Continental U.S. - Estimated $24.95 to $39.95&amp;#10;Alaska, Hawaii, and U.S. Territories - TBD" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2566270" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 09 Jun 2021 13:25:07 +0000" />
+        <price currency="GBP" value="75.00" />
+        <condition value="verygood" />
+        <notes value="Comes with game organiser set worth &amp;#194;&amp;#163;30 and removable stickers. Game only has a couple stickers on board. Price is for collection from PL21 postal area (near Plymouth) or EX4 (Exeter) Otherwise U.K. only shipping &amp;#194;&amp;#163;20" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2572004" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 22 Jun 2021 17:56:31 +0000" />
+        <price currency="USD" value="321.00" />
+        <condition value="new" />
+        <notes value="test" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2580619" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 02 Jul 2021 18:48:55 +0000" />
+        <price currency="EUR" value="116.49" />
+        <condition value="new" />
+        <notes value="Reserved for O.G..&amp;#10;&amp;#10;[size=14][b]All prices are inclusive of UK and EU VAT, but do not include shipping costs.[/b][/size] &amp;#10;&amp;#10;&amp;#10;[size=12][b]Shipping Cost:[/b][/size] &amp;#10;Shipping (with tracking) for this item will be:&amp;#10;8 Euros in Germany.&amp;#10;&amp;#10;No shipping outside of Germany.&amp;#10;&amp;#10;&amp;#10;[size=14][b]Payment Options:[/b][/size] &amp;#10;&amp;#10;[size=12][b]Paypal:[/b][/size] No fee is charged to you, if you pay using Paypal. But Paypal does not change currency at the fair market rate. So you will lose 3% or more of your money, if you are converting to Euros.&amp;#10;&amp;#10;[size=12][b]IBAN Bank Transfer:[/b][/size] Payment by bank transfer is possible using an IBAN compatible account. [b]There is a 3% discount if you pay using IBAN Bank Transfer[/b] (i.e., your total payment due is 3% less). &amp;#10;&amp;#10;[size=12][b]Wise:[/b][/size] There is a 3% discount if you pay using Wise (i.e., your total payment due is 3% less). The company does currency conversion at the fair market rate, and charges the sender a fee of about 0.5% of the amount of money sent.&amp;#10;&amp;#10;[size=12][b]Revolut:[/b][/size] There is a 3% discount if you pay using Revolut (i.e., your total payment due is 3% less). The company does currency conversion at the fair market rate, and there are no fees to send money. &amp;#10;&amp;#10;[size=12][b]Interac e-transfer:[/b][/size] If you have a Canadian bank account (like me), then you can pay by Interac e-transfer. In this case, you pay in Canadian dollars, at the fair market exchange rate. There is also a 3% discount, if you pay using Interac e-transfer (i.e., your total payment due is 3% less).&amp;#10;&amp;#10;[size=12][b]Payment in Dollars:[/b][/size] It is possible to make Paypal payments in US or Canadian dollars, at the fair market exchange rate. You will automatically receive this option, if your address is in the USA or Canada.&amp;#10;&amp;#10;&amp;#10;[size=14][b]I take responsibility for the safe delivery of your order:[/b][/size] I am a registered commercial seller. Thus, insofar as you are a private consumer, it is required by German law that I take responsibility for any loss or damage of goods that occurs during shipment.&amp;#10;&amp;#10;&amp;#10;[size=14][b]Looking for something that is not listed here?[/b][/size] &amp;#10;I also sell smaller items on BGG here:&amp;#10;https://boardgamegeek.com/geekmarket/user/europa_major?pageid=1&amp;#10;&amp;#10;If you want to combine items from my other alias, let me know. The flat rate shipping offered there does not apply to the items listed here. The items sold there will typically (but not always) ship for free with the items sold here.&amp;#10;&amp;#10;I can also make [size=12][b]special orders[/b][/size] for items that I don't have in stock. Send me a message concerning an item, and I will check for availability and tell you what the price would be." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2587445" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 08 Jul 2021 21:12:10 +0000" />
+        <price currency="USD" value="80.00" />
+        <condition value="verygood" />
+        <notes value="We played maybe 8 scenarios with this game before hanging it up. Just too much space needed for our living situation. Amazing game.&amp;#10;Nothing passed the beginning has been open, so almost all closed stickered envelopes or anything containing spoilers has not been opened. Includes a sticker pack that we bought for it from amazon, one sticker was used but they advertise as reusable.&amp;#10;If you would like pictures of anything specific let me know, it is a big heavy box so I would expect shipping to be around 50 Bucks, I think it weighs close to 20 pounds." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2591700" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 10 Jul 2021 08:19:03 +0000" />
+        <price currency="EUR" value="89.00" />
+        <condition value="verygood" />
+        <notes value="Base Game (played several scenarios - but not the full campaign)&amp;#10;english version&amp;#10;including:&amp;#10;- Broken Token Organizer&amp;#10;- Card Sleeves&amp;#10;- Removable Sticker Sheet&amp;#10;The following game material was used or needs to be sorted:&amp;#10;Town Records Book:&amp;#10;- Scenarios 1-5 -&gt; checkmark&amp;#10;- Page 119 -&gt; checkmark 07&amp;#10;- Page 121 -&gt; checkmark 67&amp;#10;City/Roads-Cards -&gt; not sorted&amp;#10;3 Heroes &gt; stuff (cards etc.) not sorted / miniatures painted:&amp;#10;Savvas Cragheart / Quatryl Tinkerer / Human Scoundrel" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2592553" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 10 Jul 2021 18:00:44 +0000" />
+        <price currency="USD" value="75.00" />
+        <condition value="likenew" />
+        <notes value="Practically new. Opened box and examined the contents and that's it. Includes removable Sticker Set ($13 value). Will ship in original packaging. Shipping from California. Payment expected within 3 days. Will ship to U.S. only. &amp;#10;&amp;#10;Shipping info:&amp;#10;21.5 lbs. &amp;#10;10&quot;x18&quot;x13.5&quot; package dimensions" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2592820" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 14 Jul 2021 07:41:46 +0000" />
+        <price currency="EUR" value="125.00" />
+        <condition value="likenew" />
+        <notes value="Solo scenarios and the assembled Broken Token wooden organizer are included. Please ask for shipping costs or other details before you buy." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2595124" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 25 Jul 2021 10:18:02 +0000" />
+        <price currency="EUR" value="110.00" />
+        <condition value="good" />
+        <notes value="Plus Forgotten Circles Unopened. Core played about 20 scenarios." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2602346" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 26 Jul 2021 13:59:05 +0000" />
+        <price currency="USD" value="175.00" />
+        <condition value="new" />
+        <notes value="One copy of the 2nd printing of Gloomhaven, English Edition, with Solo Scenarios. &amp;#10;&amp;#10;Everything is Brand New in Shrink and unopened. &amp;#10;&amp;#10;It is still packed in original shipping box. &amp;#10;&amp;#10;Ships from 20910 via USPS/FedEx. Combined shipping available on multiple orders." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2603226" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 31 Jul 2021 00:53:28 +0000" />
+        <price currency="USD" value="95.00" />
+        <condition value="new" />
+        <notes value="Brand new -- ideal for local NYC pickup (as it's enormous). I may be able to deliver depending where you are." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2612132" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 18 Aug 2021 17:27:38 +0000" />
+        <price currency="EUR" value="120.00" />
+        <condition value="new" />
+        <notes value="See Seller Info below.&amp;#10;&amp;#10;&amp;#10;189" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2625750" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 21 Aug 2021 19:41:58 +0000" />
+        <price currency="EUR" value="150.00" />
+        <condition value="good" />
+        <notes value="Biete zum Verkauf Gloomhaven englische Version inklusive dem wohl besten und durchdachtesten Insert von Broken Token (Neupreis ~90&amp;#226;&amp;#130;&amp;#172;) und einem A4 Dokumentordner zur Sortierung der Map Tiles.&amp;#10;&amp;#10;Das Spiel habe ich selbst gebraucht gekauft und wie man sieht wurden vom Vorbesitzer die ersten 4 Location Sticker bereits aufgeklebt sowie das 1. Global Achievement. Ich habe die Verwaltung der Kampagne ohnehin &amp;#195;&amp;#188;ber die Gloomhaven Companion App gemacht, mich hat es daher nicht wirklich gest&amp;#195;&amp;#182;rt. Wen das st&amp;#195;&amp;#182;rt der kann die vorhandenen Sticker abziehen und sich ein Removeable Sticker Set holen. Aber die Sticker die geklebt sind, sind ohnehin die ersten Locations die man im Spiel besucht.&amp;#10;&amp;#10;Die Karten sind teilweise gesleeved, insbesondere die Attack Modifier und andere h&amp;#195;&amp;#164;ufig verwendete Karten." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2627664" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 22 Aug 2021 11:17:50 +0000" />
+        <price currency="EUR" value="100.00" />
+        <condition value="verygood" />
+        <notes value="Kickstarter version of Gloomhaven (English version) including the wood insert from Laserox, the GloomBox, (price 60 &amp;#226;&amp;#130;&amp;#172;) and a folder with the sorted map tiles. Solo Scenarios are also included.&amp;#10;&amp;#10;No stickers have been applied, since they were missing from the box, when I got it. Everything else is basecally new. I played it three times.&amp;#10;&amp;#10;Shipping inside of Germany will be about 16,50&amp;#226;&amp;#130;&amp;#172;." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2628101" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 28 Aug 2021 12:47:06 +0000" />
+        <price currency="EUR" value="176.00" />
+        <condition value="new" />
+        <notes value="Spieleranzahl: 1 bis 4&amp;#10;Spieldauer: 2 Stunden&amp;#10;Altersempfehlung: 14+&amp;#10;&amp;#10;GLOOMHAVEN&amp;#10;Der Nr. 1 Hit auf boardgamegeek.com, fast 10 kg Abenteuer und Spannung! Gloomhaven bietet ein taktisches Koop-Kampfspiel in einer einzigartigen, dynamischen Fantasy-Welt. Jeder Spieler schl&amp;#195;&amp;#188;pft in die Rolle eines abgeh&amp;#195;&amp;#164;rteten S&amp;#195;&amp;#182;ldners mit eigenen Zielen und Absichten. Zusammen erleben die Spieler eine ganze Kampagne unterschiedlicher Szenarios, die sich durch ihre Aktionen anpassen und ver&amp;#195;&amp;#164;ndern. Dies schafft eine individuelle Kulisse aus gefundenen Sch&amp;#195;&amp;#164;tzen, in Ruhestand gegangenen Abenteurern und Wahlm&amp;#195;&amp;#182;glichkeiten, die die Spielwelt dauerhaft formen. Jedes Szenario verlangt den Spielern weitreichende taktische Entscheidungen ab, bei denen die F&amp;#195;&amp;#164;higkeitskarten unterschiedlich zum Einsatz kommen. Sich zur rechten Zeit f&amp;#195;&amp;#188;r die richtige F&amp;#195;&amp;#164;higkeit zu entscheiden, kann den Unterschied zwischen Sieg und Niederlage bedeuten. Gloomhaven bietet temporeiche, taktische K&amp;#195;&amp;#164;mpfe ohne W&amp;#195;&amp;#188;rfel gegen vollst&amp;#195;&amp;#164;ndig autarke Gegner, die jeweils einzigartige Verhaltensmuster besitzen. Mit dieser Box erhalten die Spieler eine vollst&amp;#195;&amp;#164;ndige Fantasy-Kampagne von bislang wohl einzigartigem Umfang und unerreichter Dimension&amp;#10;&amp;#10;Inhalt:&amp;#10;504 Charakter F&amp;#195;&amp;#164;higkeitenkarten&amp;#10;457 Angriffsmodifikationkarten&amp;#10;253 Gegenstandkarten&amp;#10;240 Monster Standees&amp;#10;232 Monsterf&amp;#195;&amp;#164;higkeitenkarten&amp;#10;155 doppelseitige Overlayteile&amp;#10;150 Ereigniskarten&amp;#10;85 Charakter - Marker&amp;#10;60 Status - Marker&amp;#10;50 Spielgeld - Marker&amp;#10;47 Monster Statusbl&amp;#195;&amp;#164;tter&amp;#10;46 Schadens - Marker&amp;#10;40 Extra Dungeonkarten&amp;#10;35 Charakter Einschubboxen&amp;#10;32 Summon - Marker&amp;#10;30 doppelseitige Kartenteile&amp;#10;24 Questkarten&amp;#10;24 Schlachtzielekarten&amp;#10;24 St&amp;#195;&amp;#164;nder aus Plastik&amp;#10;18 Miniaturen aus Plastik&amp;#10;17 Charakter Referenzbretter&amp;#10;17 Charakterbl&amp;#195;&amp;#182;cke&amp;#10;12 Ziel - Marker&amp;#10;10 Szenarioziel - Marker&amp;#10;9 Extra Szenariokarten&amp;#10;6 Elementscheiben aus Holz&amp;#10;6 Monster Statush&amp;#195;&amp;#188;llen&amp;#10;4 Gesundheit/Erfahrungs - Z&amp;#195;&amp;#164;hler&amp;#10;4 Spieler - Referenzhilfen&amp;#10;4 Stickerbl&amp;#195;&amp;#164;tter&amp;#10;3 Umschl&amp;#195;&amp;#164;ge&amp;#10;1 Element - Infusion Brett&amp;#10;1 Gruppenblock&amp;#10;1 Rundenz&amp;#195;&amp;#164;hler&amp;#10;1 Spielanleitung&amp;#10;1 Spielplan&amp;#10;1 Szenario Heft (mit 95 Szenarien)&amp;#10;1 Town Records Buch&amp;#10;&amp;#10;Mit Spielregeln in folgenden Sprachen: &amp;#10;DE&amp;#10;&amp;#10;Auszeichnungen: &amp;#10;2018 Scelto dai Goblin: Sieger; 2017 Golden Geek Most Innovative Board Game: Sieger; 2017 Golden Geek Board Game of the Year: Sieger; 2017 Golden Geek Best Thematic Board Game: Sieger; 2017 Golden Geek Best Strategy Board Game: Sieger; 2017 Golden Geek Best Solo Board Game: Sieger; 2017 Golden Geek Best Cooperative Game: Sieger;" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2632738" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 28 Aug 2021 17:54:48 +0000" />
+        <price currency="EUR" value="65.00" />
+        <condition value="verygood" />
+        <notes value="gloomhaven + folded space insert" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2632899" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 31 Aug 2021 20:02:28 +0000" />
+        <price currency="EUR" value="18.00" />
+        <condition value="new" />
+        <notes value="Selling the pictured Winged Horror boss mini. Material: resin." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2635164" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 31 Aug 2021 20:04:49 +0000" />
+        <price currency="EUR" value="40.00" />
+        <condition value="new" />
+        <notes value="Selling the six Ancient Artillery minis in the picture. Material: high quality PLA.&amp;#10;Can paint numbers on the minis, but I recommend using detachable markers for the bases for this." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2635167" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 31 Aug 2021 20:06:21 +0000" />
+        <price currency="EUR" value="40.00" />
+        <condition value="new" />
+        <notes value="Selling six Earth Demons in the picture. Material: high quality PLA.&amp;#10;Can paint numbers on the minis, but I recommend using detachable markers for the bases for this." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2635168" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 02 Sep 2021 18:34:17 +0000" />
+        <price currency="USD" value="100.00" />
+        <condition value="likenew" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2636872" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 04 Sep 2021 16:12:19 +0000" />
+        <price currency="USD" value="85.00" />
+        <condition value="new" />
+        <notes value="New in shrink.&amp;#10;&amp;#10;[color=red]Due to the weight and packaging of this item, this cannot be combined with any other item for my &quot;free shipping on order over $124&quot; offer.[/color]" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2638017" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 06 Sep 2021 01:26:48 +0000" />
+        <price currency="USD" value="100.00" />
+        <condition value="verygood" />
+        <notes value="Includes the broken token organizer" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2639019" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 09 Sep 2021 10:29:40 +0000" />
+        <price currency="EUR" value="120.00" />
+        <condition value="verygood" />
+        <notes value="Selfmade Insert, fully sleeved, some Miniatures painted, fully played." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2641794" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 10 Sep 2021 17:41:10 +0000" />
+        <price currency="USD" value="100.00" />
+        <condition value="likenew" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2642922" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 11 Sep 2021 12:14:12 +0000" />
+        <price currency="USD" value="88.00" />
+        <condition value="good" />
+        <notes value="I&amp;#226;&amp;#128;&amp;#153;m new to rating the condition of a legacy game. We only got fifteen plays into this one. So there is a little writing on the book, some stickers already applied to the map, etc. &amp;#10;&amp;#10;See photos to understand the condition and make sure it is acceptable. Note that technically some of these photos contain minor spoilers. Of course. &amp;#10;&amp;#10;Some cards sleeved. The cards we got to, we sleeved but of course much stuff we didn&amp;#226;&amp;#128;&amp;#153;t get to. &amp;#10;&amp;#10;Prefer local pickup. Shipping will be crazy expensive on top of the price itself.  &amp;#10;&amp;#10;I Will include a bunch of 3d printed pieces for free with local pickup in California. I mean tons printed terrain and the original cardboard pieces. These terrain pieces cost more than the game itself.&amp;#10;&amp;#10;They also double the size of the whole package. &amp;#10;&amp;#10;Cash on pickup after you inspect. And accept." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2643266" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 21 Sep 2021 05:31:14 +0000" />
+        <price currency="USD" value="124.99" />
+        <condition value="new" />
+        <notes value="Contents: This is for the Kickstarter game edition of Gloomhaven (with minis) and includes the &quot;Thank You&quot; card with a secret decoder message. All stretch goals are included. Please note: unless otherwise stated paid add ons from the Kickstarter Campaign are not included." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2650421" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 21 Sep 2021 07:17:34 +0000" />
+        <price currency="GBP" value="55.00" />
+        <condition value="acceptable" />
+        <notes value="A used version of Gloomhaven. Map has majority of stickers on it, so characters opened but many still not. Used regularly for 6 months. All pieces and cards remaining and board tiles sorted in to a folder which will be provided. Delivery price to be confirmed on sale." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2650794" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 30 Sep 2021 10:25:17 +0000" />
+        <price currency="EUR" value="280.00" />
+        <condition value="likenew" />
+        <notes value="German version from Feuerland Spiele!&amp;#10;&amp;#10;Basegame opened and looked at components. No permanent changes have been made.&amp;#10;&amp;#10;Comes with:&amp;#10;- Gloomhaven Forgotten Circles expansion (German, still in shrink)&amp;#10;- Gloomhaven Soloszenarien (German, unplayed)&amp;#10;- Broken Token Organizer for Base Game including Forgotten Circles (still unassembled in its original box from Broken Token)&amp;#10;&amp;#10;Base game box is enormous. Shipping to Germany at least 8,50&amp;#226;&amp;#130;&amp;#172;, possibly more.&amp;#10;&amp;#10;Payment by Paypal family and friends or SEPA bank transfer." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2659014" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 03 Oct 2021 02:31:06 +0000" />
+        <price currency="USD" value="200.00" />
+        <condition value="verygood" />
+        <notes value="Painted and rebased on clear acrylic. Includes wooden insert.&amp;#10;&amp;#10;Reusable stickers were used, but removed. Original stickers untouched. Game completely reset and organized for new campaign. &amp;#10;&amp;#10;Inner box has slight wear due to weight of the game." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2661115" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 03 Oct 2021 11:25:40 +0000" />
+        <price currency="EUR" value="140.00" />
+        <condition value="verygood" />
+        <notes value="German Edition/ Deutsche Version&amp;#10;&amp;#10;Inkl. hochwertigem Holz-Inlay von Laserox (Wert: 70 EUR). Dieses ist sogar schon komplett zusammengebaut! &amp;#10;&amp;#10;Das Spiel wurde nur 2-3 Mal gespielt. &amp;#10;&amp;#10;Die von Anfang an frei geschalteten Helden wurden detailiert bemalt. &amp;#10;&amp;#10;Ca. 3-4 Aufkleber wurden bereits auf das Spielmaterial geklebt. Diese lassen sich vermutlich aber abl&amp;#195;&amp;#182;sen und wiederverwenden. Alternativ ist im Internet ein removable sticker Set erh&amp;#195;&amp;#164;ltlich. Zus&amp;#195;&amp;#164;tzlich in diesem Exemplar:  1 Ersatzspielbrett mit leichtem Produktionsfehler (Klebung). Dieses hatte ich reklamiert und deshalb ein weiteres, eiwandfreies Spielbrett erhalten. Somit liegen hier 2 Spielbretter bei.&amp;#10;&amp;#10;Wie neu: Die Schachtel wurde einmal ge&amp;#195;&amp;#182;ffnet, Karten, Token, etc. jedoch nicht ausgepackt/ aus den Stanzb&amp;#195;&amp;#182;gen gel&amp;#195;&amp;#182;st.&amp;#10;&amp;#10;Leider mussten wir feststellen, dass Dungeon Crawler einfach nicht so unser Ding sind. Deshalb nie ausgepackt/ gespielt.&amp;#10;&amp;#10;Versicherter Versand mit DHL f&amp;#195;&amp;#188;r 9,49 EUR innerhalb Deutschlands (Ausland auf Anfrage)." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2661285" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 08 Oct 2021 07:08:04 +0000" />
+        <price currency="EUR" value="90.00" />
+        <condition value="verygood" />
+        <notes value="Includes a handmade insert. &amp;#10;The game is in English language. &amp;#10;8 scenarios have been played so it has some stickers on the map.&amp;#10;Payment in cash and delivery exclusively by hand in Berlin (Germany)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2665497" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 11 Oct 2021 18:56:34 +0000" />
+        <price currency="CAD" value="270.00" />
+        <condition value="likenew" />
+        <notes value="This is a kickstarter edition (2nd printing) with solo scenarios: https://www.kickstarter.com/projects/frosthaven/gloomhaven-second-printing/description&amp;#10;&amp;#10;Plastic seal has been taken off the box but the game has never been played...LIKE NEW condition.&amp;#10;&amp;#10;Available for pick-up in Stouffville Ontario&amp;#10;&amp;#10;Box is large and heavy so shipping cost is substantial....within Ontario and Quebec will be $33 and the cost of shipping to other Canadian provinces will be $46.  Add $6.75 if you'd like package to be fully insured." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2668387" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 21 Oct 2021 17:50:32 +0000" />
+        <price currency="CAD" value="120.00" />
+        <condition value="likenew" />
+        <notes value="This is the Second Printing Kickstarter edition (https://www.kickstarter.com/projects/frosthaven/gloomhaven-second-printing) that includes;&amp;#10;- New HP/XP counters&amp;#10;- Solo Scenarios&amp;#10;- Removable stickers&amp;#10;&amp;#10;This edition is like new. Only the Brute and Scoundrel boxes have been opened. It includes the removable stickers add-on. No permanent stickers have been used. None of the secret boxes or envelopes have been opened.&amp;#10;&amp;#10;Note that this box is heavy, about 9 kg so shipping may be expensive depending on your location. Local pickup is available in Langley, BC, Canada." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2683042" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 24 Oct 2021 20:04:59 +0000" />
+        <price currency="USD" value="150.00" />
+        <condition value="new" />
+        <notes value="Brand New sealed box, never opened, never played. Purchase also includes a brand new sealed removable sticker set.&amp;#10;&amp;#10;Shipping at the cheapest rates available, happy to provide a shipping quote. Local pickup in San Francisco 94158 available. Payment via PayPal (friends/family).&amp;#10;&amp;#10;Message me if you have any other questions." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2685671" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 28 Oct 2021 08:11:05 +0000" />
+        <price currency="EUR" value="125.00" />
+        <condition value="likenew" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2688759" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 29 Oct 2021 09:26:45 +0000" />
+        <price currency="EUR" value="160.00" />
+        <condition value="likenew" />
+        <notes value="played first mission with removable stickers, wooden broken token insert included.&amp;#10;&amp;#10;shipping within germany +10EUR, international buyers please contact first." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2690412" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 05 Nov 2021 23:40:55 +0000" />
+        <price currency="USD" value="120.00" />
+        <condition value="verygood" />
+        <notes value="Gloomhaven: $120&amp;#10;Played through a few sessions but everything is intact. A few stickers on the main map but comes with a new sticker set. &amp;#10;&amp;#226;&amp;#128;&amp;#162; Base Game&amp;#10;&amp;#226;&amp;#128;&amp;#162; Broken Token Organizer&amp;#10;&amp;#226;&amp;#128;&amp;#162; &amp;#226;&amp;#128;&amp;#156;Reset&amp;#226;&amp;#128;&amp;#157; Sticker Set (New)&amp;#10;&amp;#226;&amp;#128;&amp;#162; Printed FAQ Guide" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2696219" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 07 Nov 2021 21:12:22 +0000" />
+        <price currency="EUR" value="170.00" />
+        <condition value="likenew" />
+        <notes value="Servus Gemeinde....&amp;#10;Verkaufe mein absolut ungespieltes Gloomhaven, nachdem ich jetzt schon an Pranken des L&amp;#195;&amp;#182;wen gescheitert bin, werde ich dieses epische Werk nicht mehr auf den Tisch bringen.&amp;#10;Habe dem K&amp;#195;&amp;#164;ufer schon die Arbeit abgenommen das Laserox zusammenzubauen und zu sortieren, dankt mir sp&amp;#195;&amp;#164;ter daf&amp;#195;&amp;#188;r.&amp;#10;Spiel ist absolut neu, wenn jemand gerne ausp&amp;#195;&amp;#182;ppelt tuts mit Leid, dann bei FW f&amp;#195;&amp;#188;r 200 Euro kaufen und los gehts.&amp;#10;Spiel wiegt 10kg und Abholung in M&amp;#195;&amp;#188;nchen w&amp;#195;&amp;#164;re halt echt easy und safe f&amp;#195;&amp;#188;r ALLE Beteiligten, w&amp;#195;&amp;#164;re schade wenn der Paketdienst Spreissl liefert. Aber man bekommt es auch sicherlich verschickt.&amp;#10;NP bei FW sind 200 Euro (130+70Laserox)&amp;#10;H&amp;#195;&amp;#164;tte jetzt so 170 fair gefunden&amp;#10;&amp;#10;OVP ....in dem Sinne dass alles noch zu ist, aber das SPiel wurde ge&amp;#195;&amp;#182;ffnet und alles einsortiert" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2697619" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 17 Nov 2021 03:59:58 +0000" />
+        <price currency="GBP" value="120.00" />
+        <condition value="verygood" />
+        <notes value="Inlcudes Solo scenarios booklet, brand new pack of removable stickers, Laser Ox wooden laser cut organiser and sleeves for all available cards. &amp;#10;&amp;#10;This has been played a couple of times but no stickers have been applied and no seals have been broken." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2705168" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 12 Dec 2021 21:07:57 +0000" />
+        <price currency="GBP" value="84.00" />
+        <condition value="new" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2725910" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 13 Dec 2021 12:47:16 +0000" />
+        <price currency="EUR" value="142.00" />
+        <condition value="new" />
+        <notes value="Title: Gloomhaven&amp;#10;Publisher: Cephalofair Games&amp;#10;Language(s): English" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2729321" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 18 Dec 2021 20:50:50 +0000" />
+        <price currency="USD" value="50.00" />
+        <condition value="verygood" />
+        <notes value="LOCAL SALE ONLY IN LOS ANGELES (SAN FERNANDO VALLEY PICKUP).  THIS GAME HAS BEEN USED SO BUYER WILL NEED TO PURCHASE STICKER SETS TO COVER UP MARKED MAP, ETC.&amp;#10;&amp;#10;WILL NOT SHIP.&amp;#10;&amp;#10;Local to Los Angeles. Smoke-free household. Will accept PayPal, VenMo, or Zelle transfers, or cash for local pickups. If there are any PayPal or other fees (for example, PayPal transfers under Goods and Services), Buyer to cover those.&amp;#10;&amp;#10;For games that include expansions, we likely have not kept the expansion box." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2735660" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 20 Dec 2021 17:44:51 +0000" />
+        <price currency="EUR" value="60.00" />
+        <condition value="good" />
+        <notes value="Used with non-removable stickers (can be covered up), with Folded Space insert, some of the characters are painted and have improvements (Mindthief, Spellweaver, Cragheart, Tinkerer, Three Spears, Saw, Angry Face, Lightning Bolts, Sun, Two Minis), all components included&amp;#10;&amp;#10;Box is very heavy, so shipping will be a bit costly. Can also be picked up in D&amp;#195;&amp;#188;sseldorf or at the next nearby game fair." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2736974" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 27 Dec 2021 14:24:29 +0000" />
+        <price currency="EUR" value="75.00" />
+        <condition value="likenew" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2741213" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 29 Dec 2021 16:05:03 +0000" />
+        <price currency="USD" value="75.00" />
+        <condition value="verygood" />
+        <notes value="Board has about 10 stickers on it already (I can remove these if you'd like to use the removable sticker pack instead). Very good to excellent otherwise&amp;#10;&amp;#10;$20 savings for local pickup" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2742971" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Thu, 30 Dec 2021 21:48:26 +0000" />
+        <price currency="USD" value="115.00" />
+        <condition value="verygood" />
+        <notes value="Includes the following:&amp;#10;&amp;#10;-Base game (very good): played around 4-5 times pre pandemic with the gaming group. Stickers have been placed and some markings on the board. Cards that we had used have been sleeved in Mayday Premium sleeves and will inlcude a pack of each for matching purposes. Just wasn't that big of a hit with the group &amp;#10;- Stained Meeple Realty Insert (see pics)&amp;#10;- Monster standees and 3D printed player boards and card holders from 3D Game Gear (not sure if they are still around)&amp;#10;- Mini dice for monster standees&amp;#10;- Sticker set for resetting&amp;#10;- Forgetten Circles expansion (NIS)&amp;#10;&amp;#10;Payment via PayPal and buyer pays shipping. Can do local pickup from 29229 if possible.&amp;#10;&amp;#10;Let me know if you have any questions. Thanks for looking!" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2744000" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 01 Jan 2022 13:03:45 +0000" />
+        <price currency="EUR" value="129.00" />
+        <condition value="likenew" />
+        <notes value="Env&amp;#195;&amp;#173;o solo a Espa&amp;#195;&amp;#177;a +18 euros" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2744919" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 02 Jan 2022 01:04:41 +0000" />
+        <price currency="USD" value="85.00" />
+        <condition value="new" />
+        <notes value="I have an unopened Gloomhaven complete set for $85. Selling the top-rated game on boardgamegeek for significantly less than the selling price. Please email/text and I'll get back to you shortly! My pictures won't upload for some reason but happy to send them via email." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2745409" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 02 Jan 2022 12:01:18 +0000" />
+        <price currency="EUR" value="100.00" />
+        <condition value="likenew" />
+        <notes value="" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2745646" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 02 Jan 2022 23:49:57 +0000" />
+        <price currency="GBP" value="125.00" />
+        <condition value="new" />
+        <notes value="Gloomhaven - Second edition full Kickstarter pledge + SINISTER FISH reusable sticker set INCLUDED. SALE TO UK ONLY.&amp;#10;&amp;#10;This is the second edition of Gloomhaven, with minis, unopened, in perfect condition. I've ordered Frosthaven and don't have time to play this one as theres multiple copies in my gaming group, so making space for future games.&amp;#10; &amp;#10;Postage is included in the cost, to all standard UK addresses via MyHermes. Addresses outside will incur further delivery costs. Collection from Sutton, Surrey also possible and happy to refund postage cost." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2746159" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 03 Jan 2022 05:12:10 +0000" />
+        <price currency="USD" value="120.00" />
+        <condition value="likenew" />
+        <notes value="This copy is like new. Only the first scenario was ever played. No stickers were added to the board. It comes with an awesome 3d printed insert. A few of the starting class miniatures have been painted. It also comes with the deck of solo scenario cards. &amp;#10;&amp;#10;I'm open to offer and/or trades." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2746291" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 03 Jan 2022 12:37:24 +0000" />
+        <price currency="GBP" value="88.00" />
+        <condition value="likenew" />
+        <notes value="Gloomhaven in excellent condition!&amp;#10;&amp;#10;Please ask for shipping costs or if you have any other questions.&amp;#10;&amp;#10;Thank you!" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2746510" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 04 Jan 2022 10:11:41 +0000" />
+        <price currency="EUR" value="157.40" />
+        <condition value="new" />
+        <notes value="Game: Gloomhaven (4a Edizione)&amp;#10;Languages: UK&amp;#10;Condition: New&amp;#10;&amp;#10;&amp;#10;SHIPPING COSTS&amp;#10;&amp;#10;[AUSTRALIA]&amp;#10;o &lt; 500g: 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 20,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 16,99&amp;#226;&amp;#130;&amp;#172;[Express], 21,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 21,99&amp;#226;&amp;#130;&amp;#172;[Express], 24,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 26,99&amp;#226;&amp;#130;&amp;#172;[Express], 27,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[AUSTRIA]&amp;#10;o &lt; 500g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[BELGIUM]&amp;#10;o &lt; 500g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[BULGARIA]&amp;#10;o &lt; 500g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 11,99&amp;#226;&amp;#130;&amp;#172;[Standard], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 11,99&amp;#226;&amp;#130;&amp;#172;[Standard], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[CANADA]&amp;#10;o &lt; 500g: 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 17,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 16,99&amp;#226;&amp;#130;&amp;#172;[Express], 20,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 19,99&amp;#226;&amp;#130;&amp;#172;[Express], 22,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[CHINA]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 19,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 17,99&amp;#226;&amp;#130;&amp;#172;[Express], 22,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 22,99&amp;#226;&amp;#130;&amp;#172;[Express], 25,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 27,99&amp;#226;&amp;#130;&amp;#172;[Express], 28,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[CROATIA]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 17,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 21,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 26,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[CYPRUS]&amp;#10;o &lt; 500g: 11,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 14,99&amp;#226;&amp;#130;&amp;#172;[Standard], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 15,99&amp;#226;&amp;#130;&amp;#172;[Standard], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 17,99&amp;#226;&amp;#130;&amp;#172;[Standard], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[CZECH REPUBLIC]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[DENMARK]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[ESTONIA]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 11,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 11,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[FINLAND]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[FRANCE]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[GERMANY]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[GREECE]&amp;#10;o &lt; 500g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[HUNGARY]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[IRELAND]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[ISRAEL]&amp;#10;o &lt; 500g: 15,99&amp;#226;&amp;#130;&amp;#172;[Express], 22,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 20,99&amp;#226;&amp;#130;&amp;#172;[Express], 25,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 25,99&amp;#226;&amp;#130;&amp;#172;[Express], 28,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 30,99&amp;#226;&amp;#130;&amp;#172;[Express], 32,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[ITALY]&amp;#10;o &lt; 500g: 4,99&amp;#226;&amp;#130;&amp;#172;[Corriere]&amp;#10;o 500-999g: 4,99&amp;#226;&amp;#130;&amp;#172;[Corriere]&amp;#10;o 1000-1499g: 4,99&amp;#226;&amp;#130;&amp;#172;[Corriere]&amp;#10;o 1500-2000g: 4,99&amp;#226;&amp;#130;&amp;#172;[Corriere]&amp;#10;&amp;#10;[JAPAN]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 20,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 16,99&amp;#226;&amp;#130;&amp;#172;[Express], 21,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 21,99&amp;#226;&amp;#130;&amp;#172;[Express], 24,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 26,99&amp;#226;&amp;#130;&amp;#172;[Express], 27,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[KOREA, SOUTH]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 20,99&amp;#226;&amp;#130;&amp;#172;[Standard], 41,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 21,99&amp;#226;&amp;#130;&amp;#172;[Standard], 47,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 24,99&amp;#226;&amp;#130;&amp;#172;[Standard], 54,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 27,99&amp;#226;&amp;#130;&amp;#172;[Standard], 60,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[LITHUANIA]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 11,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 11,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[LUXEMBOURG]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[NETHERLANDS]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 17,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 20,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 24,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 27,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[NORWAY]&amp;#10;o &lt; 500g: 11,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 11,99&amp;#226;&amp;#130;&amp;#172;[Express], 14,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 14,99&amp;#226;&amp;#130;&amp;#172;[Express], 17,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[PERU]&amp;#10;o &lt; 500g: 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 24,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 16,99&amp;#226;&amp;#130;&amp;#172;[Express], 27,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 21,99&amp;#226;&amp;#130;&amp;#172;[Express], 31,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 26,99&amp;#226;&amp;#130;&amp;#172;[Express], 34,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[POLAND]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[PORTUGAL]&amp;#10;o &lt; 500g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[ROMANIA]&amp;#10;o &lt; 500g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 11,99&amp;#226;&amp;#130;&amp;#172;[Standard], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 11,99&amp;#226;&amp;#130;&amp;#172;[Standard], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[SAN MARINO]&amp;#10;o &lt; 500g: 4,99&amp;#226;&amp;#130;&amp;#172;[Corriere], 7,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 500-999g: 4,99&amp;#226;&amp;#130;&amp;#172;[Corriere], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1000-1499g: 4,99&amp;#226;&amp;#130;&amp;#172;[Corriere], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 4,99&amp;#226;&amp;#130;&amp;#172;[Corriere], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[SLOVAKIA]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[SLOVENIA]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 14,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 19,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 23,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[SPAIN]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[SWEDEN]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 8,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[SWITZERLAND]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express], 14,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 14,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 17,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[TURKEY]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 500-999g: 11,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1000-1499g: 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[UNITED KINGDOM]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 9,99&amp;#226;&amp;#130;&amp;#172;[Standard], 10,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 500-999g: 9,99&amp;#226;&amp;#130;&amp;#172;[Standard], 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 11,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;o 1000-1499g: 9,99&amp;#226;&amp;#130;&amp;#172;[Standard], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 12,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;o 1500-2000g: 10,99&amp;#226;&amp;#130;&amp;#172;[Standard], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 15,99&amp;#226;&amp;#130;&amp;#172;[Economy]&amp;#10;&amp;#10;[UNITED STATES]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 12,99&amp;#226;&amp;#130;&amp;#172;[Express], 14,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 14,99&amp;#226;&amp;#130;&amp;#172;[Express], 16,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 18,99&amp;#226;&amp;#130;&amp;#172;[Express], 19,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 21,99&amp;#226;&amp;#130;&amp;#172;[Standard], 21,99&amp;#226;&amp;#130;&amp;#172;[Express]&amp;#10;&amp;#10;[TAIWAN]&amp;#10;o &lt; 500g: 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 20,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 16,99&amp;#226;&amp;#130;&amp;#172;[Express], 21,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 21,99&amp;#226;&amp;#130;&amp;#172;[Express], 24,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 26,99&amp;#226;&amp;#130;&amp;#172;[Express], 27,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;[HONG KONG]&amp;#10;o &lt; 500g: 7,99&amp;#226;&amp;#130;&amp;#172;[Economy], 13,99&amp;#226;&amp;#130;&amp;#172;[Express], 20,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 500-999g: 11,99&amp;#226;&amp;#130;&amp;#172;[Economy], 16,99&amp;#226;&amp;#130;&amp;#172;[Express], 21,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1000-1499g: 12,99&amp;#226;&amp;#130;&amp;#172;[Economy], 21,99&amp;#226;&amp;#130;&amp;#172;[Express], 24,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;o 1500-2000g: 15,99&amp;#226;&amp;#130;&amp;#172;[Economy], 26,99&amp;#226;&amp;#130;&amp;#172;[Express], 27,99&amp;#226;&amp;#130;&amp;#172;[Standard]&amp;#10;&amp;#10;We do not ship to: Abkhazia - Afghanistan - Aland - Albania - Algeria - American Samoa - Andorra - Angola - Anguilla - Antigua and Barbuda - Argentina - Armenia - Aruba - Ascension - Ashmore and Cartier Islands - Australian Antarctic Territory - Azerbaijan - Bahamas, The - Bahrain - Baker Island - Bangladesh - Barbados - Belarus - Belize - Benin - Bermuda - Bhutan - Bolivia - Bosnia and Herzegovina - Botswana - Bouvet Island - Brazil - British Antarctic Territory - British Indian Ocean Territory - British Sovereign Base Areas - British Virgin Islands - Brunei - Burkina Faso - Burundi - Cambodia - Cameroon - Cape Verde - Cayman Islands - Central African Republic - Chad - Chile - Christmas Island - Clipperton Island - Cocos (Keeling) Islands - Colombia - Comoros - Congo, (Congo ? Brazzaville) - Congo, (Congo ? Kinshasa) - Cook Islands - Coral Sea Islands - Costa Rica - Cote d'Ivoire (Ivory Coast) - Cuba - Djibouti - Dominica - Dominican Republic - Ecuador - Egypt - El Salvador - Equatorial Guinea - Eritrea - Ethiopia - Falkland Islands (Islas Malvinas) - Faroe Islands - Fiji - French Guiana - French Polynesia - French Southern and Antarctic Lands - Gabon - Gambia, The - Georgia - Ghana - Gibraltar - Greenland - Grenada - Guadeloupe - Guam - Guatemala - Guernsey - Guinea - Guinea-Bissau - Guyana - Haiti - Heard Island and McDonald Islands - Honduras - Howland Island - Iceland - India - Indonesia - Iran - Iraq - Isle of Man - Jamaica - Jarvis Island - Jersey - Johnston Atoll - Jordan - Kazakhstan - Kenya - Kingman Reef - Kiribati - Korea, North - Kuwait - Kyrgyzstan - Laos - Latvia - Lebanon - Lesotho - Liberia - Libya - Liechtenstein - Macau - Macedonia - Madagascar - Malawi - Malaysia - Maldives - Mali - Malta - Marshall Islands - Martinique - Mauritania - Mauritius - Mayotte - Mexico - Micronesia - Midway Islands - Moldova - Monaco - Mongolia - Montenegro - Montserrat - Morocco - Mozambique - Myanmar (Burma) - Nagorno-Karabakh - Namibia - Nauru - Navassa Island - Nepal - Netherlands Antilles - New Caledonia - New Zealand - Nicaragua - Niger - Nigeria - Niue - Norfolk Island - Northern Cyprus - Northern Mariana Islands - Oman - Pakistan - Palau - Palmyra Atoll - Panama - Papua New Guinea - Paraguay - Peter I Island - Philippines - Pitcairn Islands - Pridnestrovie (Transnistria) - Puerto Rico - Qatar - Queen Maud Land - Reunion - Ross Dependency - Russia - Rwanda - Saint Barthelemy - Saint Helena - Saint Kitts and Nevis - Saint Lucia - Saint Martin - Saint Pierre and Miquelon - Saint Vincent and the Grenadines - Samoa - Sao Tome and Principe - Saudi Arabia - Senegal - Serbia - Seychelles - Sierra Leone - Singapore - Solomon Islands - Somalia - Somaliland - South Africa - South Georgia &amp; South Sandwich Islands - South Ossetia - Sri Lanka - Sudan - Suriname - Svalbard - Swaziland - Syria - Tajikistan - Tanzania - Thailand - Timor-Leste (East Timor) - Togo - Tokelau - Tonga - Trinidad and Tobago - Tristan da Cunha - Tunisia - Turkmenistan - Turks and Caicos Islands - Tuvalu - U.S. Virgin Islands - Uganda - Ukraine - United Arab Emirates - Uruguay - Uzbekistan - Vanuatu - Venezuela - Vietnam - Wake Island - Wallis and Futuna - Yemen - Zambia - Zimbabwe&amp;#10;&amp;#10;&amp;#10;[#]GIrHcs1UuhvMMuTYdDy8FMX7K6UFL6Iqmpz7jlRQ29w=[#]" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2747365" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sat, 08 Jan 2022 18:35:00 +0000" />
+        <price currency="CAD" value="225.00" />
+        <condition value="likenew" />
+        <notes value="- Sleeved many of the cards that are reshuffled.&amp;#10;- Comes with Go7 Gaming custom insert which was $130.00&amp;#10;- Some heroes painted see pic.  I don't recall which ones I didn't get around to.  It's been a couple years.&amp;#10;- I purchased and used the removable sticker pack so it's ready to be reused&amp;#10;&amp;#10;Ideally we choose a local pickup, with the insert the game becomes a real beast of weight." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2751387" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 10 Jan 2022 23:52:57 +0000" />
+        <price currency="EUR" value="110.00" />
+        <condition value="likenew" />
+        <notes value="+Shipping" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2753182" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 12 Jan 2022 21:41:58 +0000" />
+        <price currency="EUR" value="128.00" />
+        <condition value="new" />
+        <notes value="New in shrink, sixth printing, 2020 edition (latest)&amp;#10;&amp;#10;[b]Seller info&amp;#10;My feedback[/b] - https://boardgamegeek.com/geekmarket/user/unq_flipmo/feedback&amp;#10;SALE LIST - check my complete list of games and promos for sale: https://boardgamegeek.com/geekmarket/user/unq_flipmo ; but you can ask me about ~any game really, I probably have it&amp;#10;&amp;#10;[b]Shipping[/b]&amp;#10;flat shipping worldwide, contact me for exact shipping costs&amp;#10;lower shipping rates for Greece, Hungary, Bulgaria&amp;#10;will discount shipping for multiple purchases&amp;#10;&amp;#10;[b]Payment[/b]&amp;#10;PayPal - if payment is made with option [i]Sending to a friend or family[/i] no extra % is needed; if not 5% to be added as PayPal fees&amp;#10;bank transfer via SEPA, IBAN - no fees&amp;#10;Revolut - no fees" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2754984" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 14 Jan 2022 02:16:01 +0000" />
+        <price currency="USD" value="85.00" />
+        <condition value="verygood" />
+        <notes value="Includes several storage organizers similar to the Y.A.S.S. post from 2017 you can find on the forums.  The first two scenarios were completed so a few of the stickers have been placed.&amp;#10;&amp;#10;Local sale around 24401.  PayPal or Venmo." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2756085" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Fri, 14 Jan 2022 11:16:05 +0000" />
+        <price currency="EUR" value="139.00" />
+        <condition value="new" />
+        <notes value="Language: italian&amp;#10;Edition Year: 2020&amp;#10;Publisher: Asmodee Italia&amp;#10;Game Condition: Mint&amp;#10;Box Condition: Mint&amp;#10;PREORDER - Available starting from: 2022-02-28&amp;#10;ID Gis: 36236 (for reference)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2756339" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Sun, 16 Jan 2022 07:47:22 +0000" />
+        <price currency="EUR" value="100.00" />
+        <condition value="new" />
+        <notes value="The game is new and unpunched, i only open it.&amp;#10;/// Payment \\\&amp;#10;We prefer the no-cost option by IBAN, but payment by Paypal is also possible with a 5% surcharge.&amp;#10;&amp;#10;Shipping calculated based on the destination country.&amp;#10;Please ask for shipping quotes." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2757982" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 17 Jan 2022 17:56:30 +0000" />
+        <price currency="USD" value="90.00" />
+        <condition value="likenew" />
+        <notes value="Purchased the game and unwrapped the shrink but have not played the game.  Cannot fit it into our group's schedule and would rather someone else get a chance to play it.  Everything is like new." />
+        <link href="https://boardgamegeek.com/geekmarket/product/2759146" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Mon, 17 Jan 2022 20:34:09 +0000" />
+        <price currency="USD" value="300.00" />
+        <condition value="verygood" />
+        <notes value="Broken Token insert.  &amp;#10;Reusable Stickers&amp;#10;Fully Painted.&amp;#10;&amp;#10;Local pickup available in Cincy/Dayton/Columbus" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2759303" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Tue, 18 Jan 2022 15:45:16 +0000" />
+        <price currency="USD" value="100.00" />
+        <condition value="verygood" />
+        <notes value="Played about halfway through, great game, but sadly budget is lacking at the moment so selling my collection.  &amp;#10;Used a removable sticker set, so everything should be able to be reset.  I've put everything back in their original boxes.&amp;#10;Kept in great condition&amp;#10;&amp;#10;Comes with:&amp;#10;- Rest of removable sticker set&amp;#10;- Bunch of 3d printed inserts for cards, tokens, and some terrain&amp;#10;- 2 Commander boxes" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2760029" title="marketlisting" />
+      </listing>
+      <listing>
+        <listdate value="Wed, 19 Jan 2022 10:00:27 +0000" />
+        <price currency="EUR" value="119.00" />
+        <condition value="likenew" />
+        <notes value="Game does never come in shrink wrap - brand new!&amp;#10;(The starting characters are primed)&amp;#10;&amp;#10;Contains:&amp;#10;+ Gloomhaven (New, German Version)&amp;#10;+ Gloomhaven Forgotten Circles Add on (New in shrink, German Version)&amp;#10;+ Gloomhaven Soloszenarien (New, German Version)" />
+        <link href="https://boardgamegeek.com/geekmarket/product/2760589" title="marketlisting" />
+      </listing>
+    </marketplacelistings>
+  </item>
+</items>

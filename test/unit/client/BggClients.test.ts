@@ -4,7 +4,7 @@ import { TextFetcher } from '../../../src/fetcher';
 import { GenericQueryBuilder } from '../../../src/query';
 import { ICollectionRequest, IFamilyRequest, IThingRequest } from '../../../src/request';
 import { XmlResponseParser } from '../../../src/responseparser';
-import { textResponseByEndpoint } from '../ResponseFixtureReader';
+import { TextResponseByEndpoint } from '../fixture_reader';
 
 jest.mock('../../../src/fetcher')
 jest.mock('../../../src/responseparser')
@@ -22,7 +22,7 @@ describe('BggClients', () => {
         test('should call dependency one times each', async () => {
             textFetcherMock.prototype.doFetch.mockImplementation((query) => {
                 return new Promise((resolve) => {
-                    resolve(textResponseByEndpoint[query]);
+                    resolve(TextResponseByEndpoint[query]);
                 });
             })
 

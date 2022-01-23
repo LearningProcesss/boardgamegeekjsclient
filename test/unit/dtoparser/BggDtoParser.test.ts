@@ -1,35 +1,143 @@
-import { BggThingDtoParser, BggCollectionDtoParser, BggFamilyDtoParser, BggForumlistDtoParser, BggForumDtoParser, BggThreadDtoParser, BggUserDtoParser, BggGuildDtoParser, BggPlayDtoParser } from "../../../src/dto";
+import { BggCollectionDtoParser, BggFamilyDtoParser, BggForumDtoParser, BggForumlistDtoParser, BggGuildDtoParser, BggPlayDtoParser, BggThingDto, BggThingDtoParser, BggThreadDtoParser, BggUserDtoParser, IBggDto } from "../../../src/dto";
 import { XmlResponseParser } from "../../../src/responseparser";
-import { textResponseByEndpoint } from "../ResponseFixtureReader";
-import { readFixture } from "./BggCollection.fixture";
+import { ReflectionType, TextResponseByEndpoint, } from "../fixture_reader";
 
-// jest.mock('../../../src/responseparser');
+let reflectionProperties: Map<string, string[]>
+
+beforeAll(() => {
+    reflectionProperties = ReflectionType();
+
+    // console.dir(reflectionProperties, { depth: null, colors: true })
+})
+
+interface IPropertyResult {
+    property: string,
+    message: string,
+    valid: boolean,
+    objectType: string
+}
+
+interface IValidation {
+    results: IPropertyResult[]
+}
+
+// const validator = (dto: any, required: string[]): IPropertyResult[] => {
+
+//     const result: IPropertyResult[] = []
+
+//     for (const property of required) {
+//         // console.log(dto[property]);
+
+//         if (!dto.hasOwnProperty(property) || dto[property] === undefined) {
+//             result.push({ valid: false, property, message: `required ${property} is missing or undefined.` })
+//         }
+//     }
+
+//     return result
+// }
+
+const validatorTraverse = (object: any, result: IPropertyResult[] = []) => {
+
+    result = result || []
+
+    const currentType = object.constructor.name !== 'Array' ? object.constructor.name : object[0].constructor.name
+
+    object = object.constructor.name !== 'Array' ? object : object[0]
+
+    console.log(`currenttype: ${currentType}`);
+
+    if (currentType !== 'Array' && !reflectionProperties.has(currentType)) {
+        console.log(`${currentType} type not found in reflection.`);
+        return
+    } else if (currentType === 'Array' && !reflectionProperties.has(object[0].constructor.name)) {
+        console.log(`${currentType} type not found in reflection.`);
+        return
+    }
+
+    const properties: string[] = reflectionProperties.get(currentType)!
+
+    for (const property of properties) {
+        if ((typeof object[property] !== 'object') && (!object.hasOwnProperty(property) || object[property] === undefined)) {
+            result.push({ valid: false, property, message: `required ${property} is missing or undefined.`, objectType: currentType })
+        }
+        else if ((typeof object[property] === 'object' && object[property] !== null)) {
+            validatorTraverse(object[property], result)
+        }
+    }
+
+    return result
+}
+
+// const thingValidator = (dto: BggThingDto) => {
+
+//     validatorTraverse(dto)
+
+//     const thingValidation: IValidation = {
+//         results: validator(dto, reflectionProperties.get(dto.constructor.name)!)
+//     }
+
+//     const statisticsValidation: IValidation = {
+//         results: validator(dto.statistics, ['page', 'ratings'])
+//     }
+
+//     const ratingsValidation: IValidation = {
+//         results:
+//             validator(dto.statistics.ratings, ['median'])
+//     }
+
+//     const pollsValidation: IValidation = {
+//         results:
+//             validator(dto.polls[1].results[0].resultItemList[2], ['numvotes'])
+//     }
+
+//     return [thingValidation, statisticsValidation, ratingsValidation, pollsValidation]
+// }
 
 describe('BggDtoParsers', () => {
 
     const xmlToJsonParser = new XmlResponseParser();
 
     describe('BggThingDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        // it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=174430'];
+        //     const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=174430&comments=1&marketplace=1&pagesize=10&ratingcomments=1&stats=1&videos=1&type=boardgame&versions=1'];
+
+        //     const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
+
+        //     const dtoParser: BggThingDtoParser = new BggThingDtoParser();
+
+        //     const dtoList: BggThingDto[] = await dtoParser.jsonToDto(jsonData);
+
+        //     const dto: BggThingDto = dtoList[0]
+
+        //     const validationResult = thingValidator(dto)
+
+        //     for (const validation of validationResult) {
+        //         expect(validation.results).toStrictEqual([])
+        //     }
+        // });
+        it('should parse Thing dto and intercept expected existing properties that are missing when xml response is valid', async () => {
+
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=174430&comments=1&marketplace=1&pagesize=10&ratingcomments=1&stats=1&videos=1&type=boardgame&versions=1&withmissings'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
             const dtoParser: BggThingDtoParser = new BggThingDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList: BggThingDto[] = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].id).toBe(174430)
-            expect(dto[0].links.length).toBeGreaterThan(1)
-            expect(dto[0].polls.length).toBeGreaterThan(1)
+            const dto: BggThingDto = dtoList[0]
+
+            const validationResult = validatorTraverse(dto)
+
+            // expect(validationResult.filter(validation => validation.results.length > 0).length).toBeGreaterThanOrEqual(1)
+            expect(validationResult).toStrictEqual([])
         });
     });
     describe('BggFamilyDtoParser', () => {
         it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/family?id=8374'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/family?id=8374'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
@@ -45,7 +153,7 @@ describe('BggDtoParsers', () => {
     describe('BggForumListDtoParser', () => {
         it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/forumlist?id=227002&type=thing'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/forumlist?id=227002&type=thing'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
@@ -62,7 +170,7 @@ describe('BggDtoParsers', () => {
     describe('BggForumDtoParser', () => {
         it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/forum?id=19'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/forum?id=19'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
@@ -80,7 +188,7 @@ describe('BggDtoParsers', () => {
     describe('BggThreadDtoParser', () => {
         it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thread?id=1082079&count=10&minarticledate=2021-12-15'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thread?id=1082079&count=10&minarticledate=2021-12-15'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
@@ -98,7 +206,7 @@ describe('BggDtoParsers', () => {
     describe('BggUserDtoParser', () => {
         it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/user?name=mattiabanned'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/user?name=mattiabanned'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
@@ -113,7 +221,7 @@ describe('BggDtoParsers', () => {
     describe('BggGuildDtoParser', () => {
         it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/guild?id=1303&members=1'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/guild?id=1303&members=1'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
@@ -129,7 +237,7 @@ describe('BggDtoParsers', () => {
     describe('BggPlayDtoParser', () => {
         it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/plays?username=mattiabanned'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/plays?username=mattiabanned'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
@@ -145,7 +253,7 @@ describe('BggDtoParsers', () => {
     describe('BggCollectionDtoParser', () => {
         it('should parse Thing dto when xml response is valid', async () => {
 
-            const xmlResponse: string = textResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/collection?username=mattiabanned'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/collection?username=mattiabanned'];
 
             const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
@@ -157,15 +265,5 @@ describe('BggDtoParsers', () => {
             expect(dto[0].totalitems).toBeGreaterThanOrEqual(1)
             expect(dto[0].items.length).toBeGreaterThanOrEqual(1)
         });
-    });
-
-    test('should parse collection dto', async () => {
-        const dtoParser: BggCollectionDtoParser = new BggCollectionDtoParser();
-
-        const jsonString = await readFixture();
-
-        const data = await dtoParser.jsonToDto(JSON.parse(jsonString));
-
-        expect(data).not.toBeNaN();
     });
 });

@@ -5,16 +5,30 @@ vars:
     sh: cat package.json | jq -r '.version'
   cjs_dockerimage_id:
     sh: docker images -q boardgamegeekjsclient:cjs
+  esm_dockerimage_id:
+    sh: docker images -q boardgamegeekjsclient:esm
+  react_dockerimage_id:
+    sh: docker images -q boardgamegeekjsclient:react
 
 tasks:
   cjs-cleanup:
     desc: Cleanup container, image cjs
     cmds:
       - if ! [ -z {{.cjs_dockerimage_id}} ]; then docker rm $(docker ps -a -q --filter ancestor={{.cjs_dockerimage_id}}) ; docker image rm {{.cjs_dockerimage_id}} ; docker image prune -f ; fi
+  esm-cleanup:
+    desc: Cleanup container, image cjs
+    cmds:
+      - if ! [ -z {{.cjs_dockerimage_id}} ]; then docker rm $(docker ps -a -q --filter ancestor={{.esm_dockerimage_id}}) ; docker image rm {{.esm_dockerimage_id}} ; docker image prune -f ; fi
+  react-cleanup:
+    desc: Cleanup container, image cjs
+    cmds:
+      - if ! [ -z {{.cjs_dockerimage_id}} ]; then docker rm $(docker ps -a -q --filter ancestor={{.react_dockerimage_id}}) ; docker image rm {{.react_dockerimage_id}} ; docker image prune -f ; fi
   cleanup:
     desc: Clean up containers and images
     cmds:
       - task: cjs-cleanup
+      - task: esm-cleanup
+      - task: react-cleanup
   cjs-build-tag:
     desc: Build and tag image for cjs
     cmds:

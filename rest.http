@@ -1,0 +1,7 @@
+### thing with all options
+
+GET https://www.boardgamegeek.com/xmlapi2/thing?id=174430&comments=1&marketplace=1&pagesize=10&ratingcomments=1&stats=1&videos=1&type=boardgame&versions=1
+
+### thing with all options
+
+GET https://www.boardgamegeek.com/xmlapi2/thing?id=174430&stats=1
