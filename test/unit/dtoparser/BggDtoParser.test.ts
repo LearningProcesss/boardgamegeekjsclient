@@ -1,121 +1,39 @@
-import { BggCollectionDtoParser, BggFamilyDtoParser, BggForumDtoParser, BggForumlistDtoParser, BggGuildDtoParser, BggPlayDtoParser, BggThingDto, BggThingDtoParser, BggThreadDtoParser, BggUserDtoParser, IBggDto } from "../../../src/dto";
+import { BggCollectionDto, BggCollectionDtoParser, BggFamilyDto, BggFamilyDtoParser, BggForumDto, BggForumDtoParser, BggForumlistDto, BggForumlistDtoParser, BggGuildDto, BggGuildDtoParser, BggPlayDto, BggPlayDtoParser, BggThingDto, BggThingDtoParser, BggThreadDto, BggThreadDtoParser, BggUserDto, BggUserDtoParser, IBggDto } from "../../../src/dto";
 import { XmlResponseParser } from "../../../src/responseparser";
-import { ReflectionType, TextResponseByEndpoint, } from "../fixture_reader";
+import { TextResponseByEndpoint } from "../utils";
+import { ReflectionType, ReflectionTypeExcludable } from '../utils/reflection'
+import { ValidatorTraverse } from '../utils/validator'
+import path from 'path'
 
-let reflectionProperties: Map<string, string[]>
+export let reflectionProperties: Map<string, string[]>
+export let reflectionPropertiesExcludable: Map<string, string[]>
 
 beforeAll(() => {
-    reflectionProperties = ReflectionType();
-
-    // console.dir(reflectionProperties, { depth: null, colors: true })
+    reflectionProperties = ReflectionType(path.join(__dirname, '../../..', 'src/dto/concrete'));
+    reflectionPropertiesExcludable = ReflectionTypeExcludable();
 })
-
-interface IPropertyResult {
-    property: string,
-    message: string,
-    valid: boolean,
-    objectType: string
-}
-
-interface IValidation {
-    results: IPropertyResult[]
-}
-
-// const validator = (dto: any, required: string[]): IPropertyResult[] => {
-
-//     const result: IPropertyResult[] = []
-
-//     for (const property of required) {
-//         // console.log(dto[property]);
-
-//         if (!dto.hasOwnProperty(property) || dto[property] === undefined) {
-//             result.push({ valid: false, property, message: `required ${property} is missing or undefined.` })
-//         }
-//     }
-
-//     return result
-// }
-
-const validatorTraverse = (object: any, result: IPropertyResult[] = []) => {
-
-    result = result || []
-
-    const currentType = object.constructor.name !== 'Array' ? object.constructor.name : object[0].constructor.name
-
-    object = object.constructor.name !== 'Array' ? object : object[0]
-
-    console.log(`currenttype: ${currentType}`);
-
-    if (currentType !== 'Array' && !reflectionProperties.has(currentType)) {
-        console.log(`${currentType} type not found in reflection.`);
-        return
-    } else if (currentType === 'Array' && !reflectionProperties.has(object[0].constructor.name)) {
-        console.log(`${currentType} type not found in reflection.`);
-        return
-    }
-
-    const properties: string[] = reflectionProperties.get(currentType)!
-
-    for (const property of properties) {
-        if ((typeof object[property] !== 'object') && (!object.hasOwnProperty(property) || object[property] === undefined)) {
-            result.push({ valid: false, property, message: `required ${property} is missing or undefined.`, objectType: currentType })
-        }
-        else if ((typeof object[property] === 'object' && object[property] !== null)) {
-            validatorTraverse(object[property], result)
-        }
-    }
-
-    return result
-}
-
-// const thingValidator = (dto: BggThingDto) => {
-
-//     validatorTraverse(dto)
-
-//     const thingValidation: IValidation = {
-//         results: validator(dto, reflectionProperties.get(dto.constructor.name)!)
-//     }
-
-//     const statisticsValidation: IValidation = {
-//         results: validator(dto.statistics, ['page', 'ratings'])
-//     }
-
-//     const ratingsValidation: IValidation = {
-//         results:
-//             validator(dto.statistics.ratings, ['median'])
-//     }
-
-//     const pollsValidation: IValidation = {
-//         results:
-//             validator(dto.polls[1].results[0].resultItemList[2], ['numvotes'])
-//     }
-
-//     return [thingValidation, statisticsValidation, ratingsValidation, pollsValidation]
-// }
 
 describe('BggDtoParsers', () => {
 
     const xmlToJsonParser = new XmlResponseParser();
 
     describe('BggThingDtoParser', () => {
-        // it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Thing dto when xml response is valid', async () => {
 
-        //     const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=174430&comments=1&marketplace=1&pagesize=10&ratingcomments=1&stats=1&videos=1&type=boardgame&versions=1'];
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=174430&comments=1&marketplace=1&pagesize=10&ratingcomments=1&stats=1&videos=1&type=boardgame&versions=1'];
 
-        //     const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
+            const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
 
-        //     const dtoParser: BggThingDtoParser = new BggThingDtoParser();
+            const dtoParser: BggThingDtoParser = new BggThingDtoParser();
 
-        //     const dtoList: BggThingDto[] = await dtoParser.jsonToDto(jsonData);
+            const dtoList: BggThingDto[] = await dtoParser.jsonToDto(jsonData);
 
-        //     const dto: BggThingDto = dtoList[0]
+            const dto: BggThingDto = dtoList[0]
 
-        //     const validationResult = thingValidator(dto)
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
 
-        //     for (const validation of validationResult) {
-        //         expect(validation.results).toStrictEqual([])
-        //     }
-        // });
+            expect(validationResult).toStrictEqual([])
+        });
         it('should parse Thing dto and intercept expected existing properties that are missing when xml response is valid', async () => {
 
             const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=174430&comments=1&marketplace=1&pagesize=10&ratingcomments=1&stats=1&videos=1&type=boardgame&versions=1&withmissings'];
@@ -128,14 +46,13 @@ describe('BggDtoParsers', () => {
 
             const dto: BggThingDto = dtoList[0]
 
-            const validationResult = validatorTraverse(dto)
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
 
-            // expect(validationResult.filter(validation => validation.results.length > 0).length).toBeGreaterThanOrEqual(1)
-            expect(validationResult).toStrictEqual([])
+            expect(validationResult).not.toStrictEqual([])
         });
     });
     describe('BggFamilyDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Family dto when xml response is valid', async () => {
 
             const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/family?id=8374'];
 
@@ -143,11 +60,13 @@ describe('BggDtoParsers', () => {
 
             const dtoParser: BggFamilyDtoParser = new BggFamilyDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].id).toBe(8374)
-            expect(dto[0].things.length).toBeGreaterThan(1)
+            const dto: BggFamilyDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
         });
     });
     describe('BggForumListDtoParser', () => {
@@ -159,12 +78,13 @@ describe('BggDtoParsers', () => {
 
             const dtoParser: BggForumlistDtoParser = new BggForumlistDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].id).toBe(227002)
-            expect(dto[0].type).toBe('thing')
-            expect(dto[0].forums.length).toBeGreaterThan(1)
+            const dto: BggForumlistDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
         });
     })
     describe('BggForumDtoParser', () => {
@@ -176,13 +96,13 @@ describe('BggDtoParsers', () => {
 
             const dtoParser: BggForumDtoParser = new BggForumDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].id).toBe(19)
-            expect(dto[0].threads.length).toBeGreaterThan(1)
-            expect(dto[0].noposting).not.toBeNaN()
-            expect(dto[0].numthreads).toBeGreaterThan(1)
+            const dto: BggForumDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
         });
     });
     describe('BggThreadDtoParser', () => {
@@ -194,13 +114,13 @@ describe('BggDtoParsers', () => {
 
             const dtoParser: BggThreadDtoParser = new BggThreadDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].id).toBe(1082079)
-            expect(dto[0].articles.length).toBe(10)
-            expect(dto[0].numarticles).toBeGreaterThan(1)
-            expect(dto[0].link).toBe('https://boardgamegeek.com/thread/1082079')
+            const dto: BggThreadDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
         });
     });
     describe('BggUserDtoParser', () => {
@@ -212,10 +132,13 @@ describe('BggDtoParsers', () => {
 
             const dtoParser: BggUserDtoParser = new BggUserDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].id).toBe(1236367)
+            const dto: BggUserDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
         });
     });
     describe('BggGuildDtoParser', () => {
@@ -227,11 +150,13 @@ describe('BggDtoParsers', () => {
 
             const dtoParser: BggGuildDtoParser = new BggGuildDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].id).toBe(1303)
-            expect(dto[0].members.length).toBeGreaterThan(1)
+            const dto: BggGuildDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
         });
     });
     describe('BggPlayDtoParser', () => {
@@ -243,11 +168,15 @@ describe('BggDtoParsers', () => {
 
             const dtoParser: BggPlayDtoParser = new BggPlayDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].username).toBe('mattiabanned')
-            expect(dto[0].plays.length).toBeGreaterThanOrEqual(1)
+            const dto: BggPlayDto = dtoList[0]
+            
+            console.dir(dtoList[0])
+            
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
         });
     });
     describe('BggCollectionDtoParser', () => {
@@ -259,11 +188,13 @@ describe('BggDtoParsers', () => {
 
             const dtoParser: BggCollectionDtoParser = new BggCollectionDtoParser();
 
-            const dto = await dtoParser.jsonToDto(jsonData);
+            const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            expect(dto).not.toBeUndefined()
-            expect(dto[0].totalitems).toBeGreaterThanOrEqual(1)
-            expect(dto[0].items.length).toBeGreaterThanOrEqual(1)
+            const dto: BggCollectionDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
         });
     });
 });

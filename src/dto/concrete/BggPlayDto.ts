@@ -4,9 +4,7 @@ import { BggPlaysPlayDto } from "./subdto";
 
 @JsonIgnoreProperties({ value: ['@_termsofuse'] })
 export class BggPlayDto implements IBggDto {
-    @JsonProperty()
-    @JsonClassType({ type: () => [Number] })
-    @JsonAlias({ values: ["@_id"] })
+
     id!: number;
 
     @JsonProperty()

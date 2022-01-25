@@ -4,7 +4,7 @@ import { TextFetcher } from '../../../src/fetcher';
 import { GenericQueryBuilder } from '../../../src/query';
 import { ICollectionRequest, IFamilyRequest, IThingRequest } from '../../../src/request';
 import { XmlResponseParser } from '../../../src/responseparser';
-import { TextResponseByEndpoint } from '../fixture_reader';
+import { TextResponseByEndpoint } from '../utils';
 
 jest.mock('../../../src/fetcher')
 jest.mock('../../../src/responseparser')

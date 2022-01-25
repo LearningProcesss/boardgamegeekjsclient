@@ -1,0 +1,1 @@
+export { TextResponseByEndpoint, WriteXmlParseByEndpoint } from './Utils'

@@ -1,5 +1,4 @@
 import fs from 'fs';
-import rd from 'readline';
 import path from 'path';
 
 export const TextResponseByEndpoint: Record<string, string> =
@@ -17,7 +16,6 @@ export const TextResponseByEndpoint: Record<string, string> =
     "https://www.boardgamegeek.com/xmlapi2/thing?id=999999": fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_notExisting_999999.xml'), 'utf-8'),
     "https://www.boardgamegeek.com/xmlapi2/thing?id=35424,35421,234669,328182,322903&type=boardgame&versions=1&comments=1&ratingcomments=1&marketplace=1&stats=1&videos=1&page=1": fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_thing_multipleids.xml'), 'utf-8'),
     "https://www.boardgamegeek.com/xmlapi2/family?id=8374": fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_family_8374.xml'), 'utf-8'),
-    // "https://www.boardgamegeek.com/xmlapi2/collection?username=mattiabanned": fs.readFileSync(path.join(__dirname, '__fixtures__/response_collection_withoriginalname.xml'), 'utf-8')
 }
 
 export const WriteXmlParseByEndpoint = (outputName: string, contentData: string, overwrite: boolean = false) => {
@@ -29,41 +27,4 @@ export const WriteXmlParseByEndpoint = (outputName: string, contentData: string,
     }
 
     fs.writeFileSync(filePath, contentData, { encoding: 'utf-8' })
-}
-
-export const ReflectionType = (): Map<string, string[]> => {
-
-    const map = new Map<string, string[]>()
-
-    // const typeWithProperties = scanFilesRecursive(path.join(__dirname, '../../..', 'src/dto/concrete'))
-    //     .map(file => ({ typed: path.basename(file, '.ts'), properties: readFile(file) }))
-
-    scanFilesRecursive(path.join(__dirname, '../../..', 'src/dto/concrete'))
-        .forEach(file => map.set(path.basename(file, '.ts'), readFile(file)))
-
-    return map
-}
-
-const scanFilesRecursive = (currentPath: string, files: string[] = []) => {
-
-    files = files || []
-
-    fs.readdirSync(currentPath).forEach(item => {
-        const Absolute = path.join(currentPath, item);
-        if (fs.statSync(Absolute).isDirectory()) {
-            files = scanFilesRecursive(Absolute, files);
-        }
-        else {
-            files.push(Absolute);
-        }
-    });
-
-    return files
-}
-
-const readFile = (filePath: string) => {
-    return fs.readFileSync(filePath, 'utf-8')
-        .split(/\r?\n/)
-        .filter(line => line.includes('!:'))
-        .map(line => line.split('!')[0].trim())
 }

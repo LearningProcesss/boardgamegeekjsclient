@@ -5,5 +5,5 @@ export { BggForumDto } from './BggForumDto';
 export { BggThreadDto } from './BggThreadDto';
 export { BggUserDto } from './BggUserDto';
 export { BggGuildDto } from './BggGuildDto';
-export { BggPlayDto } from './BggPlaysDto';
+export { BggPlayDto } from './BggPlayDto';
 export { BggCollectionDto } from './BggCollectionDto';
