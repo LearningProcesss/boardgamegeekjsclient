@@ -32,7 +32,7 @@ describe('BggClient', () => {
         }, 70000);
     });
     describe('BggForumListDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Forumlist dto when xml response is valid', async () => {
             const dtoList = await client.forumlist.query({ id: 227002, type: "thing" })
 
             const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
@@ -41,7 +41,7 @@ describe('BggClient', () => {
         }, 70000);
     })
     describe('BggForumDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Forum dto when xml response is valid', async () => {
 
             const dtoList = await client.forum.query({ id: 19 })
 
@@ -51,7 +51,7 @@ describe('BggClient', () => {
         }, 70000);
     });
     describe('BggThreadDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Thread dto when xml response is valid', async () => {
 
             const dtoList = await client.thread.query({ id: 1082079, count: 10, minarticledate: '2021-12-15' })
 
@@ -61,7 +61,7 @@ describe('BggClient', () => {
         }, 70000);
     });
     describe('BggUserDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse User dto when xml response is valid', async () => {
 
             const dtoList = await client.user.query({ name: 'mattiabanned' })
 
@@ -71,7 +71,7 @@ describe('BggClient', () => {
         }, 70000);
     });
     describe('BggGuildDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Guild dto when xml response is valid', async () => {
 
             const dtoList = await client.guild.query({ id: 1303, members: 1 })
 
@@ -81,7 +81,7 @@ describe('BggClient', () => {
         }, 70000);
     });
     describe('BggPlayDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Play dto when xml response is valid', async () => {
 
             const dtoList = await client.play.query({ username: 'mattiabanned' })
 
@@ -91,7 +91,7 @@ describe('BggClient', () => {
         }, 70000);
     });
     describe('BggCollectionDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Collection dto when xml response is valid', async () => {
 
             const dtoList = await client.collection.query({ username: 'mattiabanned' })
 

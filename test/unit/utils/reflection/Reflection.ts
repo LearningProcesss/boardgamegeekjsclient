@@ -29,7 +29,6 @@ export const ReflectionTypeExcludable = () => {
     map.set('BggLinkDto', ['inbound'])
     map.set('BggPlayDto', ['id'])
     
-
     return map
 }
 

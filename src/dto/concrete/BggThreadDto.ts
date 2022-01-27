@@ -1,6 +1,6 @@
 import { IBggDto } from "../interface";
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonIgnoreProperties, JsonProperty } from "jackson-js";
-import { BggArticleDto } from "./BggThreadArticleDto";
+import { BggArticleDto } from "./BggArticleDto";
 
 @JsonIgnoreProperties({ value: ['@_termsofuse'] })
 export class BggThreadDto implements IBggDto {
