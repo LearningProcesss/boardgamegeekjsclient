@@ -1,0 +1,76 @@
+version: '3'
+
+vars:
+  packageversion:
+    sh: cat package.json | jq -r '.version'
+  cjs_dockerimage_id:
+    sh: docker images -q boardgamegeekjsclient:cjs
+  esm_dockerimage_id:
+    sh: docker images -q boardgamegeekjsclient:esm
+  react_dockerimage_id:
+    sh: docker images -q boardgamegeekjsclient:react
+
+tasks:
+  cjs-cleanup:
+    desc: Cleanup container, image cjs
+    cmds:
+      - if ! [ -z {{.cjs_dockerimage_id}} ]; then docker rm $(docker ps -a -q --filter ancestor={{.cjs_dockerimage_id}}) ; docker image rm {{.cjs_dockerimage_id}} ; docker image prune -f ; fi
+  esm-cleanup:
+    desc: Cleanup container, image cjs
+    cmds:
+      - if ! [ -z {{.cjs_dockerimage_id}} ]; then docker rm $(docker ps -a -q --filter ancestor={{.esm_dockerimage_id}}) ; docker image rm {{.esm_dockerimage_id}} ; docker image prune -f ; fi
+  react-cleanup:
+    desc: Cleanup container, image cjs
+    cmds:
+      - if ! [ -z {{.cjs_dockerimage_id}} ]; then docker rm $(docker ps -a -q --filter ancestor={{.react_dockerimage_id}}) ; docker image rm {{.react_dockerimage_id}} ; docker image prune -f ; fi
+  cleanup:
+    desc: Clean up containers and images
+    cmds:
+      - task: cjs-cleanup
+      - task: esm-cleanup
+      - task: react-cleanup
+  cjs-build-tag:
+    desc: Build and tag image for cjs
+    cmds:
+      -  docker build --pull --rm -f Dockerfile.buildtest.cjs -t boardgamegeekjsclient:cjs --build-arg VERSION={{.packageversion}} .
+  cjs-run:
+    desc: Run image for cjs
+    cmds:
+      -  docker run boardgamegeekjsclient:cjs
+  cjs-build-run:
+    desc: Run image for cjs
+    cmds:
+      - task: cjs-build-tag
+      -  docker run boardgamegeekjsclient:cjs
+  esm-build-tag:
+    desc: Build and tag image for esm
+    cmds:
+      -  docker build --pull --rm -f Dockerfile.buildtest.esm -t boardgamegeekjsclient:esm --build-arg VERSION={{.packageversion}} .
+  esm-run:
+    desc: Run image for esm
+    cmds:
+      -  docker run boardgamegeekjsclient:esm
+  esm-build-run:
+    desc: Run image for esm
+    cmds:
+      - task: esm-build-tag
+      -  docker run boardgamegeekjsclient:esm
+  react-build-tag:
+    desc: Build and tag image for react
+    cmds:
+      -  docker build --pull --rm -f Dockerfile.buildtest.react -t boardgamegeekjsclient:react --build-arg VERSION={{.packageversion}} .
+  react-run:
+    desc: Run image for react
+    cmds:
+      -  docker run boardgamegeekjsclient:react
+  react-build-run:
+    desc: Run image for react
+    cmds:
+      - task: react-build-tag
+      - docker run -p 3000:3000 boardgamegeekjsclient:react
+  full:
+    desc: Build,Tag and run each task
+    cmds:
+      - task: cjs-build-run
+      - task: esm-build-run
+      - task: react-build-run

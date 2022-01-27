@@ -5,4 +5,9 @@ export class BggGuildMemberDto {
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_name"] })
     name!: string;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [String] })
+    @JsonAlias({ values: ["@_date"] })
+    date!: string;
 }

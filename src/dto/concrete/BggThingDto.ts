@@ -1,9 +1,10 @@
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonIgnoreProperties, JsonManagedReference, JsonProperty } from "jackson-js";
 import { IBggDto } from "../interface";
+import { BggPollDto } from "./subdto/BggPollDto";
 import { BggStatisticsPaginatedDto, BggThingVideoPaginatedDto, BggThingCommentPaginatedDto} from "./paginated";
 import { BggLinkDto, BggThingMarketlistingsDto } from "./subdto";
 
-@JsonIgnoreProperties({ value: ['poll', 'versions'] })
+@JsonIgnoreProperties({ value: ['versions'] })
 export class BggThingDto implements IBggDto {
 
     @JsonProperty()
@@ -125,4 +126,10 @@ export class BggThingDto implements IBggDto {
         using: (items: any[]) => items[0].listing
     })
     marketplacelistings!: BggThingMarketlistingsDto[];
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [Array, [BggPollDto]] })
+    @JsonManagedReference()
+    @JsonAlias({ values: ["poll"] })
+    polls!: BggPollDto[]
 }

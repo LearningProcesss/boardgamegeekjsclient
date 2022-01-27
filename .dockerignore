@@ -6,3 +6,4 @@ node_modules
 .releaserc
 Dock*
 examples
+debug
