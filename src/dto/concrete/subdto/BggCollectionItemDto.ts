@@ -44,6 +44,10 @@ export class BggCollectionItemDto {
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    wishlistcomment!: string;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
         using: (value: []) => value.map(item => item['#text'])[0]
     })
