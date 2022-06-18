@@ -9,7 +9,6 @@ export const ValidatorTraverse = (object: any, reflectionProperties: Map<string,
     object = object.constructor.name !== 'Array' ? object : object[0];
 
     if ((currentType !== 'Array' && !reflectionProperties.has(currentType)) || (currentType === 'Array' && !reflectionProperties.has(object[0].constructor.name))) {
-        // console.log(`${currentType} type not found in reflection.`);
         return;
     } 
 

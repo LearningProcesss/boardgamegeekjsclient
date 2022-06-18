@@ -1,8 +1,8 @@
-import { IBggThingClient, IBggFamilyClient, IBggForumlistClient, IBggForumClient, BggThingClient, BggFamilyClient, BggForumlistClient, BggForumClient, IBggThreadClient, BggThreadClient, BggUserClient, IBggUserClient, IBggGuildClient, BggGuildClient, IBggPlaysClient, BggPlayClient, IBggCollectionClient, BggCollectionClient } from "../client";
-import { BggFamilyDtoParser, BggThingDtoParser, BggForumlistDtoParser, BggForumDtoParser, BggThreadDtoParser, BggUserDtoParser, BggGuildDtoParser, BggPlayDtoParser, BggCollectionDtoParser } from "../dto";
+import { IBggThingClient, IBggFamilyClient, IBggForumlistClient, IBggForumClient, BggThingClient, BggFamilyClient, BggForumlistClient, BggForumClient, IBggThreadClient, BggThreadClient, BggUserClient, IBggUserClient, IBggGuildClient, BggGuildClient, IBggPlaysClient, BggPlayClient, IBggCollectionClient, BggCollectionClient, IBggSearchClient, BggSearchClient } from "../client";
+import { BggFamilyDtoParser, BggThingDtoParser, BggForumlistDtoParser, BggForumDtoParser, BggThreadDtoParser, BggUserDtoParser, BggGuildDtoParser, BggPlayDtoParser, BggCollectionDtoParser, BggSearchDtoParser } from "../dto";
 import { TextFetcher } from "../fetcher";
 import { GenericQueryBuilder } from "../query";
-import { IFamilyRequest, IForumlistRequest, IThingRequest, IForumRequest, IThreadRequest, IUserRequest, IGuildRequest, IPlaysRequest, ICollectionRequest } from "../request";
+import { IFamilyRequest, IForumlistRequest, IThingRequest, IForumRequest, IThreadRequest, IUserRequest, IGuildRequest, IPlaysRequest, ICollectionRequest, ISearchRequest } from "../request";
 import { XmlResponseParser } from "../responseparser";
 
 /**
@@ -22,6 +22,7 @@ export class BggClient {
     readonly guild: Omit<IBggGuildClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
     readonly play: Omit<IBggPlaysClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
     readonly collection: Omit<IBggCollectionClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
+    readonly search: Omit<IBggSearchClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
 
     private constructor() {
         this.thing = new BggThingClient(new GenericQueryBuilder<IThingRequest>(), new TextFetcher(), new XmlResponseParser(), new BggThingDtoParser());
@@ -33,6 +34,7 @@ export class BggClient {
         this.guild = new BggGuildClient(new GenericQueryBuilder<IGuildRequest>(), new TextFetcher(), new XmlResponseParser(), new BggGuildDtoParser());
         this.play = new BggPlayClient(new GenericQueryBuilder<IPlaysRequest>(), new TextFetcher(), new XmlResponseParser(), new BggPlayDtoParser());
         this.collection = new BggCollectionClient(new GenericQueryBuilder<ICollectionRequest>(), new TextFetcher(), new XmlResponseParser(), new BggCollectionDtoParser());
+        this.search = new BggSearchClient(new GenericQueryBuilder<ISearchRequest>(), new TextFetcher(), new XmlResponseParser(), new BggSearchDtoParser());
     }
 
     static Create(): BggClient {

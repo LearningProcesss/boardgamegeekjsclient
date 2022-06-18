@@ -7,3 +7,4 @@ export { BggUserDtoParser } from './BggUserDtoParser';
 export { BggGuildDtoParser } from './BggGuildDtoParser';
 export { BggPlayDtoParser } from './BggPlaysDtoParser';
 export { BggCollectionDtoParser } from './BggCollectionDtoParser';
+export { BggSearchDtoParser } from './BggSearchDtoParser';
