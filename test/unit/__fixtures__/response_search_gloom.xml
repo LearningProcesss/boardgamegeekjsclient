@@ -1,0 +1,257 @@
+HTTP/1.1 200 OK
+Server: nginx/1.19.10
+Date: Thu, 16 Jun 2022 19:52:29 GMT
+X-Powered-By: PHP/7.4.14
+Etag: W/"3c9130415b30529ed7a091d6a5ac8f5c"
+Content-Type: text/xml; charset="UTF-8"
+Cache-Control: max-age=3600
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Varnish: 728663594 697344010
+Age: 57
+Accept-Ranges: bytes
+Via: 1.1 varnish (Varnish/6.6), 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Connection: close
+Transfer-Encoding: chunked
+
+<?xml version="1.0" encoding="utf-8"?>
+<items total="59" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <item type="boardgame" id="317365">
+    <name type="primary" value="Adventure Games: The Gloom City File"/>
+    <yearpublished value="2021" />
+  </item>
+  <item type="boardgame" id="119193">
+    <name type="primary" value="Crazy Creatures of Dr. Gloom"/>
+    <yearpublished value="2012" />
+  </item>
+  <item type="boardgame" id="95234">
+    <name type="primary" value="Cthulhu Gloom"/>
+    <yearpublished value="2011" />
+  </item>
+  <item type="boardgame" id="128462">
+    <name type="primary" value="Cthulhu Gloom: Unpleasant Dreams"/>
+    <yearpublished value="2012" />
+  </item>
+  <item type="boardgame" id="321044">
+    <name type="primary" value="Dungeon Fighter in the Catacombs of Gloomy Ghosts"/>
+    <yearpublished value="2022" />
+  </item>
+  <item type="boardgame" id="172062">
+    <name type="primary" value="Fairytale Gloom"/>
+    <yearpublished value="2015" />
+  </item>
+  <item type="boardgame" id="214032">
+    <name type="primary" value="Founders of Gloomhaven"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="353322">
+    <name type="primary" value="Gathering Gloom"/>
+    <yearpublished value="2023" />
+  </item>
+  <item type="boardgame" id="12692">
+    <name type="primary" value="Gloom"/>
+    <yearpublished value="2005" />
+  </item>
+  <item type="boardgame" id="331586">
+    <name type="primary" value="The Gloom Chronicles"/>
+    <yearpublished value="2022" />
+  </item>
+  <item type="boardgame" id="214898">
+    <name type="primary" value="Gloom in Space"/>
+    <yearpublished value="2017" />
+  </item>
+  <item type="boardgame" id="98527">
+    <name type="primary" value="Gloom of Kilforth: A Fantasy Quest Game"/>
+    <yearpublished value="2017" />
+  </item>
+  <item type="boardgame" id="236517">
+    <name type="primary" value="Gloom of Kilforth: Encounters Expansion Pack"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="284841">
+    <name type="primary" value="Gloom of Kilforth: Lifeform of Kilforth Promo Card"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="277125">
+    <name type="primary" value="Gloom of Kilforth: Tears of Kilforth Promo Cards"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="267506">
+    <name type="primary" value="Gloom of Thrones"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="217722">
+    <name type="primary" value="Gloom: Bookmark of Death"/>
+    <yearpublished value="2016" />
+  </item>
+  <item type="boardgame" id="301250">
+    <name type="primary" value="Gloom: Coffee Cup Out of Time Promo Card"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="304031">
+    <name type="primary" value="Gloom: Game of Trades promo card"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="319700">
+    <name type="primary" value="Gloom: Knighted by a Noble Promo"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="293819">
+    <name type="primary" value="Gloom: Shot by a Scorpion Promo Card"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="140772">
+    <name type="primary" value="Gloom: TableTop Promo Expansion"/>
+    <yearpublished value="2013" />
+  </item>
+  <item type="boardgame" id="197145">
+    <name type="primary" value="Gloom: The Looking Glass Promo Card"/>
+    <yearpublished value="2014" />
+  </item>
+  <item type="boardgame" id="37654">
+    <name type="primary" value="Gloom: Unfortunate Expeditions"/>
+    <yearpublished value="2009" />
+  </item>
+  <item type="boardgame" id="18207">
+    <name type="primary" value="Gloom: Unhappy Homes"/>
+    <yearpublished value="2005" />
+  </item>
+  <item type="boardgame" id="149327">
+    <name type="primary" value="Gloom: Unquiet Dead"/>
+    <yearpublished value="2013" />
+  </item>
+  <item type="boardgame" id="25621">
+    <name type="primary" value="Gloom: Unwelcome Guests"/>
+    <yearpublished value="2007" />
+  </item>
+  <item type="boardgame" id="293170">
+    <name type="primary" value="Gloom: Went Dark in the Night Promo"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="174430">
+    <name type="primary" value="Gloomhaven"/>
+    <yearpublished value="2017" />
+  </item>
+  <item type="boardgame" id="312632">
+    <name type="primary" value="Gloomhaven: Assault on the Morning Star (Promo Scenario)"/>
+    <yearpublished value="2020" />
+  </item>
+  <item type="boardgame" id="310777">
+    <name type="primary" value="Gloomhaven: Beyond the End of the World (Promo Scenario)"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="250337">
+    <name type="primary" value="Gloomhaven: Forgotten Circles"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="291457">
+    <name type="primary" value="Gloomhaven: Jaws of the Lion"/>
+    <yearpublished value="2020" />
+  </item>
+  <item type="boardgame" id="354666">
+    <name type="primary" value="Gloomhaven: Jaws of the Lion – Roguish Individuals"/>
+    <yearpublished value="2021" />
+  </item>
+  <item type="boardgame" id="312635">
+    <name type="primary" value="Gloomhaven: Memories of Gloomhaven (Promo Scenario)"/>
+    <yearpublished value="2020" />
+  </item>
+  <item type="boardgame" id="298195">
+    <name type="primary" value="Gloomhaven: Return of the Lost Cabal (Promo Scenario)"/>
+    <yearpublished value="2020" />
+  </item>
+  <item type="boardgame" id="297586">
+    <name type="primary" value="Gloomhaven: Secrets of the Lost Cabal (Promo Scenario)"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="226868">
+    <name type="primary" value="Gloomhaven: Solo Scenarios"/>
+    <yearpublished value="2017" />
+  </item>
+  <item type="boardgame" id="310773">
+    <name type="primary" value="Gloomhaven: The Catacombs of Chaos (Promo Scenario)"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="231934">
+    <name type="primary" value="Gloomhaven: The End of the World (Promo Scenario)"/>
+    <yearpublished value="2017" />
+  </item>
+  <item type="boardgame" id="300402">
+    <name type="primary" value="Gloomhaven: The Lucky Meeple (Promo Scenario)"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="310754">
+    <name type="primary" value="Gloomhaven: The Tower of Misfortune (Promo Scenario)"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="312638">
+    <name type="primary" value="Gloomhaven: Twilight of the Lost Cabal (Promo Scenario)"/>
+    <yearpublished value="2021" />
+  </item>
+  <item type="boardgame" id="340909">
+    <name type="primary" value="Gloomholdin&#039;"/>
+    <yearpublished value="2021" />
+  </item>
+  <item type="boardgame" id="316850">
+    <name type="primary" value="Gloomier: A Night at Hemlock Hall"/>
+    <yearpublished value="2022" />
+  </item>
+  <item type="boardgame" id="293556">
+    <name type="primary" value="Gloomy Graves"/>
+    <yearpublished value="2020" />
+  </item>
+  <item type="boardgame" id="301535">
+    <name type="primary" value="Krosmaster: Arena – Gloomy Grove Classic Pack 1"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="301536">
+    <name type="primary" value="Krosmaster: Arena – Gloomy Grove Classic Pack 2"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="301533">
+    <name type="primary" value="Krosmaster: Arena – Gloomy Grove Elite Pack 1"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="301534">
+    <name type="primary" value="Krosmaster: Arena – Gloomy Grove Elite Pack 2"/>
+    <yearpublished value="2018" />
+  </item>
+  <item type="boardgame" id="126532">
+    <name type="primary" value="Munchkin Duck of Gloom"/>
+    <yearpublished value="2012" />
+  </item>
+  <item type="boardgame" id="164110">
+    <name type="primary" value="Munchkin Gloom"/>
+    <yearpublished value="2015" />
+  </item>
+  <item type="boardgame" id="39534">
+    <name type="primary" value="Ruby Gloom: The Game"/>
+    <yearpublished value="2008" />
+  </item>
+  <item type="boardgame" id="170393">
+    <name type="primary" value="Sentinels of the Multiverse: Gloomweaver – Skinwalker Promo Card"/>
+    <yearpublished value="2013" />
+  </item>
+  <item type="boardgame" id="213119">
+    <name type="primary" value="Sentinels of the Multiverse: Spite Agent of Gloom Promo Card"/>
+    <yearpublished value="2013" />
+  </item>
+  <item type="boardgame" id="302301">
+    <name type="primary" value="SINS: Gloom of Greed – Battle Pack"/>
+    <yearpublished value="2020" />
+  </item>
+  <item type="boardgame" id="330956">
+    <name type="primary" value="Warhammer Age of Sigmar (Second Edition): Destruction Battletome – Gloomspite Gitz"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="286769">
+    <name type="primary" value="Warhammer Age of Sigmar: Warcry – Gloomspite Gitz"/>
+    <yearpublished value="2019" />
+  </item>
+  <item type="boardgame" id="308483">
+    <name type="primary" value="Warhammer Age of Sigmar: Warcry – Gloomspite Gitz"/>
+    <yearpublished value="2020" />
+  </item>
+</items>

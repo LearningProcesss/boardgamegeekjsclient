@@ -31,10 +31,11 @@
   "scripts": {
     "start": "echo TODO!",
     "build": "yarn run build:ts",
-    "build:ts": "rm -r -f dist && mkdir dist && yarn run build:ts:cjs && yarn run build:ts:esm && (sleep 5 && yarn run build:ts:post)",
+    "build:ts": "rm -r -f dist && mkdir dist && yarn run build:ts:cjs && yarn run build:ts:esm && yarn run build:reflection && (sleep 5 && yarn run build:ts:post)",
     "build:ts:cjs": "rm -r -f cjs && tsc -p tsconfig.cjs.json --outdir cjs",
     "build:ts:esm": "rm -r -f esm && tsc -p tsconfig.esm.json --outdir esm",
     "build:ts:post": "cp -r cjs dist && cp -r esm dist && rm -r -f cjs && rm -r -f esm",
+    "build:reflection": "npx ts-node test/unit/utils/reflection/ReflectionRunner.ts",
     "test": "jest --verbose",
     "lint": "echo TODO!",
     "prepare": "yarn run build:ts",

@@ -10,8 +10,6 @@ describe('XmlResponseParser', () => {
 
         const parsed = await parser.parseResponse(xmlResponse);
 
-        // WriteXmlParseByEndpoint('parsed_xml_thing_174430_withallreqoption', JSON.stringify(parsed, null, 4))
-
         expect(parsed).not.toBeNaN();
     });
     it('should parse family xml to json when xml response is correctly formatted', async () => {
@@ -22,7 +20,25 @@ describe('XmlResponseParser', () => {
 
         const parsed = await parser.parseResponse(xmlResponse);
 
-        // WriteXmlParseByEndpoint('parsed_xml_family_8374', JSON.stringify(parsed, null, 4))
+        expect(parsed).not.toBeNaN();
+    });
+    it('should parse play xml to json when xml response is correctly formatted', async () => {
+
+        const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/plays?username=mattiabanned'];
+
+        const parser: XmlResponseParser = new XmlResponseParser();
+
+        const parsed = await parser.parseResponse(xmlResponse);
+
+        expect(parsed).not.toBeNaN();
+    });
+    it('should parse search xml to json when xml response is correctly formatted', async () => {
+
+        const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/search?query=gloom'];
+
+        const parser: XmlResponseParser = new XmlResponseParser();
+
+        const parsed = await parser.parseResponse(xmlResponse);
 
         expect(parsed).not.toBeNaN();
     });

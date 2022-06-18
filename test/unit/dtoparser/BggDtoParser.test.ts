@@ -1,4 +1,4 @@
-import { BggCollectionDto, BggCollectionDtoParser, BggFamilyDto, BggFamilyDtoParser, BggForumDto, BggForumDtoParser, BggForumlistDto, BggForumlistDtoParser, BggGuildDto, BggGuildDtoParser, BggPlayDto, BggPlayDtoParser, BggThingDto, BggThingDtoParser, BggThreadDto, BggThreadDtoParser, BggUserDto, BggUserDtoParser, IBggDto } from "../../../src/dto";
+import { BggCollectionDto, BggCollectionDtoParser, BggFamilyDto, BggFamilyDtoParser, BggForumDto, BggForumDtoParser, BggForumlistDto, BggForumlistDtoParser, BggGuildDto, BggGuildDtoParser, BggPlayDto, BggPlayDtoParser, BggSearchDto, BggSearchDtoParser, BggThingDto, BggThingDtoParser, BggThreadDto, BggThreadDtoParser, BggUserDto, BggUserDtoParser, IBggDto } from "../../../src/dto";
 import { XmlResponseParser } from "../../../src/responseparser";
 import { TextResponseByEndpoint } from "../utils";
 import { ReflectionType, ReflectionTypeExcludable } from '../utils/reflection'
@@ -171,9 +171,7 @@ describe('BggDtoParsers', () => {
             const dtoList = await dtoParser.jsonToDto(jsonData);
 
             const dto: BggPlayDto = dtoList[0]
-            
-            console.dir(dtoList[0])
-            
+                        
             const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
 
             expect(validationResult).toStrictEqual([])
@@ -191,6 +189,24 @@ describe('BggDtoParsers', () => {
             const dtoList = await dtoParser.jsonToDto(jsonData);
 
             const dto: BggCollectionDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
+        });
+    });
+    describe('BggSearchDtoParser', () => {
+        it('should parse Search dto when xml response is valid', async () => {
+
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/search?query=gloom'];
+
+            const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
+
+            const dtoParser: BggSearchDtoParser = new BggSearchDtoParser();
+
+            const dtoList = await dtoParser.jsonToDto(jsonData);
+
+            const dto: BggSearchDto = dtoList[0]
 
             const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
 

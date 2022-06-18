@@ -469,3 +469,27 @@ export interface ICollectionRequest extends IRequest {
      */
     modifiedsince?: string;
 }
+
+export interface ISearchRequest extends IRequest, IRequestWithType<ThingType> {
+     
+    /**
+     * @type {string}
+     * @memberof ISearchRequest
+     * @description 	Returns all types of Items that match SEARCH_QUERY. Spaces in the SEARCH_QUERY are replaced by a +
+     */
+    query: string;
+
+    /**
+     * @type {ThingType[]}
+     * @memberof ISearchRequest
+     * @description Return all items that match SEARCH_QUERY of type TYPE. TYPE might be rpgitem, videogame, boardgame, boardgameaccessory or boardgameexpansion. You can return multiple types by listing them separated by commas, e.g. type=TYPE1,TYPE2,TYPE3
+     */
+    type?: ThingType | ThingType[];
+
+    /**
+     * @type {number}
+     * @memberof ISearchRequest
+     * @description Limit results to items that match the SEARCH_QUERY exactly
+     */
+    exact?: number;
+}
