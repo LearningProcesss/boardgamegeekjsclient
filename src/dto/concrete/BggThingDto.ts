@@ -2,9 +2,8 @@ import { JsonAlias, JsonClassType, JsonDeserialize, JsonIgnoreProperties, JsonMa
 import { IBggDto } from "../interface";
 import { BggPollDto } from "./subdto/BggPollDto";
 import { BggStatisticsPaginatedDto, BggThingVideoPaginatedDto, BggThingCommentPaginatedDto} from "./paginated";
-import { BggLinkDto, BggThingMarketlistingsDto } from "./subdto";
+import { BggLinkDto, BggThingMarketlistingsDto, BggThingVersionDto } from "./subdto";
 
-@JsonIgnoreProperties({ value: ['versions'] })
 export class BggThingDto implements IBggDto {
 
     @JsonProperty()
@@ -132,4 +131,13 @@ export class BggThingDto implements IBggDto {
     @JsonManagedReference()
     @JsonAlias({ values: ["poll"] })
     polls!: BggPollDto[]
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [Array, [BggThingVersionDto]] })
+    @JsonManagedReference()
+    @JsonDeserialize({
+        //eslint-disable-next-line @typescript-eslint/no-explicit-any
+        using: (items: any[]) => items[0].item
+    })
+    versions!: BggThingVersionDto[];
 }
