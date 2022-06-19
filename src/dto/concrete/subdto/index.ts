@@ -4,3 +4,4 @@ export { BggPlaysPlayDto } from './BggPlaySubDtos';
 export { BggCollectionItemDto } from './BggCollectionItemDto';
 export { BggPollDto } from './BggPollDto';
 export { BggSearchItemDto } from './BggSearchItemDto';
+export { BggThingVersionDto } from './BggThingVersionDto';
