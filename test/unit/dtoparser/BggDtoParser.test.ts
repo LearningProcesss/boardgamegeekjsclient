@@ -1,4 +1,4 @@
-import { BggCollectionDto, BggCollectionDtoParser, BggFamilyDto, BggFamilyDtoParser, BggForumDto, BggForumDtoParser, BggForumlistDto, BggForumlistDtoParser, BggGuildDto, BggGuildDtoParser, BggPlayDto, BggPlayDtoParser, BggSearchDto, BggSearchDtoParser, BggThingDto, BggThingDtoParser, BggThreadDto, BggThreadDtoParser, BggUserDto, BggUserDtoParser, IBggDto } from "../../../src/dto";
+import { BggCollectionDto, BggCollectionDtoParser, BggFamilyDto, BggFamilyDtoParser, BggForumDto, BggForumDtoParser, BggForumlistDto, BggForumlistDtoParser, BggGuildDto, BggGuildDtoParser, BggHotDto, BggHotDtoParser, BggPlayDto, BggPlayDtoParser, BggSearchDto, BggSearchDtoParser, BggThingDto, BggThingDtoParser, BggThreadDto, BggThreadDtoParser, BggUserDto, BggUserDtoParser, IBggDto } from "../../../src/dto";
 import { XmlResponseParser } from "../../../src/responseparser";
 import { TextResponseByEndpoint } from "../utils";
 import { ReflectionType, ReflectionTypeExcludable } from '../utils/reflection'
@@ -207,6 +207,24 @@ describe('BggDtoParsers', () => {
             const dtoList = await dtoParser.jsonToDto(jsonData);
 
             const dto: BggSearchDto = dtoList[0]
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
+        });
+    });
+    describe('BggHotDtoParser', () => {
+        it('should parse Hot dto when xml response is valid', async () => {
+
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/hot?type=boardgame'];
+
+            const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
+
+            const dtoParser: BggHotDtoParser = new BggHotDtoParser();
+
+            const dtoList = await dtoParser.jsonToDto(jsonData);
+
+            const dto: BggHotDto = dtoList[0]
 
             const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
 

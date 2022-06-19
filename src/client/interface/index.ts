@@ -1,2 +1,2 @@
 export { IBggClient } from './IBggClient';
-export { IBggThingClient, IBggFamilyClient, IBggForumlistClient, IBggForumClient, IBggThreadClient, IBggUserClient, IBggGuildClient, IBggPlaysClient, IBggCollectionClient, IBggSearchClient } from './IBggClients';
+export { IBggThingClient, IBggFamilyClient, IBggForumlistClient, IBggForumClient, IBggThreadClient, IBggUserClient, IBggGuildClient, IBggPlaysClient, IBggCollectionClient, IBggSearchClient, IBggHotClient } from './IBggClients';

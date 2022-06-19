@@ -8,3 +8,4 @@ export { GuildSortType } from './GuildSortType';
 export { PlaysType } from './PlaysType';
 export { PlaysSubtype }from './PlaysSubtype';
 export { Range } from './ParameterRange';
+export { HotTypes } from './HotTypes';
