@@ -1,1 +1,1 @@
-export { IRequest, IThingRequest, IFamilyRequest, IForumlistRequest, IForumRequest, IThreadRequest, IUserRequest, IGuildRequest, IPlaysRequest, ICollectionRequest, ISearchRequest } from './IRequest';
+export { IRequest, IThingRequest, IFamilyRequest, IForumlistRequest, IForumRequest, IThreadRequest, IUserRequest, IGuildRequest, IPlaysRequest, ICollectionRequest, ISearchRequest, IHotItemsRequest } from './IRequest';

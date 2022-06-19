@@ -42,4 +42,14 @@ describe('XmlResponseParser', () => {
 
         expect(parsed).not.toBeNaN();
     });
+    it('should parse hot items xml to json when xml response is correctly formatted', async () => {
+
+        const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/hot?type=boardgame'];
+
+        const parser: XmlResponseParser = new XmlResponseParser();
+
+        const parsed = await parser.parseResponse(xmlResponse);
+
+        expect(parsed).not.toBeNaN();
+    });
 });

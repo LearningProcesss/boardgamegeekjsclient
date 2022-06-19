@@ -1,4 +1,4 @@
-import { DomainTypes, FamilyType, ForumlistType, GuildSortType, ParameterOneOrZero, PlaysSubtype, PlaysType, Range, ThingType } from "../../bgg-database-types";
+import { DomainTypes, FamilyType, ForumlistType, GuildSortType, ParameterOneOrZero, PlaysSubtype, PlaysType, Range, ThingType, HotTypes } from "../../bgg-database-types";
 
 export interface IRequest {
 
@@ -492,4 +492,13 @@ export interface ISearchRequest extends IRequest, IRequestWithType<ThingType> {
      * @description Limit results to items that match the SEARCH_QUERY exactly
      */
     exact?: number;
+}
+
+export interface IHotItemsRequest extends IRequest, IRequestWithType<HotTypes> {
+    /**
+     * @type {HotTypes}
+     * @memberof IHotItemsRequest
+     * @description Return all items that match SEARCH_QUERY of type TYPE. TYPE might be rpgitem, videogame, boardgame, boardgameaccessory or boardgameexpansion. You can return multiple types by listing them separated by commas, e.g. type=TYPE1,TYPE2,TYPE3
+     */
+     type?: HotTypes;
 }

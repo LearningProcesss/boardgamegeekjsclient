@@ -8,3 +8,4 @@ export { BggGuildClient } from './BggGuildClient';
 export { BggPlayClient } from './BggPlaysClient';
 export { BggCollectionClient } from './BggCollectionClient';
 export { BggSearchClient } from './BggSearchClient';
+export { BggHotClient } from './BggHotClient';

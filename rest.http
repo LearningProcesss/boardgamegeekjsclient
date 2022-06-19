@@ -29,3 +29,7 @@ GET https://www.boardgamegeek.com/xmlapi2/search?query=gloom&type=boardgame
 ### search
 
 GET https://www.boardgamegeek.com/xmlapi2/search?query=gloom
+
+### hot
+
+GET https://www.boardgamegeek.com/xmlapi2/hot?type=boardgame

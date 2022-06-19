@@ -8,3 +8,4 @@ export { BggGuildDto } from './BggGuildDto';
 export { BggPlayDto } from './BggPlayDto';
 export { BggCollectionDto } from './BggCollectionDto';
 export { BggSearchDto } from './BggSearchDto';
+export { BggHotDto } from './BggHotDto';

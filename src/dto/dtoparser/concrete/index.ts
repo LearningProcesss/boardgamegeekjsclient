@@ -8,3 +8,4 @@ export { BggGuildDtoParser } from './BggGuildDtoParser';
 export { BggPlayDtoParser } from './BggPlaysDtoParser';
 export { BggCollectionDtoParser } from './BggCollectionDtoParser';
 export { BggSearchDtoParser } from './BggSearchDtoParser';
+export { BggHotDtoParser } from './BggHotDtoParser';
