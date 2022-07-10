@@ -15,10 +15,17 @@ beforeAll(() => {
 describe('BggClient', () => {
     describe('BggThingClient', () => {
         it('should fetch and deserialize all data when request has all params', async () => {
-            const dtoList = await client.thing.query({ id: 174430, videos: 1, comments: 1, marketplace: 1, stats: 1, type: "boardgame" })
-
+            const dtoList = await client.thing.query({ id: 174430, videos: 1, comments: 1, marketplace: 1, stats: 1, versions: 1, type: "boardgame" })
+    
             const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
-
+    
+            expect(validationResult).toStrictEqual([])
+        }, 70000);
+        it('should fetch and deserialize all data when request has not all params', async () => {
+            const dtoList = await client.thing.query({ id: 174430, videos: 1, comments: 1, marketplace: 1, stats: 1, type: "boardgame" })
+    
+            const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
+    
             expect(validationResult).toStrictEqual([])
         }, 70000);
     });

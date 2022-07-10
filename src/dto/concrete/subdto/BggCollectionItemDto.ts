@@ -5,57 +5,65 @@ export class BggCollectionItemDto {
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
     @JsonAlias({ values: ["@_objectid"] })
-    objectid!: number;
+    objectid: number;
 
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
     @JsonAlias({ values: ["@_collid"] })
-    collid!: number;
+    collid: number;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_objecttype"] })
-    objecttype!: string;
+    objecttype: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_subtype"] })
-    subtype!: string;
+    subtype: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
-    yearpublished!: number;
+    yearpublished: number;
 
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
-    numplays!: number;
+    numplays: number;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
-    image!: string;
+    image: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
-    thumbnail!: string;
+    thumbnail: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
-    comment!: string;
+    comment: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
-    wishlistcomment!: string;
+    wishlistcomment: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
         using: (value: []) => value.map(item => item['#text'])[0]
     })
-    name!: string;
+    name: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
-    originalname!: string;
+    originalname: string;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [String] })
+    wantpartslist: string;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [String] })
+    haspartslist: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [BggCollectionItemStatusDto] })
@@ -63,5 +71,5 @@ export class BggCollectionItemDto {
         using: (value: any[]) => value[0]
     })
     @JsonManagedReference()
-    status!: BggCollectionItemStatusDto;
+    status: BggCollectionItemStatusDto;
 }

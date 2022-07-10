@@ -8,7 +8,7 @@ GET https://www.boardgamegeek.com/xmlapi2/family?id=8374&type=boardgamefamily
 
 ### collection
 
-GET https://www.boardgamegeek.com/xmlapi2/collection?username=mattiabanned HTTP/1.1
+GET https://www.boardgamegeek.com/xmlapi2/collection?username=mattiabanned&version=1 HTTP/1.1
 
 ### plays
 
