@@ -3,4 +3,5 @@ export interface IPropertyResult {
     message: string;
     valid: boolean;
     objectType: string;
+    data?: any;
 }

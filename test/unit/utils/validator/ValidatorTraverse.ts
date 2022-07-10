@@ -22,7 +22,7 @@ export const ValidatorTraverse = (object: any, reflectionProperties: Map<string,
 
     for (const property of properties) {
         if ((typeof object[property] !== 'object') && (!object.hasOwnProperty(property) || object[property] === undefined)) {
-            result.push({ valid: false, property, message: `required ${property} is missing or undefined.`, objectType: currentType });
+            result.push({ valid: false, property, message: `required ${property} is missing or undefined.`, objectType: currentType, data: object });
         }
         else if ((typeof object[property] === 'object' && object[property] !== null)) {
             ValidatorTraverse(object[property], reflectionProperties, reflectionPropertiesExcludable, result);

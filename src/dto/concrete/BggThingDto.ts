@@ -139,5 +139,5 @@ export class BggThingDto implements IBggDto {
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
         using: (items: any[]) => items[0].item
     })
-    versions!: BggThingVersionDto[];
+    versions: BggThingVersionDto[];
 }

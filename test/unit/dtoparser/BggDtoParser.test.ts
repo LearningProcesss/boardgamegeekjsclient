@@ -178,7 +178,7 @@ describe('BggDtoParsers', () => {
         });
     });
     describe('BggCollectionDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Collection dto when xml response is valid', async () => {
 
             const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/collection?username=mattiabanned'];
 
@@ -188,7 +188,7 @@ describe('BggDtoParsers', () => {
 
             const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            const dto: BggCollectionDto = dtoList[0]
+            const dto: BggCollectionDto = dtoList[0];
 
             const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
 
