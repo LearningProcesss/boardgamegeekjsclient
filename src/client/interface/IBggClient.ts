@@ -3,6 +3,7 @@ import { IQueryBuilder } from "../../query/interface";
 import { IFetcher } from "../../fetcher";
 import { IResponseParser } from "../../responseparser";
 import { IBggDto, IDtoParser } from "../../dto";
+import { QueryOptions } from "../dto";
 
 export interface IBggClient<T extends IRequest, R extends IBggDto> {
     readonly resource: string;

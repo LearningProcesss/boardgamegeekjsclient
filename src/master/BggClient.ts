@@ -1,9 +1,10 @@
 import { IBggThingClient, IBggFamilyClient, IBggForumlistClient, IBggForumClient, BggThingClient, BggFamilyClient, BggForumlistClient, BggForumClient, IBggThreadClient, BggThreadClient, BggUserClient, IBggUserClient, IBggGuildClient, BggGuildClient, IBggPlaysClient, BggPlayClient, IBggCollectionClient, BggCollectionClient, IBggSearchClient, BggSearchClient, IBggHotClient, BggHotClient } from "../client";
 import { BggFamilyDtoParser, BggThingDtoParser, BggForumlistDtoParser, BggForumDtoParser, BggThreadDtoParser, BggUserDtoParser, BggGuildDtoParser, BggPlayDtoParser, BggCollectionDtoParser, BggSearchDtoParser, BggHotDtoParser } from "../dto";
-import { TextFetcher } from "../fetcher";
+import { IFetcher, TextFetcher } from "../fetcher";
+import { IRequestPaginator, RequestPaginator } from "../paginator";
 import { GenericQueryBuilder } from "../query";
 import { IFamilyRequest, IForumlistRequest, IThingRequest, IForumRequest, IThreadRequest, IUserRequest, IGuildRequest, IPlaysRequest, ICollectionRequest, ISearchRequest, IHotItemsRequest } from "../request";
-import { XmlResponseParser } from "../responseparser";
+import { IResponseParser, XmlResponseParser } from "../responseparser";
 
 /**
  * @description Expose all clients to interact with Bgg api.
@@ -13,8 +14,8 @@ export class BggClient {
 
     private static instance: BggClient;
 
-    readonly thing: Omit<IBggThingClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
-    readonly family: Omit<IBggFamilyClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
+    readonly thing: Omit<IBggThingClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser" | "paginator">;
+    readonly family: Omit<IBggFamilyClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser" | "paginator">;
     readonly forumlist: Omit<IBggForumlistClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
     readonly forum: Omit<IBggForumClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
     readonly thread: Omit<IBggThreadClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
@@ -26,17 +27,21 @@ export class BggClient {
     readonly hot: Omit<IBggHotClient, "builder" | "fetcher" | "responseParser" | "resource" | "dtoParser">;
 
     private constructor() {
-        this.thing = new BggThingClient(new GenericQueryBuilder<IThingRequest>(), new TextFetcher(), new XmlResponseParser(), new BggThingDtoParser());
-        this.family = new BggFamilyClient(new GenericQueryBuilder<IFamilyRequest>(), new TextFetcher(), new XmlResponseParser(), new BggFamilyDtoParser());
-        this.forumlist = new BggForumlistClient(new GenericQueryBuilder<IForumlistRequest>(), new TextFetcher(), new XmlResponseParser(), new BggForumlistDtoParser());
-        this.forum = new BggForumClient(new GenericQueryBuilder<IForumRequest>(), new TextFetcher(), new XmlResponseParser(), new BggForumDtoParser());
-        this.thread = new BggThreadClient(new GenericQueryBuilder<IThreadRequest>(), new TextFetcher(), new XmlResponseParser(), new BggThreadDtoParser());
-        this.user = new BggUserClient(new GenericQueryBuilder<IUserRequest>(), new TextFetcher(), new XmlResponseParser(), new BggUserDtoParser());
-        this.guild = new BggGuildClient(new GenericQueryBuilder<IGuildRequest>(), new TextFetcher(), new XmlResponseParser(), new BggGuildDtoParser());
-        this.play = new BggPlayClient(new GenericQueryBuilder<IPlaysRequest>(), new TextFetcher(), new XmlResponseParser(), new BggPlayDtoParser());
-        this.collection = new BggCollectionClient(new GenericQueryBuilder<ICollectionRequest>(), new TextFetcher(), new XmlResponseParser(), new BggCollectionDtoParser());
-        this.search = new BggSearchClient(new GenericQueryBuilder<ISearchRequest>(), new TextFetcher(), new XmlResponseParser(), new BggSearchDtoParser());
-        this.hot = new BggHotClient(new GenericQueryBuilder<IHotItemsRequest>(), new TextFetcher(), new XmlResponseParser(), new BggHotDtoParser());
+        const fetcher: IFetcher<string, string> = new TextFetcher();
+        const responseParser: IResponseParser<string, any> = new XmlResponseParser();
+        const paginator: IRequestPaginator = new RequestPaginator();
+
+        this.thing = new BggThingClient(new GenericQueryBuilder<IThingRequest>(), fetcher, responseParser, new BggThingDtoParser(), paginator);
+        this.family = new BggFamilyClient(new GenericQueryBuilder<IFamilyRequest>(), fetcher, responseParser, new BggFamilyDtoParser(), paginator);
+        this.forumlist = new BggForumlistClient(new GenericQueryBuilder<IForumlistRequest>(), fetcher, responseParser, new BggForumlistDtoParser(), paginator);
+        this.forum = new BggForumClient(new GenericQueryBuilder<IForumRequest>(), fetcher, responseParser, new BggForumDtoParser());
+        this.thread = new BggThreadClient(new GenericQueryBuilder<IThreadRequest>(), fetcher, responseParser, new BggThreadDtoParser());
+        this.user = new BggUserClient(new GenericQueryBuilder<IUserRequest>(), fetcher, responseParser, new BggUserDtoParser());
+        this.guild = new BggGuildClient(new GenericQueryBuilder<IGuildRequest>(), fetcher, responseParser, new BggGuildDtoParser());
+        this.play = new BggPlayClient(new GenericQueryBuilder<IPlaysRequest>(), fetcher, responseParser, new BggPlayDtoParser());
+        this.collection = new BggCollectionClient(new GenericQueryBuilder<ICollectionRequest>(), fetcher, responseParser, new BggCollectionDtoParser());
+        this.search = new BggSearchClient(new GenericQueryBuilder<ISearchRequest>(), fetcher, responseParser, new BggSearchDtoParser());
+        this.hot = new BggHotClient(new GenericQueryBuilder<IHotItemsRequest>(), fetcher, responseParser, new BggHotDtoParser());
     }
 
     static Create(): BggClient {
