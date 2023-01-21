@@ -1,0 +1,1 @@
+export { IRequestPaginator } from './IRequestPaginator';

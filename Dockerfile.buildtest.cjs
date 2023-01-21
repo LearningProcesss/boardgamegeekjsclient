@@ -19,6 +19,6 @@ COPY --from=compiler /usr/src/boardgamegeekclient-compilerfase/index.test.js .
 COPY --from=packer /usr/src/boardgamegeekclient-packfase/buildtest/cjs/package.json .
 ENV NODE_ENV production
 RUN yarn add file:/usr/src/boardgamegeekclient-test/boardgamegeekclient-v${VERSION}.tgz && yarn add jest
-RUN adduser -D apprunneruser 
-USER apprunneruser
+# RUN adduser -D apprunneruser 
+# USER apprunneruser
 CMD [ "yarn", "test" ]

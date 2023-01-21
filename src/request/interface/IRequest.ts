@@ -78,7 +78,7 @@ export interface IFamilyRequest extends IRequest, IRequestWithType<FamilyType> {
     /**
      * @type {number}
      * @memberof IFamilyRequest
-     * @description 	Specifies the id of the family to retrieve. To request multiple families with a single query, NNN can specify a comma-delimited list of ids.
+     * @description Specifies the id of the family to retrieve. To request multiple families with a single query, NNN can specify a comma-delimited list of ids.
      */
     id: number | number[];
 }
@@ -96,7 +96,17 @@ export interface IForumlistRequest extends IRequest, IRequestWithType<ForumlistT
 }
 
 export interface IForumRequest extends IRequest {
+    /**
+     * @type {number}
+     * @description Specifies the id of the forum. This is the id that appears in the address of the page when visiting a forum in the browser.
+     * @memberof IForumRequest 
+    */
     id: number;
+    
+    /**
+     * @type {number}
+     * @description The page of the thread list to return; page size is 50. Threads in the thread list are sorted in order of most recent post.
+     */
     page?: number;
 }
 
@@ -104,30 +114,30 @@ export interface IThreadRequest extends IRequest {
     /**
      * @type {number}
      * @description Specifies the id of the thread to retrieve.
-     * @memberof BggThreadRequestParameters
+     * @memberof IThreadRequest
      */
     id: number;
 
     /**
      * @type {number}
      * @description Filters the results so that only articles with an equal or higher id than NNN will be returned.
-     * @memberof BggThreadRequestParameters
+     * @memberof IThreadRequest
      */
-    minarticleid?: number,
+    minarticleid?: number;
 
     /**
      * @type {number}
      * @description Filters the results so that only articles on the specified date or later will be returned.
-     * @memberof BggThreadRequestParameters
+     * @memberof IThreadRequest
      */
-    minarticledate?: string
+    minarticledate?: string;
 
     /**
      * @type {number}
      * @description Limits the number of articles returned to no more than NNN.
-     * @memberof BggThreadRequestParameters
+     * @memberof IThreadRequest
      */
-    count?: number,
+    count?: number;
 }
 
 export interface IUserRequest extends IRequest {
@@ -136,49 +146,49 @@ export interface IUserRequest extends IRequest {
     * @description Specifies the user name (only one user is requestable at a time).
     * @memberof IUserRequest
     */
-    name: string,
+    name: string;
 
     /**
      * @type {ParameterOneOrZero}
      * @description Turns on optional buddies reporting. Results are paged; see page parameter.
      * @memberof IUserRequest
      */
-    buddies?: ParameterOneOrZero,
+    buddies?: ParameterOneOrZero;
 
     /**
      * @type {ParameterOneOrZero}
      * @description Turns on optional guilds reporting. Results are paged; see page parameter.
      * @memberof IUserRequest
      */
-    guilds?: ParameterOneOrZero,
+    guilds?: ParameterOneOrZero;
 
     /**
      * @type {ParameterOneOrZero}
      * @description Include the user's hot 10 list from their profile. Omitted if empty.
      * @memberof IUserRequest
      */
-    hot?: ParameterOneOrZero,
+    hot?: ParameterOneOrZero;
 
     /**
      * @type {ParameterOneOrZero}
      * @description Include the user's top 10 list from their profile. Omitted if empty.
      * @memberof IUserRequest
      */
-    top?: ParameterOneOrZero,
+    top?: ParameterOneOrZero;
 
     /**
      * @type {DomainTypes}
      * @description Controls the domain for the users hot 10 and top 10 lists. The DOMAIN default is boardgame.
      * @memberof IUserRequest
      */
-    domain?: DomainTypes,
+    domain?: DomainTypes;
 
     /**
      * @type {number}
      * @description Specifies the page of buddy and guild results to return. The default page is 1 if you don't specify it; page size is 100 records (Current implementation seems to return 1000 records). The page parameter controls paging for both buddies and guilds list if both are specified. If a <buddies> or <guilds> node is empty, it means that you have requested a page higher than that needed to list all the buddies/guilds or, if you're on page 1, it means that that user has no buddies and is not part of any guilds.
      * @memberof IUserRequest
      */
-    page?: number
+    page?: number;
 }
 
 export interface IGuildRequest extends IRequest {

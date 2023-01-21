@@ -7,22 +7,22 @@ export class BggThreadDto implements IBggDto {
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
     @JsonAlias({ values: ["@_id"] })
-    id!: number;
+    id: number;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_link"] })
-    link!: string;
+    link?: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
     @JsonAlias({ values: ["@_numarticles"] })
-    numarticles!: number;
+    numarticles?: number;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["subject"] })
-    subject!: string;
+    subject?: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [Array, [BggArticleDto]] })
@@ -31,5 +31,5 @@ export class BggThreadDto implements IBggDto {
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
         using: (items: any[]) => items[0].article
     })
-    articles!: BggArticleDto[];
+    articles?: BggArticleDto[];
 }

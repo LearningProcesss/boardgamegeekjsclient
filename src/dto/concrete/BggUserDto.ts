@@ -116,6 +116,6 @@ export class BggUserDto implements IBggDto {
     @JsonDeserialize({
         using: (value: []) => value.map(item => item['@_value'])[0]
     })
-    marketrating!: string;
+    marketrating?: string;
 
 }
