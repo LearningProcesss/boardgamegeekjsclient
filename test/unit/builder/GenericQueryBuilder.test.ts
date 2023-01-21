@@ -1,7 +1,22 @@
 import { GenericQueryBuilder } from "../../../src/query";
-import { IThingRequest, IFamilyRequest, IForumlistRequest, IForumRequest, IThreadRequest, IUserRequest, IGuildRequest, IPlaysRequest, ICollectionRequest } from "../../../src/request";
+import { IThingRequest, IFamilyRequest, IForumlistRequest, IForumRequest, IThreadRequest, IUserRequest, IGuildRequest, IPlaysRequest, ICollectionRequest, ISearchRequest } from "../../../src/request";
 
-describe('GeneriBuilder', () => {
+describe('GenericBuilder', () => {
+    test('ignore undefined or null properties', () => {
+        const builder = new GenericQueryBuilder<IThingRequest>()
+        
+        const request: ISearchRequest = {
+            type: ["boardgame", "boardgameexpansion"],
+            query: "Exit The Game",
+            exact: undefined
+        };
+
+        const expected = "type=boardgame,boardgameexpansion&query=Exit The Game"
+
+        const url = builder.build(request);
+
+        expect(url).toEqual(expected);
+    });
     describe('IThingRequest', () => {
         it('should build url by all interface prop', () => {
             const builder = new GenericQueryBuilder<IThingRequest>()
