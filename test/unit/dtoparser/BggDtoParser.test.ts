@@ -50,6 +50,21 @@ describe('BggDtoParsers', () => {
 
             expect(validationResult).not.toStrictEqual([])
         });
+        it('should parse json with empty property tag', async () => {
+            const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=21659&versions=1'];
+
+            const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
+
+            const dtoParser: BggThingDtoParser = new BggThingDtoParser();
+
+            const dtoList: BggThingDto[] = await dtoParser.jsonToDto(jsonData);
+
+            const dto: BggThingDto = dtoList[0];
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).not.toStrictEqual([])
+        });
     });
     describe('BggFamilyDtoParser', () => {
         it('should parse Family dto when xml response is valid', async () => {
@@ -171,7 +186,7 @@ describe('BggDtoParsers', () => {
             const dtoList = await dtoParser.jsonToDto(jsonData);
 
             const dto: BggPlayDto = dtoList[0]
-                        
+
             const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
 
             expect(validationResult).toStrictEqual([])

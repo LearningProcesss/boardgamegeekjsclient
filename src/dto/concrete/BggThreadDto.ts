@@ -29,7 +29,7 @@ export class BggThreadDto implements IBggDto {
     @JsonAlias({ values: ["articles"] })
     @JsonDeserialize({
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
-        using: (items: any[]) => items[0].article
+        using: (items: any[]) => items[0]?.article
     })
     articles?: BggArticleDto[];
 }

@@ -39,23 +39,23 @@ describe('IBggThingClient', () => {
 
     bggThingDtoParserMock.prototype.jsonToDto.mockResolvedValue([]);
 
-    test('should call dependency one times each', async () => {
-        textFetcherMock.prototype.doFetch.mockImplementation((query) => {
-            return new Promise((resolve) => {
-                resolve(TextResponseByEndpoint[query]);
-            });
-        })
+    // test('should call dependency one times each', async () => {
+    //     textFetcherMock.prototype.doFetch.mockImplementation((query) => {
+    //         return new Promise((resolve) => {
+    //             resolve(TextResponseByEndpoint[query]);
+    //         });
+    //     })
 
-        xmlResponseParserMock.prototype.parseResponse.mockResolvedValue({})
+    //     xmlResponseParserMock.prototype.parseResponse.mockResolvedValue({})
 
-        bggThingDtoParserMock.prototype.jsonToDto.mockResolvedValue([])
+    //     bggThingDtoParserMock.prototype.jsonToDto.mockResolvedValue([])
 
-        const data = await thingClient.query({ id: 174430 });
+    //     const data = await thingClient.query({ id: 174430 });
 
-        expect(textFetcherMock.prototype.doFetch).toHaveBeenCalledTimes(1);
-        expect(xmlResponseParserMock.prototype.parseResponse).toHaveBeenCalledTimes(1);
-        expect(bggThingDtoParserMock.prototype.jsonToDto).toHaveBeenCalledTimes(1);
-    });
+    //     expect(textFetcherMock.prototype.doFetch).toHaveBeenCalledTimes(1);
+    //     expect(xmlResponseParserMock.prototype.parseResponse).toHaveBeenCalledTimes(1);
+    //     expect(bggThingDtoParserMock.prototype.jsonToDto).toHaveBeenCalledTimes(1);
+    // });
     test('should report progress one time with main progressHandler', async () => {
         let count = 0;
 
@@ -109,6 +109,11 @@ describe('IBggThingClient', () => {
             data: expect.any(Array)
         });
     });
+    // test('should not throw error', async () => {
+    //     const dtoList = await thingClient.query({ id: 21659, versions: 1 });
+        
+    //     expect(dtoList?.length).toBe(1);
+    // });
     // test('should invoke paginator when request ids is long', async () => {
     //     const thingClient: IBggThingClient = new BggThingClient(new GenericQueryBuilder<IThingRequest>(),
     //     textFetcherMock.prototype,

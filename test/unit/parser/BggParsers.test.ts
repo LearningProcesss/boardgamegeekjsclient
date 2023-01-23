@@ -1,3 +1,4 @@
+import { parse } from "fast-xml-parser";
 import { XmlResponseParser } from "../../../src/responseparser";
 import { TextResponseByEndpoint, WriteXmlParseByEndpoint } from "../utils";
 
@@ -9,7 +10,7 @@ describe('XmlResponseParser', () => {
         const parser: XmlResponseParser = new XmlResponseParser();
 
         const parsed = await parser.parseResponse(xmlResponse);
-
+        
         expect(parsed).not.toBeNaN();
     });
     it('should parse family xml to json when xml response is correctly formatted', async () => {
@@ -50,6 +51,15 @@ describe('XmlResponseParser', () => {
 
         const parsed = await parser.parseResponse(xmlResponse);
 
+        expect(parsed).not.toBeNaN();
+    });
+    it('test', async () => {
+        const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/thing?id=21659&versions=1'];
+
+        const parser: XmlResponseParser = new XmlResponseParser();
+
+        const parsed = await parser.parseResponse(xmlResponse);
+        
         expect(parsed).not.toBeNaN();
     });
 });

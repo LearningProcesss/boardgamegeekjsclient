@@ -39,7 +39,7 @@ export class BggForumDto implements IBggDto {
     @JsonAlias({ values: ["threads"] })
     @JsonDeserialize({
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
-        using: (items: any[]) => items[0].thread
+        using: (items: any[]) => items[0]?.thread
     })
     threads!: BggForumThreadDto[];
 

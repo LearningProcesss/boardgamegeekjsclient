@@ -59,7 +59,7 @@ export class BggPlaysPlayDto {
     @JsonManagedReference()
     @JsonDeserialize({
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
-        using: (items: any[]) => items[0].player
+        using: (items: any[]) => items[0]?.player
     })
     players!: BggPlaysPlayPlayerDto[];
 }
