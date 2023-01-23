@@ -122,7 +122,7 @@ export class BggThingDto implements IBggDto {
     @JsonManagedReference()
     @JsonDeserialize({
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
-        using: (items: any[]) => items[0].listing
+        using: (items: any[]) => items[0]?.listing
     })
     marketplacelistings!: BggThingMarketlistingsDto[];
 
@@ -137,7 +137,7 @@ export class BggThingDto implements IBggDto {
     @JsonManagedReference()
     @JsonDeserialize({
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
-        using: (items: any[]) => items[0].item
+        using: (items: any[]) => items[0]?.item
     })
-    versions: BggThingVersionDto[];
+    versions!: BggThingVersionDto[];
 }

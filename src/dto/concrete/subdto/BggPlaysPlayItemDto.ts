@@ -21,7 +21,7 @@ export class BggPlaysPlayItemDto {
     @JsonClassType({ type: () => [Array, [BggPlaysPlayItemSubtypes]] })
     @JsonDeserialize({
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
-        using: (items: any[]) => items[0].subtype
+        using: (items: any[]) => items[0]?.subtype
     })
     @JsonManagedReference()
     subtypes!: BggPlaysPlayItemSubtypes[];
