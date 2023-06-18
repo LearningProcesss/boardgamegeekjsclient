@@ -1,6 +1,5 @@
-import { parse } from "fast-xml-parser";
 import { XmlResponseParser } from "../../../src/responseparser";
-import { TextResponseByEndpoint, WriteXmlParseByEndpoint } from "../utils";
+import { TextResponseByEndpoint } from "../utils";
 
 describe('XmlResponseParser', () => {
     it('should parse thing response xml to json when xml response is correctly formatted', async () => {
@@ -59,6 +58,17 @@ describe('XmlResponseParser', () => {
         const parser: XmlResponseParser = new XmlResponseParser();
 
         const parsed = await parser.parseResponse(xmlResponse);
+        
+        expect(parsed).not.toBeNaN();
+    });
+    it('should parse collection items xml to json when response is correctly formatted', async () => {
+        const xmlResponse: string = TextResponseByEndpoint['https://boardgamegeek.com/xmlapi2/collection?username=Vitho&stats=1'];
+
+        const parser: XmlResponseParser = new XmlResponseParser();
+
+        const parsed = await parser.parseResponse(xmlResponse);
+
+        // console.dir(parsed, { depth: null });
         
         expect(parsed).not.toBeNaN();
     });

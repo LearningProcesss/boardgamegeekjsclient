@@ -209,6 +209,22 @@ describe('BggDtoParsers', () => {
 
             expect(validationResult).toStrictEqual([])
         });
+        it('should parse Collection dto when xml response contains conditiontext attribute', async () => {
+
+            const xmlResponse: string = TextResponseByEndpoint['https://boardgamegeek.com/xmlapi2/collection?username=Vitho&stats=1'];
+
+            const jsonData = await xmlToJsonParser.parseResponse(xmlResponse);
+
+            const dtoParser: BggCollectionDtoParser = new BggCollectionDtoParser();
+
+            const dtoList = await dtoParser.jsonToDto(jsonData);
+
+            const dto: BggCollectionDto = dtoList[0];
+
+            const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
+        });
     });
     describe('BggSearchDtoParser', () => {
         it('should parse Search dto when xml response is valid', async () => {

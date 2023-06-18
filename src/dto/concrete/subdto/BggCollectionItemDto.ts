@@ -1,5 +1,5 @@
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonManagedReference, JsonProperty } from "jackson-js";
-import { BggCollectionItemStatusDto } from "./BggCollectionItemStatusDto";
+import { BggCollectionItemStatsDto, BggCollectionItemStatusDto } from ".";
 
 export class BggCollectionItemDto {
     @JsonProperty()
@@ -72,4 +72,16 @@ export class BggCollectionItemDto {
     })
     @JsonManagedReference()
     status: BggCollectionItemStatusDto;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [String] })
+    conditiontext: string;
+
+    @JsonProperty()
+    @JsonClassType({ type: () => [BggCollectionItemStatsDto] })
+    @JsonDeserialize({
+        using: (value: any[]) => value[0]
+    })
+    @JsonManagedReference()
+    stats: BggCollectionItemStatsDto;
 }
