@@ -18,7 +18,8 @@ export const TextResponseByEndpoint: Record<string, string> =
     "https://www.boardgamegeek.com/xmlapi2/family?id=8374": fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_family_8374.xml'), 'utf-8'),
     'https://www.boardgamegeek.com/xmlapi2/search?query=gloom': fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_search_gloom.xml'), 'utf-8'),
     'https://www.boardgamegeek.com/xmlapi2/hot?type=boardgame': fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_hotitems_boardgame.xml'), 'utf-8'),
-    'https://www.boardgamegeek.com/xmlapi2/thing?id=21659&versions=1': fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_thing_no_versions.xml'), 'utf-8')
+    'https://www.boardgamegeek.com/xmlapi2/thing?id=21659&versions=1': fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_thing_no_versions.xml'), 'utf-8'),
+    'https://boardgamegeek.com/xmlapi2/collection?username=Vitho&stats=1': fs.readFileSync(path.join(__dirname, '..', '__fixtures__/response_collection_withconditiontext.xml'), 'utf-8')
 }
 
 export const WriteXmlParseByEndpoint = (outputName: string, contentData: string, overwrite: boolean = false) => {

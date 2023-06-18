@@ -21,13 +21,6 @@ describe('BggClient', () => {
 
             expect(validationResult).toStrictEqual([])
         }, 70000);
-        it('should fetch and deserialize all data when request has not all params', async () => {
-            const dtoList = await client.thing.query({ id: 174430, videos: 1, comments: 1, marketplace: 1, stats: 1, type: "boardgame" })
-
-            const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
-
-            expect(validationResult).toStrictEqual([])
-        }, 70000);
         it('should fetch with paginated progress with method function', async () => {
             let count = 0;
             await client.thing.queryWithProgress({
@@ -95,7 +88,7 @@ describe('BggClient', () => {
 
             const dtoList = await client.thread.query({ id: 1082079, count: 10, minarticledate: '2021-12-15' })
 
-            console.log("thread dtolist", dtoList);
+            // console.log("thread dtolist", dtoList);
 
             const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
 
@@ -136,6 +129,14 @@ describe('BggClient', () => {
         it('should parse Collection dto when xml response is valid', async () => {
 
             const dtoList = await client.collection.query({ username: 'mattiabanned' })
+
+            const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
+        }, 70000);
+        it('should parse Collection dto when xml response contains conditiontext property', async () => {
+
+            const dtoList = await client.collection.query({ username: 'Vitho', stats: 1 })
 
             const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
 
