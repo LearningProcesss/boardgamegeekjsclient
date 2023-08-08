@@ -129,6 +129,14 @@ describe('BggClient', () => {
 
             expect(validationResult).toStrictEqual([])
         }, 70000);
+        it('should parse Play dto when xml response is valid with comments', async () => {
+
+            const dtoList = await client.play.query({ username: 'Vitho' })
+
+            const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
+
+            expect(validationResult).toStrictEqual([])
+        }, 70000);
     });
     describe('BggCollectionDtoParser', () => {
         it('should parse Collection dto when xml response is valid', async () => {

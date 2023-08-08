@@ -1,9 +1,10 @@
-import { JsonParser } from "jackson-js";
+import { JsonParser, ObjectMapper } from "jackson-js";
 import { BggPlayDto } from "../../concrete";
 import { IDtoParser } from "../interface";
 
 export class BggPlayDtoParser implements IDtoParser<BggPlayDto> {
     parser: JsonParser<BggPlayDto>;
+    mapper: ObjectMapper;
     constructor() {
         this.parser = new JsonParser<BggPlayDto>();
     }

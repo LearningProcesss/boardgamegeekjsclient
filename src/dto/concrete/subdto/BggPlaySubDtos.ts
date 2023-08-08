@@ -54,6 +54,10 @@ export class BggPlaysPlayDto {
     item!: BggPlaysPlayItemDto;
 
     @JsonProperty()
+    @JsonClassType({ type: () => [String] })
+    comments!: string;
+
+    @JsonProperty()
     @JsonClassType({ type: () => [BggPlaysPlayItemDto] })
     @JsonAlias({ values: ["players"] })
     @JsonManagedReference()
