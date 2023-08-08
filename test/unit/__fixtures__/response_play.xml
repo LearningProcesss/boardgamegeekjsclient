@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plays username="mattiabanned" userid="1236367" total="1" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
-	<play id="57445284" date="2017-12-03" quantity="1" length="180" incomplete="0" nowinstats="0" location="">
-		<item name="Mistfall" objecttype="thing" objectid="168274">
-			<subtypes>
-				<subtype value="boardgame" />
-				<subtype value="boardgameimplementation" />
-				<subtype value="boardgameintegration" />
-			</subtypes>
-		</item>
-	</play>
+  <play id="57445284" date="2017-12-03" quantity="1" length="180" incomplete="0" nowinstats="0" location="Italy">
+    <item name="Mistfall" objecttype="thing" objectid="168274">
+      <subtypes>
+        <subtype value="boardgame" />
+        <subtype value="boardgameimplementation" />
+        <subtype value="boardgameintegration" />
+      </subtypes>
+    </item>
+    <comments>this is the first comment line
+this is the second comment line</comments>
+    <players>
+      <player username="fake" userid="159073" name="fake" startposition="positionFake" color="blue" score="1" new="1" rating="1" win="1" />
+    </players>
+  </play>
 </plays>

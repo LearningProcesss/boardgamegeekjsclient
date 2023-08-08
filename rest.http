@@ -25,6 +25,10 @@ GET https://www.boardgamegeek.com/xmlapi2/collection?username=Vitho HTTP/1.1
 
 GET https://www.boardgamegeek.com/xmlapi2/plays?username=mattiabanned HTTP/1.1
 
+### plays with comme
+
+GET https://www.boardgamegeek.com/xmlapi2/plays?username=Vitho HTTP/1.1
+
 ### thread
 
 GET https://www.boardgamegeek.com/xmlapi2/thread?id=1082079 HTTP/1.1
