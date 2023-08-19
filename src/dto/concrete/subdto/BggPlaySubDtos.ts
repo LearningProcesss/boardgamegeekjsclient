@@ -9,11 +9,6 @@ export class BggPlaysPlayDto {
     id!: number;
 
     @JsonProperty()
-    @JsonClassType({ type: () => [Number] })
-    @JsonAlias({ values: ["@_userid"] })
-    userid!: number;
-
-    @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_date"] })
     date!: string;
@@ -58,7 +53,7 @@ export class BggPlaysPlayDto {
     comments!: string;
 
     @JsonProperty()
-    @JsonClassType({ type: () => [BggPlaysPlayItemDto] })
+    @JsonClassType({ type: () => [Array, [BggPlaysPlayPlayerDto]] })
     @JsonAlias({ values: ["players"] })
     @JsonManagedReference()
     @JsonDeserialize({

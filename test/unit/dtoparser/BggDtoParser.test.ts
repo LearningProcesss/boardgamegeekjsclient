@@ -175,7 +175,7 @@ describe('BggDtoParsers', () => {
         });
     });
     describe('BggPlayDtoParser', () => {
-        it('should parse Thing dto when xml response is valid', async () => {
+        it('should parse Play dto when xml response is valid', async () => {
 
             const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/plays?username=mattiabanned'];
 
@@ -185,7 +185,60 @@ describe('BggDtoParsers', () => {
 
             const dtoList = await dtoParser.jsonToDto(jsonData);
 
-            const dto: BggPlayDto = dtoList[0]
+            const dto: BggPlayDto = dtoList[0];
+
+            const play = dto.plays[0];
+
+            const subtype = play.item.subtypes[0];
+
+            const player = play.players[0];
+
+            expect(dto).toEqual(
+                expect.objectContaining({
+                    userid: expect.any(Number),
+                    total: expect.any(Number),
+                    page: expect.any(Number),
+                    username: expect.any(String),
+                })
+            );
+
+            expect(play).toEqual(
+                expect.objectContaining({
+                    id: expect.any(Number),
+                    date: expect.any(String),
+                    quantity: expect.any(Number),
+                    length: expect.any(Number),
+                    incomplete: expect.any(Number),
+                    nowinstats: expect.any(Number),
+                    location: expect.any(String),
+                    comments: expect.any(String),
+                    item: expect.objectContaining({
+                        name: expect.any(String),
+                        objectid: expect.any(Number),
+                        objecttype: expect.any(String)
+                    }),
+                })
+            );
+
+            expect(subtype).toEqual(
+                expect.objectContaining({
+                    value: expect.any(String)
+                })
+            )
+
+            expect(player).toEqual(
+                expect.objectContaining({
+                    color: expect.any(String),
+                    name: expect.any(String),
+                    new: expect.any(Number),
+                    rating: expect.any(Number),
+                    score: expect.any(Number),
+                    startposition: expect.any(String),
+                    userid: expect.any(Number),
+                    username: expect.any(String),
+                    win: expect.any(Number),
+                })
+            )
 
             const validationResult = ValidatorTraverse(dto, reflectionProperties, reflectionPropertiesExcludable)
 
