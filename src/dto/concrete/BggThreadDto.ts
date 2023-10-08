@@ -1,6 +1,7 @@
 import { IBggDto } from "../interface";
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonIgnoreProperties, JsonProperty } from "jackson-js";
 import { BggArticleDto } from "./BggArticleDto";
+import { clearString } from "../../utils";
 
 @JsonIgnoreProperties({ value: ['@_termsofuse'] })
 export class BggThreadDto implements IBggDto {
@@ -22,6 +23,7 @@ export class BggThreadDto implements IBggDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["subject"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     subject?: string;
 
     @JsonProperty()

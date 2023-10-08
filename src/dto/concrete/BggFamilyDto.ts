@@ -1,6 +1,7 @@
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonManagedReference, JsonProperty } from "jackson-js";
 import { IBggDto } from "../interface";
 import { BggLinkDto } from "./subdto";
+import { clearString } from "../../utils";
 
 export class BggFamilyDto implements IBggDto {
 
@@ -15,6 +16,7 @@ export class BggFamilyDto implements IBggDto {
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     description!: string;
 
     @JsonProperty()

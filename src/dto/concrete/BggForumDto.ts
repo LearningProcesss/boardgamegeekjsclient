@@ -1,6 +1,7 @@
 import { IBggDto } from "../interface";
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonIgnoreProperties, JsonProperty } from "jackson-js";
 import { BggForumThreadDto } from "./BggForumThreadDto";
+import { clearString } from "../../utils";
 
 @JsonIgnoreProperties({ value: ['@_termsofuse'] })
 export class BggForumDto implements IBggDto {
@@ -32,6 +33,7 @@ export class BggForumDto implements IBggDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_title"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     title!: string;
 
     @JsonProperty()

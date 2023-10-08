@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plays username="mattiabanned" userid="1236367" total="1" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+<plays username="mattiabanned" userid="1236367" total="3" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <play id="76499070" date="2023-10-08" quantity="1" length="30" incomplete="0" nowinstats="0" location="at my&apos;s home">
+    <item name="Mistfall" objecttype="thing" objectid="168274">
+      <subtypes>
+        <subtype value="boardgame" />
+        <subtype value="boardgameimplementation" />
+        <subtype value="boardgameintegration" />
+      </subtypes>
+    </item>
+    <comments>comment&apos;s</comments>
+    <players>
+      <player username="MattiaBanned" userid="1236367" name="Mattia Mattia" startposition="" color="" score="" new="0" rating="0" win="0" />
+    </players>
+  </play>
+  <play id="76428922" date="2023-10-07" quantity="1" length="0" incomplete="0" nowinstats="0" location="at my&apos;s home">
+    <item name="Mistfall" objecttype="thing" objectid="168274">
+      <subtypes>
+        <subtype value="boardgame" />
+        <subtype value="boardgameimplementation" />
+        <subtype value="boardgameintegration" />
+      </subtypes>
+    </item>
+    <comments>text with&apos;j test</comments>
+  </play>
   <play id="57445284" date="2017-12-03" quantity="1" length="180" incomplete="0" nowinstats="0" location="Italy">
     <item name="Mistfall" objecttype="thing" objectid="168274">
       <subtypes>

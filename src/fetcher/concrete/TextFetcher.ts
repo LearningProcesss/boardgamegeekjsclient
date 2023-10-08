@@ -11,11 +11,20 @@ export class TextFetcher implements IFetcher<string, string> {
             response = await this.internalFetch(query);
         }
 
-        return response.text();
+        const buffer = await response.arrayBuffer();
+
+        const decoder = new TextDecoder('iso-8859-1');
+        
+        const text = decoder.decode(buffer);
+
+        // return response.text();
+
+        return text;
     }
 
     async internalFetch(query: string): Promise<any> {
         const response = await fetch(query);
+
         return response;
     }
     async delay(waitFor: number): Promise<any> {

@@ -22,13 +22,15 @@ describe('XmlResponseParser', () => {
 
         expect(parsed).not.toBeNaN();
     });
-    it('should parse play xml to json when xml response is correctly formatted', async () => {
+    it('should parse play xml to json when xml play response is correctly formatted', async () => {
 
         const xmlResponse: string = TextResponseByEndpoint['https://www.boardgamegeek.com/xmlapi2/plays?username=mattiabanned'];
 
         const parser: XmlResponseParser = new XmlResponseParser();
 
         const parsed = await parser.parseResponse(xmlResponse);
+
+        // console.dir(parsed, { depth: null });
 
         expect(parsed).not.toBeNaN();
     });

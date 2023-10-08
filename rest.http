@@ -9,7 +9,7 @@ GET https://www.boardgamegeek.com/xmlapi2/thing?id=21659&versions=1
 
 ### family with all options
 
-GET https://www.boardgamegeek.com/xmlapi2/family?id=8374&type=boardgamefamily
+GET https://www.boardgamegeek.com/xmlapi2/family?id=8374
 
 ### collection
 

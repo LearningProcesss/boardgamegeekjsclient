@@ -1,5 +1,6 @@
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonManagedReference, JsonProperty } from "jackson-js";
 import { BggLinkDto } from ".";
+import { clearString } from "../../../utils";
 
 
 export class BggThingVersionDto {
@@ -33,7 +34,7 @@ export class BggThingVersionDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
-        using: (value: []) => value.map(item => item['@_value'])[0]
+        using: (value: []) => clearString(value.map(item => item['@_value'])[0])
     })
     name!: string;
 

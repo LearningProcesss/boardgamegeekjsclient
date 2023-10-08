@@ -1,5 +1,6 @@
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonManagedReference, JsonProperty } from "jackson-js";
 import { BggCollectionItemStatsDto, BggCollectionItemStatusDto } from ".";
+import { clearString } from "../../../utils";
 
 export class BggCollectionItemDto {
     @JsonProperty()
@@ -15,11 +16,13 @@ export class BggCollectionItemDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_objecttype"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     objecttype: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_subtype"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     subtype: string;
 
     @JsonProperty()
@@ -40,29 +43,34 @@ export class BggCollectionItemDto {
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     comment: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     wishlistcomment: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
-        using: (value: []) => value.map(item => item['#text'])[0]
+        using: (value: []) => clearString(value.map(item => item['#text'])[0])
     })
     name: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     originalname: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     wantpartslist: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     haspartslist: string;
 
     @JsonProperty()
@@ -75,6 +83,7 @@ export class BggCollectionItemDto {
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     conditiontext: string;
 
     @JsonProperty()

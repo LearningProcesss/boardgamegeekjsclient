@@ -3,6 +3,7 @@ import { IBggDto } from "../interface";
 import { BggPollDto } from "./subdto/BggPollDto";
 import { BggStatisticsPaginatedDto, BggThingVideoPaginatedDto, BggThingCommentPaginatedDto} from "./paginated";
 import { BggLinkDto, BggThingMarketlistingsDto, BggThingVersionDto } from "./subdto";
+import { clearString } from "../../utils";
 
 export class BggThingDto implements IBggDto {
 
@@ -14,17 +15,19 @@ export class BggThingDto implements IBggDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
-        using: (value: []) => value.map(item => item['@_value'])[0]
+        using: (value: []) => clearString(value.map(item => item['@_value'])[0])
     })
     name!: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_type"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     type!: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     description!: string;
 
     @JsonProperty()

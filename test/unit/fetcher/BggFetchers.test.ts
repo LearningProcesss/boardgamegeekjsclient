@@ -21,4 +21,10 @@ describe('Bgg response fetcher', () => {
         await fetcherStub.doFetch(query);
         expect(fetcherStub.doFetch).toHaveBeenCalledTimes(1);
     });
+    test('should fetch thing endpoint and get text response 2', async () => {
+        const query = 'https://www.boardgamegeek.com/xmlapi2/plays?username=mattiabanned';
+        const resp = await fetcherStub.doFetch(query);
+        // console.dir(resp, { depth: null });
+        expect(resp).not.toBeNull();
+    });
 });

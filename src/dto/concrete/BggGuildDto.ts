@@ -1,6 +1,7 @@
 import { IBggDto } from "../interface";
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonFormat, JsonFormatShape, JsonIgnoreProperties, JsonProperty } from "jackson-js";
 import { BggGuildMemberDto } from "./BggGuildMemeberDto";
+import { clearString } from "../../utils";
 
 @JsonIgnoreProperties({ value: ['@_termsofuse', 'location'] })
 export class BggGuildDto implements IBggDto {
@@ -12,6 +13,7 @@ export class BggGuildDto implements IBggDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_name"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     name!: string;
 
     @JsonProperty()
@@ -21,6 +23,7 @@ export class BggGuildDto implements IBggDto {
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     category!: string;
 
     @JsonProperty()
@@ -33,6 +36,7 @@ export class BggGuildDto implements IBggDto {
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     description!: string;
 
     @JsonProperty() 

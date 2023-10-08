@@ -1,4 +1,5 @@
-import { JsonAlias, JsonClassType, JsonProperty } from "jackson-js";
+import { JsonAlias, JsonClassType, JsonDeserialize, JsonProperty } from "jackson-js";
+import { clearString } from "../../../utils";
 
 export class BggPlaysPlayPlayerDto {
     @JsonProperty()
@@ -9,6 +10,7 @@ export class BggPlaysPlayPlayerDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_name"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     name!: string;
 
     @JsonProperty()
@@ -39,6 +41,7 @@ export class BggPlaysPlayPlayerDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_username"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     username!: string;
 
     @JsonProperty()

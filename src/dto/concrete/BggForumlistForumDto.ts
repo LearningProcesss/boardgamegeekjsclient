@@ -1,4 +1,5 @@
-import { JsonAlias, JsonClassType, JsonProperty } from "jackson-js";
+import { JsonAlias, JsonClassType, JsonDeserialize, JsonProperty } from "jackson-js";
+import { clearString } from "../../utils";
 export class BggForumlistForumDto {
     @JsonProperty()
     @JsonClassType({ type: () => [Number] })
@@ -33,11 +34,12 @@ export class BggForumlistForumDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_title"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     title!: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_description"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     description!: string;
-
 }

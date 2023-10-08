@@ -1,6 +1,7 @@
-import { JsonAlias, JsonClassType, JsonIgnoreProperties, JsonManagedReference, JsonProperty } from "jackson-js";
+import { JsonAlias, JsonClassType, JsonDeserialize, JsonIgnoreProperties, JsonManagedReference, JsonProperty } from "jackson-js";
 import { IBggDto } from "../interface";
 import { BggPlaysPlayDto } from "./subdto";
+import { clearString } from "../../utils";
 
 @JsonIgnoreProperties({ value: ['@_termsofuse'] })
 export class BggPlayDto implements IBggDto {
@@ -25,6 +26,7 @@ export class BggPlayDto implements IBggDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_username"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     username!: string;
 
     @JsonProperty()

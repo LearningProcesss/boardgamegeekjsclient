@@ -1,4 +1,5 @@
-import { JsonAlias, JsonClassType, JsonProperty } from "jackson-js"
+import { JsonAlias, JsonClassType, JsonDeserialize, JsonProperty } from "jackson-js"
+import { clearString } from "../../utils";
 
 export class BggArticleDto {
     
@@ -10,16 +11,19 @@ export class BggArticleDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_username"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     username!:string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["body"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     body!: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["subject"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     subject!: string;
 
     @JsonProperty()

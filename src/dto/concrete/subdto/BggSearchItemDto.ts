@@ -1,4 +1,5 @@
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonProperty } from "jackson-js";
+import { clearString } from "../../../utils";
 
 
 export class BggSearchItemDto {
@@ -15,7 +16,7 @@ export class BggSearchItemDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
-        using: (value: []) => value.map(item => item['@_value'])[0]
+        using: (value: []) => clearString(value.map(item => item['@_value'])[0])
     })
     name!: string;
 

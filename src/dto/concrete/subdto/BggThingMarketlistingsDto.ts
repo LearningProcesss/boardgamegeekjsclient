@@ -1,4 +1,5 @@
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonProperty } from "jackson-js";
+import { clearString } from "../../../utils";
 
 export class BggThingMarketlistingsDto {
     @JsonProperty()
@@ -38,7 +39,7 @@ export class BggThingMarketlistingsDto {
     @JsonAlias({ values: ["notes"] })
     @JsonDeserialize({
         //eslint-disable-next-line @typescript-eslint/no-explicit-any
-        using: (items: []) => items.map(item => item['@_value'])[0]
+        using: (items: []) => clearString(items.map(item => item['@_value'])[0])
     })
     notes!: string;
 

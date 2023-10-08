@@ -30,7 +30,7 @@ describe('BggClient', () => {
                 marketplace: 1,
                 stats: 1,
                 type: "boardgame"
-            }, {limit: 10}, _data => {
+            }, { limit: 10 }, _data => {
                 count++;
             });
 
@@ -58,6 +58,8 @@ describe('BggClient', () => {
     describe('BggFamilyDtoParser', () => {
         it('should parse Family dto when xml response is valid', async () => {
             const dtoList = await client.family.query({ id: 8374 })
+
+            // console.dir(dtoList, { depth: null })
 
             const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
 
@@ -120,9 +122,52 @@ describe('BggClient', () => {
 
             const dtoList = await client.play.query({ username: 'mattiabanned' })
 
-            const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
+            expect(dtoList).toEqual(
+                expect.arrayContaining([
+                    expect.objectContaining({
+                        userid: expect.any(Number),
+                        total: expect.any(Number),
+                        page: expect.any(Number),
+                        username: expect.any(String),
+                        plays: expect.arrayContaining([
+                            expect.objectContaining({
+                                id: expect.any(Number),
+                                date: expect.any(String),
+                                quantity: expect.any(Number),
+                                length: expect.any(Number),
+                                incomplete: expect.any(Number),
+                                nowinstats: expect.any(Number),
+                                location: expect.any(String),
+                                comments: expect.any(String),
+                                item: expect.objectContaining({
+                                    name: expect.any(String),
+                                    objectid: expect.any(Number),
+                                    objecttype: expect.any(String),
+                                    subtypes: expect.arrayContaining([
+                                        expect.objectContaining({ value: expect.any(String) }),
+                                    ])
+                                }),
+                                players: expect.arrayContaining([
+                                    expect.objectContaining({
+                                        color: expect.any(String),
+                                        name: expect.any(String),
+                                        new: expect.any(Number),
+                                        rating: expect.any(Number),
+                                        score: expect.any(String),
+                                        startposition: expect.any(String),
+                                        userid: expect.any(Number),
+                                        username: expect.any(String),
+                                        win: expect.any(Number)
+                                    })
+                                ])
+                            }),
+                        ])
+                    }),
+                ])
+            )
+            // const validationResult = ValidatorTraverse(dtoList[0], reflectionProperties, reflectionPropertiesExcludable)
 
-            expect(validationResult).toStrictEqual([])
+            // expect(validationResult).toStrictEqual([])
         }, 70000);
         it('should parse Play dto when xml response is valid with comments', async () => {
 

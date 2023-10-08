@@ -1,6 +1,7 @@
-import { JsonAlias, JsonClassType, JsonDeserialize, JsonManagedReference, JsonProperty } from "jackson-js";
+import { JsonAlias, JsonClassType, JsonDeserialize, JsonManagedReference, JsonProperty, JsonFormat } from "jackson-js";
 import { BggPlaysPlayItemDto } from "./BggPlaysPlayItemDto";
 import { BggPlaysPlayPlayerDto } from "./BggPlaysPlayPlayerDto";
+import { clearString } from "../../../utils";
 
 export class BggPlaysPlayDto {
     @JsonProperty()
@@ -32,10 +33,11 @@ export class BggPlaysPlayDto {
     @JsonClassType({ type: () => [Number] })
     @JsonAlias({ values: ["@_nowinstats"] })
     nowinstats!: number;
-
+    
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_location"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     location!: string;
 
     @JsonProperty()
@@ -50,6 +52,7 @@ export class BggPlaysPlayDto {
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     comments!: string;
 
     @JsonProperty()

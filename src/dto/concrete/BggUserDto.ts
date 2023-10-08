@@ -1,3 +1,4 @@
+import { clearString } from "../../utils";
 import { IBggDto } from "../interface";
 import { JsonAlias, JsonClassType, JsonDeserialize, JsonIgnoreProperties, JsonProperty } from "jackson-js";
 
@@ -11,19 +12,20 @@ export class BggUserDto implements IBggDto {
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonAlias({ values: ["@_name"] })
+    @JsonDeserialize({using: (value: string) => clearString(value)})
     name!: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
-        using: (value: []) => value.map(item => item['@_value'])[0]
+        using: (value: []) => clearString(value.map(item => item['@_value'])[0])
     })
     firstname!: string;
 
     @JsonProperty()
     @JsonClassType({ type: () => [String] })
     @JsonDeserialize({
-        using: (value: []) => value.map(item => item['@_value'])[0]
+        using: (value: []) => clearString(value.map(item => item['@_value'])[0])
     })
     lastname!: string;
 
